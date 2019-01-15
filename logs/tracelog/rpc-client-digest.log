@@ -1,0 +1,1 @@
+{"timestamp":"2019-01-15 16:08:24.062","tracerId":"c0a8006a1547539704046100170396","spanId":"0","span.kind":"client","local.app":"SOFABoot Demo","protocol":"bolt","service":"com.example.demo.service.UserService:1.0","method":"insert","current.thread.name":"http-nio-8080-exec-5","router.record":"REGISTRY","result.code":"04","error":true,"baggage":""}

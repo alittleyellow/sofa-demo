@@ -1,0 +1,9 @@
+2019-01-12 17:06:08,769 ERROR main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 20 retry; fail details:{"reference:com.example.demofacade.SampleService:#349991580":"jvm#can not find corresponding jvm service"}; strict mode:true
+2019-01-12 17:06:08,770 ERROR main                             - SOFABoot HealthChecker readiness check result: failed.
+2019-01-12 17:06:08,937 ERROR main                             - Readiness check result: fail
+2019-01-12 17:08:46,658 ERROR main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 20 retry; fail details:{"reference:com.example.demofacade.SampleService:#349991580":"jvm#can not find corresponding jvm service","reference:com.example.demofacade.HelloService:#661658880":"passed"}; strict mode:true
+2019-01-12 17:08:46,658 ERROR main                             - SOFABoot HealthChecker readiness check result: failed.
+2019-01-12 17:08:46,787 ERROR main                             - Readiness check result: fail
+2019-01-12 17:15:04,330 ERROR main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 20 retry; fail details:{"reference:com.example.demofacade.SampleService:#349991580":"jvm#can not find corresponding jvm service","reference:com.example.demofacade.HelloService:#-1704802832":"passed"}; strict mode:true
+2019-01-12 17:15:04,330 ERROR main                             - SOFABoot HealthChecker readiness check result: failed.
+2019-01-12 17:15:04,469 ERROR main                             - Readiness check result: fail

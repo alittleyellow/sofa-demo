@@ -1,0 +1,1318 @@
+2019-01-14 16:26:49,621 INFO  main                             - SOFABoot Runtime Starting!
+2019-01-14 16:26:56,187 INFO  main                             - Registering component: reference:com.example.demofacade.SampleService:#349991580
+2019-01-14 16:26:56,187 INFO  main                             -  >>In Binding [jvm] Begins - com.example.demofacade.SampleService.
+2019-01-14 16:26:56,189 INFO  main                             -  >>In Binding [jvm] Ends - com.example.demofacade.SampleService.
+2019-01-14 16:26:56,190 INFO  main                             - Registering component: reference:com.example.demofacade.HelloService:#226679324
+2019-01-14 16:26:56,191 INFO  main                             -  >>In Binding [bolt] Begins - com.example.demofacade.HelloService.
+2019-01-14 16:26:58,206 INFO  main                             -  >>In Binding [bolt] Ends - com.example.demofacade.HelloService.
+2019-01-14 16:26:58,206 INFO  main                             -  >>In Binding [jvm] Begins - com.example.demofacade.HelloService.
+2019-01-14 16:26:58,215 INFO  main                             -  >>In Binding [jvm] Ends - com.example.demofacade.HelloService.
+2019-01-14 16:26:58,217 INFO  main                             - Registering component: reference:com.example.demo.DemoService:#226679324
+2019-01-14 16:26:58,221 INFO  main                             -  >>In Binding [bolt] Begins - com.example.demo.DemoService.
+2019-01-14 16:26:58,313 INFO  main                             -  >>In Binding [bolt] Ends - com.example.demo.DemoService.
+2019-01-14 16:26:58,313 INFO  main                             -  >>In Binding [jvm] Begins - com.example.demo.DemoService.
+2019-01-14 16:26:58,323 INFO  main                             -  >>In Binding [jvm] Ends - com.example.demo.DemoService.
+2019-01-14 16:27:00,112 INFO  main                             - Registering component: service:com.example.demo.DemoService
+2019-01-14 16:27:00,113 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.example.demo.DemoService.
+2019-01-14 16:27:00,128 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.example.demo.DemoService.
+2019-01-14 16:27:00,128 INFO  main                             -  <<Out Binding [bolt] Begins - com.example.demo.DemoService.
+2019-01-14 16:27:00,162 INFO  main                             -  <<Out Binding [bolt] Ends - com.example.demo.DemoService.
+2019-01-14 16:27:00,162 INFO  main                             - Register Service - com.example.demo.DemoService
+2019-01-14 16:27:00,218 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-14 16:27:00,274 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot Demo End +++++++++++++++++
+2019-01-14 16:27:00,274 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-14 16:27:00,277 INFO  main                             - 
+All activated module list(2) >>>>>>>
+  ├─ com.example.demo-facade
+  └─ com.example.demo-service
+
+Modules that could install(2) >>>>>>>
+  ├─ com.example.demo-facade
+  └─ com.example.demo-service
+
+2019-01-14 16:27:00,280 INFO  main                             - Start install SOFABoot Demos module: com.example.demo-facade
+2019-01-14 16:27:00,821 INFO  main                             - Start install SOFABoot Demos module: com.example.demo-service
+2019-01-14 16:27:01,068 INFO  sofa-module-start-com.example.demo-facade - Begin refresh Spring Application Context of module com.example.demo-facade of application SOFABoot Demo.
+2019-01-14 16:27:01,068 INFO  sofa-module-start-com.example.demo-service - Begin refresh Spring Application Context of module com.example.demo-service of application SOFABoot Demo.
+2019-01-14 16:27:01,102 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot Demo End +++++++++++++++++
+2019-01-14 16:27:01,102 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-14 16:27:01,103 INFO  main                             - 
+Spring context initialize success module list(2) >>>>>>> [totalTime = 66 ms, realTime = 33 ms]
+  ├─ com.example.demo-facade [33 ms]
+  │    `---/Users/henry-sun/data/www/aliant/demo/demo-facade/target/classes/META-INF/spring/service-provide.xml
+  └─ com.example.demo-service [33 ms]
+       `---/Users/henry-sun/data/www/aliant/demo/demo-service/target/classes/META-INF/spring/service-provide.xml
+
+Spring context initialize failed module list(0) >>>>>>>
+
+Spring bean load time cost list(2) >>>>>>> [totalTime = 66 ms, realTime = 33 ms]
+  ├─ com.example.demo-facade [33 ms]
+  └─ com.example.demo-service [33 ms]
+
+2019-01-14 16:27:01,103 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot Demo End +++++++++++++++++
+2019-01-14 17:10:12,594 INFO  main                             - SOFABoot Runtime Starting!
+2019-01-14 17:10:18,282 INFO  main                             - Registering component: reference:com.example.demofacade.SampleService:#349991580
+2019-01-14 17:10:18,283 INFO  main                             -  >>In Binding [jvm] Begins - com.example.demofacade.SampleService.
+2019-01-14 17:10:18,286 INFO  main                             -  >>In Binding [jvm] Ends - com.example.demofacade.SampleService.
+2019-01-14 17:10:18,289 INFO  main                             - Registering component: reference:com.example.demofacade.HelloService:#288587720
+2019-01-14 17:10:18,289 INFO  main                             -  >>In Binding [bolt] Begins - com.example.demofacade.HelloService.
+2019-01-14 17:10:19,019 INFO  main                             -  >>In Binding [bolt] Ends - com.example.demofacade.HelloService.
+2019-01-14 17:10:19,020 INFO  main                             -  >>In Binding [jvm] Begins - com.example.demofacade.HelloService.
+2019-01-14 17:10:19,022 INFO  main                             -  >>In Binding [jvm] Ends - com.example.demofacade.HelloService.
+2019-01-14 17:10:19,023 INFO  main                             - Registering component: reference:com.example.demo.DemoService:#288587720
+2019-01-14 17:10:19,023 INFO  main                             -  >>In Binding [bolt] Begins - com.example.demo.DemoService.
+2019-01-14 17:10:19,046 INFO  main                             -  >>In Binding [bolt] Ends - com.example.demo.DemoService.
+2019-01-14 17:10:19,046 INFO  main                             -  >>In Binding [jvm] Begins - com.example.demo.DemoService.
+2019-01-14 17:10:19,047 INFO  main                             -  >>In Binding [jvm] Ends - com.example.demo.DemoService.
+2019-01-14 17:10:19,962 INFO  main                             - Registering component: service:com.example.demo.DemoService
+2019-01-14 17:10:19,962 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.example.demo.DemoService.
+2019-01-14 17:10:19,967 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.example.demo.DemoService.
+2019-01-14 17:10:19,967 INFO  main                             -  <<Out Binding [bolt] Begins - com.example.demo.DemoService.
+2019-01-14 17:10:19,985 INFO  main                             -  <<Out Binding [bolt] Ends - com.example.demo.DemoService.
+2019-01-14 17:10:19,985 INFO  main                             - Register Service - com.example.demo.DemoService
+2019-01-14 17:10:20,026 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-14 17:10:20,035 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot Demo End +++++++++++++++++
+2019-01-14 17:10:20,035 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-14 17:10:20,036 INFO  main                             - 
+All activated module list(2) >>>>>>>
+  ├─ com.example.demo-facade
+  └─ com.example.demo-service
+
+Modules that could install(2) >>>>>>>
+  ├─ com.example.demo-facade
+  └─ com.example.demo-service
+
+2019-01-14 17:10:20,039 INFO  main                             - Start install SOFABoot Demos module: com.example.demo-facade
+2019-01-14 17:10:20,143 INFO  main                             - Start install SOFABoot Demos module: com.example.demo-service
+2019-01-14 17:10:20,246 INFO  sofa-module-start-com.example.demo-facade - Begin refresh Spring Application Context of module com.example.demo-facade of application SOFABoot Demo.
+2019-01-14 17:10:20,248 INFO  sofa-module-start-com.example.demo-service - Begin refresh Spring Application Context of module com.example.demo-service of application SOFABoot Demo.
+2019-01-14 17:10:20,441 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot Demo End +++++++++++++++++
+2019-01-14 17:10:20,442 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-14 17:10:20,444 INFO  main                             - 
+Spring context initialize success module list(2) >>>>>>> [totalTime = 292 ms, realTime = 193 ms]
+  ├─ com.example.demo-service [99 ms]
+  │    `---/Users/henry-sun/data/www/aliant/demo/demo-service/target/classes/META-INF/spring/service-provide.xml
+  └─ com.example.demo-facade [193 ms]
+       `---/Users/henry-sun/data/www/aliant/demo/demo-facade/target/classes/META-INF/spring/service-provide.xml
+
+Spring context initialize failed module list(0) >>>>>>>
+
+Spring bean load time cost list(2) >>>>>>> [totalTime = 292 ms, realTime = 193 ms]
+  ├─ com.example.demo-service [99 ms]
+  └─ com.example.demo-facade [193 ms]
+
+2019-01-14 17:10:20,444 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot Demo End +++++++++++++++++
+2019-01-14 17:14:03,804 INFO  main                             - SOFABoot Runtime Starting!
+2019-01-14 17:14:10,419 INFO  main                             - Registering component: reference:com.example.demofacade.SampleService:#349991580
+2019-01-14 17:14:10,420 INFO  main                             -  >>In Binding [jvm] Begins - com.example.demofacade.SampleService.
+2019-01-14 17:14:10,423 INFO  main                             -  >>In Binding [jvm] Ends - com.example.demofacade.SampleService.
+2019-01-14 17:14:10,424 INFO  main                             - Registering component: reference:com.example.demofacade.HelloService:#-1470910517
+2019-01-14 17:14:10,424 INFO  main                             -  >>In Binding [bolt] Begins - com.example.demofacade.HelloService.
+2019-01-14 17:14:12,721 INFO  main                             -  >>In Binding [bolt] Ends - com.example.demofacade.HelloService.
+2019-01-14 17:14:12,721 INFO  main                             -  >>In Binding [jvm] Begins - com.example.demofacade.HelloService.
+2019-01-14 17:14:12,723 INFO  main                             -  >>In Binding [jvm] Ends - com.example.demofacade.HelloService.
+2019-01-14 17:14:12,723 INFO  main                             - Registering component: reference:com.example.demo.DemoService:#-361665169
+2019-01-14 17:14:12,723 INFO  main                             -  >>In Binding [bolt] Begins - com.example.demo.DemoService.
+2019-01-14 17:14:12,808 INFO  main                             -  >>In Binding [bolt] Ends - com.example.demo.DemoService.
+2019-01-14 17:14:12,809 INFO  main                             -  >>In Binding [jvm] Begins - com.example.demo.DemoService.
+2019-01-14 17:14:12,816 INFO  main                             -  >>In Binding [jvm] Ends - com.example.demo.DemoService.
+2019-01-14 17:14:14,518 INFO  main                             - Registering component: service:com.example.demo.DemoService
+2019-01-14 17:14:14,518 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.example.demo.DemoService.
+2019-01-14 17:14:14,553 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.example.demo.DemoService.
+2019-01-14 17:14:14,554 INFO  main                             -  <<Out Binding [bolt] Begins - com.example.demo.DemoService.
+2019-01-14 17:14:14,575 INFO  main                             -  <<Out Binding [bolt] Ends - com.example.demo.DemoService.
+2019-01-14 17:14:14,576 INFO  main                             - Register Service - com.example.demo.DemoService
+2019-01-14 17:14:14,630 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-14 17:14:14,648 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot Demo End +++++++++++++++++
+2019-01-14 17:14:14,648 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-14 17:14:14,649 INFO  main                             - 
+All activated module list(2) >>>>>>>
+  ├─ com.example.demo-facade
+  └─ com.example.demo-service
+
+Modules that could install(2) >>>>>>>
+  ├─ com.example.demo-facade
+  └─ com.example.demo-service
+
+2019-01-14 17:14:14,653 INFO  main                             - Start install SOFABoot Demos module: com.example.demo-facade
+2019-01-14 17:14:14,811 INFO  main                             - Start install SOFABoot Demos module: com.example.demo-service
+2019-01-14 17:14:14,862 INFO  sofa-module-start-com.example.demo-facade - Begin refresh Spring Application Context of module com.example.demo-facade of application SOFABoot Demo.
+2019-01-14 17:14:14,865 INFO  sofa-module-start-com.example.demo-service - Begin refresh Spring Application Context of module com.example.demo-service of application SOFABoot Demo.
+2019-01-14 17:14:14,929 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot Demo End +++++++++++++++++
+2019-01-14 17:14:14,929 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-14 17:14:14,930 INFO  main                             - 
+Spring context initialize success module list(2) >>>>>>> [totalTime = 127 ms, realTime = 65 ms]
+  ├─ com.example.demo-service [62 ms]
+  │    `---/Users/henry-sun/data/www/aliant/demo/demo-service/target/classes/META-INF/spring/service-provide.xml
+  └─ com.example.demo-facade [65 ms]
+       `---/Users/henry-sun/data/www/aliant/demo/demo-facade/target/classes/META-INF/spring/service-provide.xml
+
+Spring context initialize failed module list(0) >>>>>>>
+
+Spring bean load time cost list(2) >>>>>>> [totalTime = 127 ms, realTime = 65 ms]
+  ├─ com.example.demo-service [62 ms]
+  └─ com.example.demo-facade [65 ms]
+
+2019-01-14 17:14:14,930 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot Demo End +++++++++++++++++
+2019-01-14 17:20:12,915 INFO  main                             - SOFABoot Runtime Starting!
+2019-01-14 17:20:17,666 INFO  main                             - Registering component: reference:com.example.demofacade.SampleService:#349991580
+2019-01-14 17:20:17,667 INFO  main                             -  >>In Binding [jvm] Begins - com.example.demofacade.SampleService.
+2019-01-14 17:20:17,670 INFO  main                             -  >>In Binding [jvm] Ends - com.example.demofacade.SampleService.
+2019-01-14 17:20:17,671 INFO  main                             - Registering component: reference:com.example.demofacade.HelloService:#-1730595999
+2019-01-14 17:20:17,671 INFO  main                             -  >>In Binding [bolt] Begins - com.example.demofacade.HelloService.
+2019-01-14 17:20:19,336 INFO  main                             -  >>In Binding [bolt] Ends - com.example.demofacade.HelloService.
+2019-01-14 17:20:19,336 INFO  main                             -  >>In Binding [jvm] Begins - com.example.demofacade.HelloService.
+2019-01-14 17:20:19,337 INFO  main                             -  >>In Binding [jvm] Ends - com.example.demofacade.HelloService.
+2019-01-14 17:20:19,338 INFO  main                             - Registering component: reference:com.example.demo.DemoService:#-1730595999
+2019-01-14 17:20:19,338 INFO  main                             -  >>In Binding [bolt] Begins - com.example.demo.DemoService.
+2019-01-14 17:20:19,368 INFO  main                             -  >>In Binding [bolt] Ends - com.example.demo.DemoService.
+2019-01-14 17:20:19,368 INFO  main                             -  >>In Binding [jvm] Begins - com.example.demo.DemoService.
+2019-01-14 17:20:19,372 INFO  main                             -  >>In Binding [jvm] Ends - com.example.demo.DemoService.
+2019-01-14 17:20:20,692 INFO  main                             - Registering component: service:com.example.demofacade.HelloService
+2019-01-14 17:20:20,692 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.example.demofacade.HelloService.
+2019-01-14 17:20:20,698 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.example.demofacade.HelloService.
+2019-01-14 17:20:20,698 INFO  main                             -  <<Out Binding [bolt] Begins - com.example.demofacade.HelloService.
+2019-01-14 17:20:20,734 INFO  main                             -  <<Out Binding [bolt] Ends - com.example.demofacade.HelloService.
+2019-01-14 17:20:20,734 INFO  main                             - Register Service - com.example.demofacade.HelloService
+2019-01-14 17:20:20,735 INFO  main                             - Registering component: service:com.example.demofacade.HelloOneService
+2019-01-14 17:20:20,735 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.example.demofacade.HelloOneService.
+2019-01-14 17:20:20,736 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.example.demofacade.HelloOneService.
+2019-01-14 17:20:20,736 INFO  main                             -  <<Out Binding [bolt] Begins - com.example.demofacade.HelloOneService.
+2019-01-14 17:20:20,737 INFO  main                             -  <<Out Binding [bolt] Ends - com.example.demofacade.HelloOneService.
+2019-01-14 17:20:20,737 INFO  main                             - Register Service - com.example.demofacade.HelloOneService
+2019-01-14 17:20:20,738 INFO  main                             - Registering component: service:com.example.demo.DemoService
+2019-01-14 17:20:20,738 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.example.demo.DemoService.
+2019-01-14 17:20:20,738 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.example.demo.DemoService.
+2019-01-14 17:20:20,739 INFO  main                             -  <<Out Binding [bolt] Begins - com.example.demo.DemoService.
+2019-01-14 17:20:20,739 INFO  main                             -  <<Out Binding [bolt] Ends - com.example.demo.DemoService.
+2019-01-14 17:20:20,739 INFO  main                             - Register Service - com.example.demo.DemoService
+2019-01-14 17:20:20,782 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-14 17:20:20,793 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot Demo End +++++++++++++++++
+2019-01-14 17:20:20,793 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-14 17:20:20,794 INFO  main                             - 
+All activated module list(2) >>>>>>>
+  ├─ com.example.demo-facade
+  └─ com.example.demo-service
+
+Modules that could install(2) >>>>>>>
+  ├─ com.example.demo-facade
+  └─ com.example.demo-service
+
+2019-01-14 17:20:20,796 INFO  main                             - Start install SOFABoot Demos module: com.example.demo-facade
+2019-01-14 17:20:20,908 INFO  main                             - Start install SOFABoot Demos module: com.example.demo-service
+2019-01-14 17:20:20,941 INFO  sofa-module-start-com.example.demo-facade - Begin refresh Spring Application Context of module com.example.demo-facade of application SOFABoot Demo.
+2019-01-14 17:20:20,942 INFO  sofa-module-start-com.example.demo-service - Begin refresh Spring Application Context of module com.example.demo-service of application SOFABoot Demo.
+2019-01-14 17:20:20,989 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot Demo End +++++++++++++++++
+2019-01-14 17:20:20,989 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-14 17:20:20,990 INFO  main                             - 
+Spring context initialize success module list(2) >>>>>>> [totalTime = 91 ms, realTime = 46 ms]
+  ├─ com.example.demo-facade [46 ms]
+  │    `---/Users/henry-sun/data/www/aliant/demo/demo-facade/target/classes/META-INF/spring/service-provide.xml
+  └─ com.example.demo-service [45 ms]
+       `---/Users/henry-sun/data/www/aliant/demo/demo-service/target/classes/META-INF/spring/service-provide.xml
+
+Spring context initialize failed module list(0) >>>>>>>
+
+Spring bean load time cost list(2) >>>>>>> [totalTime = 91 ms, realTime = 46 ms]
+  ├─ com.example.demo-facade [46 ms]
+  └─ com.example.demo-service [45 ms]
+
+2019-01-14 17:20:20,990 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot Demo End +++++++++++++++++
+2019-01-14 17:33:15,407 INFO  main                             - SOFABoot Runtime Starting!
+2019-01-14 17:33:19,756 INFO  main                             - Registering component: reference:com.example.demofacade.SampleService:#349991580
+2019-01-14 17:33:19,757 INFO  main                             -  >>In Binding [jvm] Begins - com.example.demofacade.SampleService.
+2019-01-14 17:33:19,761 INFO  main                             -  >>In Binding [jvm] Ends - com.example.demofacade.SampleService.
+2019-01-14 17:33:19,764 INFO  main                             - Registering component: reference:com.example.demofacade.HelloService:#1167162955
+2019-01-14 17:33:19,764 INFO  main                             -  >>In Binding [bolt] Begins - com.example.demofacade.HelloService.
+2019-01-14 17:33:20,840 INFO  main                             -  >>In Binding [bolt] Ends - com.example.demofacade.HelloService.
+2019-01-14 17:33:20,841 INFO  main                             -  >>In Binding [jvm] Begins - com.example.demofacade.HelloService.
+2019-01-14 17:33:20,847 INFO  main                             -  >>In Binding [jvm] Ends - com.example.demofacade.HelloService.
+2019-01-14 17:33:20,853 INFO  main                             - Registering component: reference:com.example.demo.DemoService:#1167162955
+2019-01-14 17:33:20,854 INFO  main                             -  >>In Binding [bolt] Begins - com.example.demo.DemoService.
+2019-01-14 17:33:20,919 INFO  main                             -  >>In Binding [bolt] Ends - com.example.demo.DemoService.
+2019-01-14 17:33:20,919 INFO  main                             -  >>In Binding [jvm] Begins - com.example.demo.DemoService.
+2019-01-14 17:33:20,922 INFO  main                             -  >>In Binding [jvm] Ends - com.example.demo.DemoService.
+2019-01-14 17:33:22,147 INFO  main                             - Registering component: service:com.example.demofacade.HelloService
+2019-01-14 17:33:22,147 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.example.demofacade.HelloService.
+2019-01-14 17:33:22,153 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.example.demofacade.HelloService.
+2019-01-14 17:33:22,153 INFO  main                             -  <<Out Binding [bolt] Begins - com.example.demofacade.HelloService.
+2019-01-14 17:33:22,172 INFO  main                             -  <<Out Binding [bolt] Ends - com.example.demofacade.HelloService.
+2019-01-14 17:33:22,172 INFO  main                             - Register Service - com.example.demofacade.HelloService
+2019-01-14 17:33:22,173 INFO  main                             - Registering component: service:com.example.demofacade.HelloOneService
+2019-01-14 17:33:22,173 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.example.demofacade.HelloOneService.
+2019-01-14 17:33:22,174 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.example.demofacade.HelloOneService.
+2019-01-14 17:33:22,174 INFO  main                             -  <<Out Binding [bolt] Begins - com.example.demofacade.HelloOneService.
+2019-01-14 17:33:22,175 INFO  main                             -  <<Out Binding [bolt] Ends - com.example.demofacade.HelloOneService.
+2019-01-14 17:33:22,175 INFO  main                             - Register Service - com.example.demofacade.HelloOneService
+2019-01-14 17:33:22,175 INFO  main                             - Registering component: service:com.example.demo.DemoService
+2019-01-14 17:33:22,176 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.example.demo.DemoService.
+2019-01-14 17:33:22,176 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.example.demo.DemoService.
+2019-01-14 17:33:22,176 INFO  main                             -  <<Out Binding [bolt] Begins - com.example.demo.DemoService.
+2019-01-14 17:33:22,177 INFO  main                             -  <<Out Binding [bolt] Ends - com.example.demo.DemoService.
+2019-01-14 17:33:22,177 INFO  main                             - Register Service - com.example.demo.DemoService
+2019-01-14 17:33:22,222 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-14 17:33:22,233 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot Demo End +++++++++++++++++
+2019-01-14 17:33:22,233 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-14 17:33:22,234 INFO  main                             - 
+All activated module list(2) >>>>>>>
+  ├─ com.example.demo-facade
+  └─ com.example.demo-service
+
+Modules that could install(2) >>>>>>>
+  ├─ com.example.demo-facade
+  └─ com.example.demo-service
+
+2019-01-14 17:33:22,236 INFO  main                             - Start install SOFABoot Demos module: com.example.demo-facade
+2019-01-14 17:33:22,383 INFO  main                             - Start install SOFABoot Demos module: com.example.demo-service
+2019-01-14 17:33:22,412 INFO  sofa-module-start-com.example.demo-service - Begin refresh Spring Application Context of module com.example.demo-service of application SOFABoot Demo.
+2019-01-14 17:33:22,412 INFO  sofa-module-start-com.example.demo-facade - Begin refresh Spring Application Context of module com.example.demo-facade of application SOFABoot Demo.
+2019-01-14 17:33:22,453 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot Demo End +++++++++++++++++
+2019-01-14 17:33:22,453 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-14 17:33:22,453 INFO  main                             - 
+Spring context initialize success module list(2) >>>>>>> [totalTime = 78 ms, realTime = 39 ms]
+  ├─ com.example.demo-facade [39 ms]
+  │    `---/Users/henry-sun/data/www/aliant/demo/demo-facade/target/classes/META-INF/spring/service-provide.xml
+  └─ com.example.demo-service [39 ms]
+       `---/Users/henry-sun/data/www/aliant/demo/demo-service/target/classes/META-INF/spring/service-provide.xml
+
+Spring context initialize failed module list(0) >>>>>>>
+
+Spring bean load time cost list(2) >>>>>>> [totalTime = 78 ms, realTime = 39 ms]
+  ├─ com.example.demo-facade [39 ms]
+  └─ com.example.demo-service [39 ms]
+
+2019-01-14 17:33:22,453 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot Demo End +++++++++++++++++
+2019-01-14 19:03:50,551 INFO  main                             - SOFABoot Runtime Starting!
+2019-01-14 19:03:54,672 INFO  main                             - Registering component: reference:com.example.demofacade.SampleService:#349991580
+2019-01-14 19:03:54,672 INFO  main                             -  >>In Binding [jvm] Begins - com.example.demofacade.SampleService.
+2019-01-14 19:03:54,674 INFO  main                             -  >>In Binding [jvm] Ends - com.example.demofacade.SampleService.
+2019-01-14 19:03:54,675 INFO  main                             - Registering component: reference:com.example.demofacade.HelloService:#-210926287
+2019-01-14 19:03:54,675 INFO  main                             -  >>In Binding [bolt] Begins - com.example.demofacade.HelloService.
+2019-01-14 19:03:55,357 INFO  main                             -  >>In Binding [bolt] Ends - com.example.demofacade.HelloService.
+2019-01-14 19:03:55,357 INFO  main                             -  >>In Binding [jvm] Begins - com.example.demofacade.HelloService.
+2019-01-14 19:03:55,359 INFO  main                             -  >>In Binding [jvm] Ends - com.example.demofacade.HelloService.
+2019-01-14 19:03:55,359 INFO  main                             - Registering component: reference:com.example.demo.DemoService:#349991580
+2019-01-14 19:03:55,359 INFO  main                             -  >>In Binding [jvm] Begins - com.example.demo.DemoService.
+2019-01-14 19:03:55,360 INFO  main                             -  >>In Binding [jvm] Ends - com.example.demo.DemoService.
+2019-01-14 19:03:56,217 INFO  main                             - Registering component: service:com.example.demofacade.HelloService
+2019-01-14 19:03:56,217 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.example.demofacade.HelloService.
+2019-01-14 19:03:56,224 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.example.demofacade.HelloService.
+2019-01-14 19:03:56,224 INFO  main                             -  <<Out Binding [bolt] Begins - com.example.demofacade.HelloService.
+2019-01-14 19:03:56,266 INFO  main                             -  <<Out Binding [bolt] Ends - com.example.demofacade.HelloService.
+2019-01-14 19:03:56,266 INFO  main                             - Register Service - com.example.demofacade.HelloService
+2019-01-14 19:03:56,267 INFO  main                             - Registering component: service:com.example.demofacade.HelloOneService
+2019-01-14 19:03:56,267 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.example.demofacade.HelloOneService.
+2019-01-14 19:03:56,268 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.example.demofacade.HelloOneService.
+2019-01-14 19:03:56,268 INFO  main                             -  <<Out Binding [bolt] Begins - com.example.demofacade.HelloOneService.
+2019-01-14 19:03:56,269 INFO  main                             -  <<Out Binding [bolt] Ends - com.example.demofacade.HelloOneService.
+2019-01-14 19:03:56,269 INFO  main                             - Register Service - com.example.demofacade.HelloOneService
+2019-01-14 19:03:56,269 INFO  main                             - Registering component: service:com.example.demo.DemoService
+2019-01-14 19:03:56,269 INFO  main                             -  <<PreOut Binding [jvm] Begins - com.example.demo.DemoService.
+2019-01-14 19:03:56,270 INFO  main                             -  <<PreOut Binding [jvm] Ends - com.example.demo.DemoService.
+2019-01-14 19:03:56,270 INFO  main                             -  <<Out Binding [jvm] Begins - com.example.demo.DemoService.
+2019-01-14 19:03:56,270 INFO  main                             -  <<Out Binding [jvm] Ends - com.example.demo.DemoService.
+2019-01-14 19:03:56,270 INFO  main                             - Register Service - com.example.demo.DemoService
+2019-01-14 19:03:56,303 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-14 19:03:56,309 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot Demo End +++++++++++++++++
+2019-01-14 19:03:56,309 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-14 19:03:56,310 INFO  main                             - 
+All activated module list(2) >>>>>>>
+  ├─ com.example.demo-facade
+  └─ com.example.demo-service
+
+Modules that could install(2) >>>>>>>
+  ├─ com.example.demo-facade
+  └─ com.example.demo-service
+
+2019-01-14 19:03:56,311 INFO  main                             - Start install SOFABoot Demos module: com.example.demo-facade
+2019-01-14 19:03:56,407 INFO  main                             - Start install SOFABoot Demos module: com.example.demo-service
+2019-01-14 19:03:56,440 INFO  sofa-module-start-com.example.demo-facade - Begin refresh Spring Application Context of module com.example.demo-facade of application SOFABoot Demo.
+2019-01-14 19:03:56,440 INFO  sofa-module-start-com.example.demo-service - Begin refresh Spring Application Context of module com.example.demo-service of application SOFABoot Demo.
+2019-01-14 19:03:56,468 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot Demo End +++++++++++++++++
+2019-01-14 19:03:56,469 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-14 19:03:56,470 INFO  main                             - 
+Spring context initialize success module list(2) >>>>>>> [totalTime = 56 ms, realTime = 28 ms]
+  ├─ com.example.demo-service [28 ms]
+  │    `---/Users/henry-sun/data/www/aliant/demo/demo-service/target/classes/META-INF/spring/service-provide.xml
+  └─ com.example.demo-facade [28 ms]
+       `---/Users/henry-sun/data/www/aliant/demo/demo-facade/target/classes/META-INF/spring/service-provide.xml
+
+Spring context initialize failed module list(0) >>>>>>>
+
+Spring bean load time cost list(2) >>>>>>> [totalTime = 56 ms, realTime = 28 ms]
+  ├─ com.example.demo-service [28 ms]
+  └─ com.example.demo-facade [28 ms]
+
+2019-01-14 19:03:56,470 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot Demo End +++++++++++++++++
+2019-01-14 19:06:48,106 INFO  main                             - SOFABoot Runtime Starting!
+2019-01-14 19:06:52,880 INFO  main                             - Registering component: reference:com.example.demofacade.SampleService:#349991580
+2019-01-14 19:06:52,880 INFO  main                             -  >>In Binding [jvm] Begins - com.example.demofacade.SampleService.
+2019-01-14 19:06:52,882 INFO  main                             -  >>In Binding [jvm] Ends - com.example.demofacade.SampleService.
+2019-01-14 19:06:52,883 INFO  main                             - Registering component: reference:com.example.demofacade.HelloService:#984464111
+2019-01-14 19:06:52,883 INFO  main                             -  >>In Binding [bolt] Begins - com.example.demofacade.HelloService.
+2019-01-14 19:06:53,655 INFO  main                             -  >>In Binding [bolt] Ends - com.example.demofacade.HelloService.
+2019-01-14 19:06:53,655 INFO  main                             -  >>In Binding [jvm] Begins - com.example.demofacade.HelloService.
+2019-01-14 19:06:53,657 INFO  main                             -  >>In Binding [jvm] Ends - com.example.demofacade.HelloService.
+2019-01-14 19:06:53,660 INFO  main                             - Registering component: reference:com.example.demo.DemoService:#1620554315
+2019-01-14 19:06:53,660 INFO  main                             -  >>In Binding [bolt] Begins - com.example.demo.DemoService.
+2019-01-14 19:06:53,698 INFO  main                             -  >>In Binding [bolt] Ends - com.example.demo.DemoService.
+2019-01-14 19:06:53,698 INFO  main                             -  >>In Binding [jvm] Begins - com.example.demo.DemoService.
+2019-01-14 19:06:53,700 INFO  main                             -  >>In Binding [jvm] Ends - com.example.demo.DemoService.
+2019-01-14 19:06:54,655 INFO  main                             - Registering component: service:com.example.demofacade.HelloService
+2019-01-14 19:06:54,655 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.example.demofacade.HelloService.
+2019-01-14 19:06:54,661 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.example.demofacade.HelloService.
+2019-01-14 19:06:54,662 INFO  main                             -  <<Out Binding [bolt] Begins - com.example.demofacade.HelloService.
+2019-01-14 19:06:54,705 INFO  main                             -  <<Out Binding [bolt] Ends - com.example.demofacade.HelloService.
+2019-01-14 19:06:54,705 INFO  main                             - Register Service - com.example.demofacade.HelloService
+2019-01-14 19:06:54,708 INFO  main                             - Registering component: service:com.example.demofacade.HelloOneService
+2019-01-14 19:06:54,709 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.example.demofacade.HelloOneService.
+2019-01-14 19:06:54,713 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.example.demofacade.HelloOneService.
+2019-01-14 19:06:54,713 INFO  main                             -  <<Out Binding [bolt] Begins - com.example.demofacade.HelloOneService.
+2019-01-14 19:06:54,719 INFO  main                             -  <<Out Binding [bolt] Ends - com.example.demofacade.HelloOneService.
+2019-01-14 19:06:54,719 INFO  main                             - Register Service - com.example.demofacade.HelloOneService
+2019-01-14 19:06:54,722 INFO  main                             - Registering component: service:com.example.demo.DemoService
+2019-01-14 19:06:54,722 INFO  main                             -  <<PreOut Binding [jvm] Begins - com.example.demo.DemoService.
+2019-01-14 19:06:54,722 INFO  main                             -  <<PreOut Binding [jvm] Ends - com.example.demo.DemoService.
+2019-01-14 19:06:54,722 INFO  main                             -  <<Out Binding [jvm] Begins - com.example.demo.DemoService.
+2019-01-14 19:06:54,722 INFO  main                             -  <<Out Binding [jvm] Ends - com.example.demo.DemoService.
+2019-01-14 19:06:54,722 INFO  main                             - Register Service - com.example.demo.DemoService
+2019-01-14 19:06:54,794 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-14 19:06:54,805 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot Demo End +++++++++++++++++
+2019-01-14 19:06:54,805 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-14 19:06:54,806 INFO  main                             - 
+All activated module list(2) >>>>>>>
+  ├─ com.example.demo-facade
+  └─ com.example.demo-service
+
+Modules that could install(2) >>>>>>>
+  ├─ com.example.demo-facade
+  └─ com.example.demo-service
+
+2019-01-14 19:06:54,810 INFO  main                             - Start install SOFABoot Demos module: com.example.demo-facade
+2019-01-14 19:06:54,969 INFO  main                             - Start install SOFABoot Demos module: com.example.demo-service
+2019-01-14 19:06:55,014 INFO  sofa-module-start-com.example.demo-facade - Begin refresh Spring Application Context of module com.example.demo-facade of application SOFABoot Demo.
+2019-01-14 19:06:55,016 INFO  sofa-module-start-com.example.demo-service - Begin refresh Spring Application Context of module com.example.demo-service of application SOFABoot Demo.
+2019-01-14 19:06:55,072 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot Demo End +++++++++++++++++
+2019-01-14 19:06:55,072 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-14 19:06:55,073 INFO  main                             - 
+Spring context initialize success module list(2) >>>>>>> [totalTime = 113 ms, realTime = 57 ms]
+  ├─ com.example.demo-service [56 ms]
+  │    `---/Users/henry-sun/data/www/aliant/demo/demo-service/target/classes/META-INF/spring/service-provide.xml
+  └─ com.example.demo-facade [57 ms]
+       `---/Users/henry-sun/data/www/aliant/demo/demo-facade/target/classes/META-INF/spring/service-provide.xml
+
+Spring context initialize failed module list(0) >>>>>>>
+
+Spring bean load time cost list(2) >>>>>>> [totalTime = 113 ms, realTime = 57 ms]
+  ├─ com.example.demo-service [56 ms]
+  └─ com.example.demo-facade [57 ms]
+
+2019-01-14 19:06:55,073 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot Demo End +++++++++++++++++
+2019-01-14 19:22:20,793 INFO  main                             - SOFABoot Runtime Starting!
+2019-01-14 19:22:25,878 INFO  main                             - Registering component: reference:com.example.demofacade.SampleService:#349991580
+2019-01-14 19:22:25,878 INFO  main                             -  >>In Binding [jvm] Begins - com.example.demofacade.SampleService.
+2019-01-14 19:22:25,880 INFO  main                             -  >>In Binding [jvm] Ends - com.example.demofacade.SampleService.
+2019-01-14 19:22:25,881 INFO  main                             - Registering component: reference:com.example.demofacade.HelloService:#-1247518599
+2019-01-14 19:22:25,881 INFO  main                             -  >>In Binding [bolt] Begins - com.example.demofacade.HelloService.
+2019-01-14 19:22:27,259 INFO  main                             -  >>In Binding [bolt] Ends - com.example.demofacade.HelloService.
+2019-01-14 19:22:27,259 INFO  main                             -  >>In Binding [jvm] Begins - com.example.demofacade.HelloService.
+2019-01-14 19:22:27,261 INFO  main                             -  >>In Binding [jvm] Ends - com.example.demofacade.HelloService.
+2019-01-14 19:22:29,231 INFO  main                             - Registering component: service:com.example.demofacade.HelloService
+2019-01-14 19:22:29,231 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.example.demofacade.HelloService.
+2019-01-14 19:22:29,237 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.example.demofacade.HelloService.
+2019-01-14 19:22:29,237 INFO  main                             -  <<Out Binding [bolt] Begins - com.example.demofacade.HelloService.
+2019-01-14 19:22:29,257 INFO  main                             -  <<Out Binding [bolt] Ends - com.example.demofacade.HelloService.
+2019-01-14 19:22:29,257 INFO  main                             - Register Service - com.example.demofacade.HelloService
+2019-01-14 19:22:29,258 INFO  main                             - Registering component: service:com.example.demofacade.HelloOneService
+2019-01-14 19:22:29,258 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.example.demofacade.HelloOneService.
+2019-01-14 19:22:29,259 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.example.demofacade.HelloOneService.
+2019-01-14 19:22:29,259 INFO  main                             -  <<Out Binding [bolt] Begins - com.example.demofacade.HelloOneService.
+2019-01-14 19:22:29,259 INFO  main                             -  <<Out Binding [bolt] Ends - com.example.demofacade.HelloOneService.
+2019-01-14 19:22:29,260 INFO  main                             - Register Service - com.example.demofacade.HelloOneService
+2019-01-14 19:22:29,260 INFO  main                             - Registering component: service:com.example.demo.DemoService
+2019-01-14 19:22:29,260 INFO  main                             -  <<PreOut Binding [jvm] Begins - com.example.demo.DemoService.
+2019-01-14 19:22:29,261 INFO  main                             -  <<PreOut Binding [jvm] Ends - com.example.demo.DemoService.
+2019-01-14 19:22:29,261 INFO  main                             -  <<Out Binding [jvm] Begins - com.example.demo.DemoService.
+2019-01-14 19:22:29,261 INFO  main                             -  <<Out Binding [jvm] Ends - com.example.demo.DemoService.
+2019-01-14 19:22:29,261 INFO  main                             - Register Service - com.example.demo.DemoService
+2019-01-14 19:22:29,334 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-14 19:22:29,342 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot Demo End +++++++++++++++++
+2019-01-14 19:22:29,342 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-14 19:22:29,343 INFO  main                             - 
+All activated module list(2) >>>>>>>
+  ├─ com.example.demo-facade
+  └─ com.example.demo-service
+
+Modules that could install(2) >>>>>>>
+  ├─ com.example.demo-facade
+  └─ com.example.demo-service
+
+2019-01-14 19:22:29,345 INFO  main                             - Start install SOFABoot Demos module: com.example.demo-facade
+2019-01-14 19:22:29,508 INFO  main                             - Start install SOFABoot Demos module: com.example.demo-service
+2019-01-14 19:22:29,596 INFO  sofa-module-start-com.example.demo-facade - Begin refresh Spring Application Context of module com.example.demo-facade of application SOFABoot Demo.
+2019-01-14 19:22:29,609 INFO  sofa-module-start-com.example.demo-service - Begin refresh Spring Application Context of module com.example.demo-service of application SOFABoot Demo.
+2019-01-14 19:22:29,693 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot Demo End +++++++++++++++++
+2019-01-14 19:22:29,693 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-14 19:22:29,694 INFO  main                             - 
+Spring context initialize success module list(2) >>>>>>> [totalTime = 176 ms, realTime = 94 ms]
+  ├─ com.example.demo-facade [94 ms]
+  │    `---/Users/henry-sun/data/www/aliant/demo/demo-facade/target/classes/META-INF/spring/service-provide.xml
+  └─ com.example.demo-service [82 ms]
+       `---/Users/henry-sun/data/www/aliant/demo/demo-service/target/classes/META-INF/spring/service-provide.xml
+
+Spring context initialize failed module list(0) >>>>>>>
+
+Spring bean load time cost list(2) >>>>>>> [totalTime = 176 ms, realTime = 94 ms]
+  ├─ com.example.demo-facade [94 ms]
+  └─ com.example.demo-service [82 ms]
+
+2019-01-14 19:22:29,694 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot Demo End +++++++++++++++++
+2019-01-14 19:26:12,081 INFO  main                             - SOFABoot Runtime Starting!
+2019-01-14 19:26:16,735 INFO  main                             - Registering component: reference:com.example.demofacade.SampleService:#349991580
+2019-01-14 19:26:16,735 INFO  main                             -  >>In Binding [jvm] Begins - com.example.demofacade.SampleService.
+2019-01-14 19:26:16,737 INFO  main                             -  >>In Binding [jvm] Ends - com.example.demofacade.SampleService.
+2019-01-14 19:26:16,738 INFO  main                             - Registering component: reference:com.example.demofacade.HelloService:#1368234992
+2019-01-14 19:26:16,738 INFO  main                             -  >>In Binding [bolt] Begins - com.example.demofacade.HelloService.
+2019-01-14 19:26:17,402 INFO  main                             -  >>In Binding [bolt] Ends - com.example.demofacade.HelloService.
+2019-01-14 19:26:17,402 INFO  main                             -  >>In Binding [jvm] Begins - com.example.demofacade.HelloService.
+2019-01-14 19:26:17,403 INFO  main                             -  >>In Binding [jvm] Ends - com.example.demofacade.HelloService.
+2019-01-14 19:27:03,249 INFO  main                             - SOFABoot Runtime Starting!
+2019-01-14 19:27:08,070 INFO  main                             - Registering component: reference:com.example.demofacade.SampleService:#349991580
+2019-01-14 19:27:08,070 INFO  main                             -  >>In Binding [jvm] Begins - com.example.demofacade.SampleService.
+2019-01-14 19:27:08,072 INFO  main                             -  >>In Binding [jvm] Ends - com.example.demofacade.SampleService.
+2019-01-14 19:27:08,073 INFO  main                             - Registering component: reference:com.example.demofacade.HelloService:#-1310240149
+2019-01-14 19:27:08,073 INFO  main                             -  >>In Binding [bolt] Begins - com.example.demofacade.HelloService.
+2019-01-14 19:27:08,808 INFO  main                             -  >>In Binding [bolt] Ends - com.example.demofacade.HelloService.
+2019-01-14 19:27:08,809 INFO  main                             -  >>In Binding [jvm] Begins - com.example.demofacade.HelloService.
+2019-01-14 19:27:08,811 INFO  main                             -  >>In Binding [jvm] Ends - com.example.demofacade.HelloService.
+2019-01-14 19:27:08,811 INFO  main                             - Registering component: reference:com.example.demo.DemoService:#-1310240149
+2019-01-14 19:27:08,811 INFO  main                             -  >>In Binding [bolt] Begins - com.example.demo.DemoService.
+2019-01-14 19:27:08,867 INFO  main                             -  >>In Binding [bolt] Ends - com.example.demo.DemoService.
+2019-01-14 19:27:08,868 INFO  main                             -  >>In Binding [jvm] Begins - com.example.demo.DemoService.
+2019-01-14 19:27:08,869 INFO  main                             -  >>In Binding [jvm] Ends - com.example.demo.DemoService.
+2019-01-14 19:27:09,705 INFO  main                             - Registering component: service:com.example.demofacade.HelloService
+2019-01-14 19:27:09,705 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.example.demofacade.HelloService.
+2019-01-14 19:27:09,710 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.example.demofacade.HelloService.
+2019-01-14 19:27:09,711 INFO  main                             -  <<Out Binding [bolt] Begins - com.example.demofacade.HelloService.
+2019-01-14 19:27:09,729 INFO  main                             -  <<Out Binding [bolt] Ends - com.example.demofacade.HelloService.
+2019-01-14 19:27:09,729 INFO  main                             - Register Service - com.example.demofacade.HelloService
+2019-01-14 19:27:09,732 INFO  main                             - Registering component: service:com.example.demofacade.HelloOneService
+2019-01-14 19:27:09,732 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.example.demofacade.HelloOneService.
+2019-01-14 19:27:09,733 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.example.demofacade.HelloOneService.
+2019-01-14 19:27:09,733 INFO  main                             -  <<Out Binding [bolt] Begins - com.example.demofacade.HelloOneService.
+2019-01-14 19:27:09,734 INFO  main                             -  <<Out Binding [bolt] Ends - com.example.demofacade.HelloOneService.
+2019-01-14 19:27:09,734 INFO  main                             - Register Service - com.example.demofacade.HelloOneService
+2019-01-14 19:27:09,775 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-14 19:27:09,785 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot Demo End +++++++++++++++++
+2019-01-14 19:27:09,785 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-14 19:27:09,787 INFO  main                             - 
+All activated module list(2) >>>>>>>
+  ├─ com.example.demo-facade
+  └─ com.example.demo-service
+
+Modules that could install(2) >>>>>>>
+  ├─ com.example.demo-facade
+  └─ com.example.demo-service
+
+2019-01-14 19:27:09,789 INFO  main                             - Start install SOFABoot Demos module: com.example.demo-facade
+2019-01-14 19:27:09,941 INFO  main                             - Start install SOFABoot Demos module: com.example.demo-service
+2019-01-14 19:27:09,982 INFO  sofa-module-start-com.example.demo-service - Begin refresh Spring Application Context of module com.example.demo-service of application SOFABoot Demo.
+2019-01-14 19:27:09,982 INFO  sofa-module-start-com.example.demo-facade - Begin refresh Spring Application Context of module com.example.demo-facade of application SOFABoot Demo.
+2019-01-14 19:27:10,023 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot Demo End +++++++++++++++++
+2019-01-14 19:27:10,023 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-14 19:27:10,023 INFO  main                             - 
+Spring context initialize success module list(2) >>>>>>> [totalTime = 80 ms, realTime = 40 ms]
+  ├─ com.example.demo-facade [40 ms]
+  │    `---/Users/henry-sun/data/www/aliant/demo/demo-facade/target/classes/META-INF/spring/service-provide.xml
+  └─ com.example.demo-service [40 ms]
+       `---/Users/henry-sun/data/www/aliant/demo/demo-service/target/classes/META-INF/spring/service-provide.xml
+
+Spring context initialize failed module list(0) >>>>>>>
+
+Spring bean load time cost list(2) >>>>>>> [totalTime = 80 ms, realTime = 40 ms]
+  ├─ com.example.demo-facade [40 ms]
+  └─ com.example.demo-service [40 ms]
+
+2019-01-14 19:27:10,024 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot Demo End +++++++++++++++++
+2019-01-14 19:28:20,595 INFO  main                             - SOFABoot Runtime Starting!
+2019-01-14 19:28:25,625 INFO  main                             - Registering component: reference:com.example.demofacade.SampleService:#349991580
+2019-01-14 19:28:25,625 INFO  main                             -  >>In Binding [jvm] Begins - com.example.demofacade.SampleService.
+2019-01-14 19:28:25,628 INFO  main                             -  >>In Binding [jvm] Ends - com.example.demofacade.SampleService.
+2019-01-14 19:28:25,630 INFO  main                             - Registering component: reference:com.example.demofacade.HelloService:#1812701182
+2019-01-14 19:28:25,630 INFO  main                             -  >>In Binding [bolt] Begins - com.example.demofacade.HelloService.
+2019-01-14 19:28:26,923 INFO  main                             -  >>In Binding [bolt] Ends - com.example.demofacade.HelloService.
+2019-01-14 19:28:26,923 INFO  main                             -  >>In Binding [jvm] Begins - com.example.demofacade.HelloService.
+2019-01-14 19:28:26,924 INFO  main                             -  >>In Binding [jvm] Ends - com.example.demofacade.HelloService.
+2019-01-14 19:28:26,924 INFO  main                             - Registering component: reference:com.example.demo.DemoService:#349991580
+2019-01-14 19:28:26,924 INFO  main                             -  >>In Binding [jvm] Begins - com.example.demo.DemoService.
+2019-01-14 19:28:26,926 INFO  main                             -  >>In Binding [jvm] Ends - com.example.demo.DemoService.
+2019-01-14 19:28:28,390 INFO  main                             - Registering component: service:com.example.demofacade.HelloService
+2019-01-14 19:28:28,390 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.example.demofacade.HelloService.
+2019-01-14 19:28:28,395 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.example.demofacade.HelloService.
+2019-01-14 19:28:28,395 INFO  main                             -  <<Out Binding [bolt] Begins - com.example.demofacade.HelloService.
+2019-01-14 19:28:28,408 INFO  main                             -  <<Out Binding [bolt] Ends - com.example.demofacade.HelloService.
+2019-01-14 19:28:28,408 INFO  main                             - Register Service - com.example.demofacade.HelloService
+2019-01-14 19:28:28,409 INFO  main                             - Registering component: service:com.example.demofacade.HelloOneService
+2019-01-14 19:28:28,409 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.example.demofacade.HelloOneService.
+2019-01-14 19:28:28,409 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.example.demofacade.HelloOneService.
+2019-01-14 19:28:28,409 INFO  main                             -  <<Out Binding [bolt] Begins - com.example.demofacade.HelloOneService.
+2019-01-14 19:28:28,410 INFO  main                             -  <<Out Binding [bolt] Ends - com.example.demofacade.HelloOneService.
+2019-01-14 19:28:28,410 INFO  main                             - Register Service - com.example.demofacade.HelloOneService
+2019-01-14 19:28:28,439 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-14 19:28:28,447 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot Demo End +++++++++++++++++
+2019-01-14 19:28:28,447 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-14 19:28:28,448 INFO  main                             - 
+All activated module list(2) >>>>>>>
+  ├─ com.example.demo-facade
+  └─ com.example.demo-service
+
+Modules that could install(2) >>>>>>>
+  ├─ com.example.demo-facade
+  └─ com.example.demo-service
+
+2019-01-14 19:28:28,449 INFO  main                             - Start install SOFABoot Demos module: com.example.demo-facade
+2019-01-14 19:28:28,578 INFO  main                             - Start install SOFABoot Demos module: com.example.demo-service
+2019-01-14 19:28:28,623 INFO  sofa-module-start-com.example.demo-facade - Begin refresh Spring Application Context of module com.example.demo-facade of application SOFABoot Demo.
+2019-01-14 19:28:28,623 INFO  sofa-module-start-com.example.demo-service - Begin refresh Spring Application Context of module com.example.demo-service of application SOFABoot Demo.
+2019-01-14 19:28:28,659 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot Demo End +++++++++++++++++
+2019-01-14 19:28:28,662 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-14 19:28:28,663 INFO  main                             - 
+Spring context initialize success module list(2) >>>>>>> [totalTime = 69 ms, realTime = 35 ms]
+  ├─ com.example.demo-service [34 ms]
+  │    `---/Users/henry-sun/data/www/aliant/demo/demo-service/target/classes/META-INF/spring/service-provide.xml
+  └─ com.example.demo-facade [35 ms]
+       `---/Users/henry-sun/data/www/aliant/demo/demo-facade/target/classes/META-INF/spring/service-provide.xml
+
+Spring context initialize failed module list(0) >>>>>>>
+
+Spring bean load time cost list(2) >>>>>>> [totalTime = 69 ms, realTime = 35 ms]
+  ├─ com.example.demo-service [34 ms]
+  └─ com.example.demo-facade [35 ms]
+
+2019-01-14 19:28:28,664 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot Demo End +++++++++++++++++
+2019-01-14 19:35:07,481 INFO  main                             - SOFABoot Runtime Starting!
+2019-01-14 19:35:12,010 INFO  main                             - Registering component: reference:com.example.demofacade.SampleService:#349991580
+2019-01-14 19:35:12,010 INFO  main                             -  >>In Binding [jvm] Begins - com.example.demofacade.SampleService.
+2019-01-14 19:35:12,012 INFO  main                             -  >>In Binding [jvm] Ends - com.example.demofacade.SampleService.
+2019-01-14 19:35:12,013 INFO  main                             - Registering component: reference:com.example.demofacade.HelloService:#-2003748139
+2019-01-14 19:35:12,013 INFO  main                             -  >>In Binding [bolt] Begins - com.example.demofacade.HelloService.
+2019-01-14 19:35:12,878 INFO  main                             -  >>In Binding [bolt] Ends - com.example.demofacade.HelloService.
+2019-01-14 19:35:12,878 INFO  main                             -  >>In Binding [jvm] Begins - com.example.demofacade.HelloService.
+2019-01-14 19:35:12,880 INFO  main                             -  >>In Binding [jvm] Ends - com.example.demofacade.HelloService.
+2019-01-14 19:35:12,881 INFO  main                             - Registering component: reference:com.example.demo.DemoService:demoService#349991580
+2019-01-14 19:35:12,881 INFO  main                             -  >>In Binding [jvm] Begins - com.example.demo.DemoService:demoService.
+2019-01-14 19:35:12,883 INFO  main                             -  >>In Binding [jvm] Ends - com.example.demo.DemoService:demoService.
+2019-01-14 19:35:13,704 INFO  main                             - Registering component: service:com.example.demofacade.HelloService
+2019-01-14 19:35:13,705 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.example.demofacade.HelloService.
+2019-01-14 19:35:13,715 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.example.demofacade.HelloService.
+2019-01-14 19:35:13,715 INFO  main                             -  <<Out Binding [bolt] Begins - com.example.demofacade.HelloService.
+2019-01-14 19:35:13,728 INFO  main                             -  <<Out Binding [bolt] Ends - com.example.demofacade.HelloService.
+2019-01-14 19:35:13,728 INFO  main                             - Register Service - com.example.demofacade.HelloService
+2019-01-14 19:35:13,729 INFO  main                             - Registering component: service:com.example.demofacade.HelloOneService
+2019-01-14 19:35:13,729 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.example.demofacade.HelloOneService.
+2019-01-14 19:35:13,729 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.example.demofacade.HelloOneService.
+2019-01-14 19:35:13,729 INFO  main                             -  <<Out Binding [bolt] Begins - com.example.demofacade.HelloOneService.
+2019-01-14 19:35:13,730 INFO  main                             -  <<Out Binding [bolt] Ends - com.example.demofacade.HelloOneService.
+2019-01-14 19:35:13,730 INFO  main                             - Register Service - com.example.demofacade.HelloOneService
+2019-01-14 19:35:13,767 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-14 19:35:13,810 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot Demo End +++++++++++++++++
+2019-01-14 19:35:13,810 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-14 19:35:13,811 INFO  main                             - 
+All activated module list(2) >>>>>>>
+  ├─ com.example.demo-facade
+  └─ com.example.demo-service
+
+Modules that could install(2) >>>>>>>
+  ├─ com.example.demo-facade
+  └─ com.example.demo-service
+
+2019-01-14 19:35:13,814 INFO  main                             - Start install SOFABoot Demos module: com.example.demo-facade
+2019-01-14 19:35:13,914 INFO  main                             - Start install SOFABoot Demos module: com.example.demo-service
+2019-01-14 19:35:13,947 INFO  sofa-module-start-com.example.demo-service - Begin refresh Spring Application Context of module com.example.demo-service of application SOFABoot Demo.
+2019-01-14 19:35:13,947 INFO  sofa-module-start-com.example.demo-facade - Begin refresh Spring Application Context of module com.example.demo-facade of application SOFABoot Demo.
+2019-01-14 19:35:13,993 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot Demo End +++++++++++++++++
+2019-01-14 19:35:13,994 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-14 19:35:13,994 INFO  main                             - 
+Spring context initialize success module list(2) >>>>>>> [totalTime = 92 ms, realTime = 46 ms]
+  ├─ com.example.demo-facade [46 ms]
+  │    `---/Users/henry-sun/data/www/aliant/demo/demo-facade/target/classes/META-INF/spring/service-provide.xml
+  └─ com.example.demo-service [46 ms]
+       `---/Users/henry-sun/data/www/aliant/demo/demo-service/target/classes/META-INF/spring/service-provide.xml
+
+Spring context initialize failed module list(0) >>>>>>>
+
+Spring bean load time cost list(2) >>>>>>> [totalTime = 92 ms, realTime = 46 ms]
+  ├─ com.example.demo-facade [46 ms]
+  └─ com.example.demo-service [46 ms]
+
+2019-01-14 19:35:13,994 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot Demo End +++++++++++++++++
+2019-01-14 19:38:41,491 INFO  main                             - SOFABoot Runtime Starting!
+2019-01-14 19:38:46,559 INFO  main                             - Registering component: reference:com.example.demofacade.SampleService:#349991580
+2019-01-14 19:38:46,559 INFO  main                             -  >>In Binding [jvm] Begins - com.example.demofacade.SampleService.
+2019-01-14 19:38:46,561 INFO  main                             -  >>In Binding [jvm] Ends - com.example.demofacade.SampleService.
+2019-01-14 19:38:46,562 INFO  main                             - Registering component: reference:com.example.demofacade.HelloService:#-2144682017
+2019-01-14 19:38:46,562 INFO  main                             -  >>In Binding [bolt] Begins - com.example.demofacade.HelloService.
+2019-01-14 19:38:47,294 INFO  main                             -  >>In Binding [bolt] Ends - com.example.demofacade.HelloService.
+2019-01-14 19:38:47,295 INFO  main                             -  >>In Binding [jvm] Begins - com.example.demofacade.HelloService.
+2019-01-14 19:38:47,296 INFO  main                             -  >>In Binding [jvm] Ends - com.example.demofacade.HelloService.
+2019-01-14 19:38:47,296 INFO  main                             - Registering component: reference:com.example.demo.DemoService:demoService#349991580
+2019-01-14 19:38:47,296 INFO  main                             -  >>In Binding [jvm] Begins - com.example.demo.DemoService:demoService.
+2019-01-14 19:38:47,297 INFO  main                             -  >>In Binding [jvm] Ends - com.example.demo.DemoService:demoService.
+2019-01-14 19:38:49,031 INFO  main                             - Registering component: service:com.example.demofacade.HelloService
+2019-01-14 19:38:49,032 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.example.demofacade.HelloService.
+2019-01-14 19:38:49,036 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.example.demofacade.HelloService.
+2019-01-14 19:38:49,037 INFO  main                             -  <<Out Binding [bolt] Begins - com.example.demofacade.HelloService.
+2019-01-14 19:38:49,052 INFO  main                             -  <<Out Binding [bolt] Ends - com.example.demofacade.HelloService.
+2019-01-14 19:38:49,053 INFO  main                             - Register Service - com.example.demofacade.HelloService
+2019-01-14 19:38:49,054 INFO  main                             - Registering component: service:com.example.demofacade.HelloOneService
+2019-01-14 19:38:49,054 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.example.demofacade.HelloOneService.
+2019-01-14 19:38:49,054 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.example.demofacade.HelloOneService.
+2019-01-14 19:38:49,054 INFO  main                             -  <<Out Binding [bolt] Begins - com.example.demofacade.HelloOneService.
+2019-01-14 19:38:49,055 INFO  main                             -  <<Out Binding [bolt] Ends - com.example.demofacade.HelloOneService.
+2019-01-14 19:38:49,055 INFO  main                             - Register Service - com.example.demofacade.HelloOneService
+2019-01-14 19:38:49,091 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-14 19:38:49,102 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot Demo End +++++++++++++++++
+2019-01-14 19:38:49,102 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-14 19:38:49,103 INFO  main                             - 
+All activated module list(2) >>>>>>>
+  ├─ com.example.demo-facade
+  └─ com.example.demo-service
+
+Modules that could install(2) >>>>>>>
+  ├─ com.example.demo-facade
+  └─ com.example.demo-service
+
+2019-01-14 19:38:49,105 INFO  main                             - Start install SOFABoot Demos module: com.example.demo-facade
+2019-01-14 19:38:49,197 INFO  main                             - Start install SOFABoot Demos module: com.example.demo-service
+2019-01-14 19:38:49,239 INFO  sofa-module-start-com.example.demo-facade - Begin refresh Spring Application Context of module com.example.demo-facade of application SOFABoot Demo.
+2019-01-14 19:38:49,242 INFO  sofa-module-start-com.example.demo-service - Begin refresh Spring Application Context of module com.example.demo-service of application SOFABoot Demo.
+2019-01-14 19:38:49,276 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot Demo End +++++++++++++++++
+2019-01-14 19:38:49,276 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-14 19:38:49,277 INFO  main                             - 
+Spring context initialize success module list(2) >>>>>>> [totalTime = 68 ms, realTime = 35 ms]
+  ├─ com.example.demo-service [33 ms]
+  │    `---/Users/henry-sun/data/www/aliant/demo/demo-service/target/classes/META-INF/spring/service-provide.xml
+  └─ com.example.demo-facade [35 ms]
+       `---/Users/henry-sun/data/www/aliant/demo/demo-facade/target/classes/META-INF/spring/service-provide.xml
+
+Spring context initialize failed module list(0) >>>>>>>
+
+Spring bean load time cost list(2) >>>>>>> [totalTime = 68 ms, realTime = 35 ms]
+  ├─ com.example.demo-service [33 ms]
+  └─ com.example.demo-facade [35 ms]
+
+2019-01-14 19:38:49,277 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot Demo End +++++++++++++++++
+2019-01-14 19:40:21,198 INFO  main                             - SOFABoot Runtime Starting!
+2019-01-14 19:40:27,729 INFO  main                             - Registering component: reference:com.example.demofacade.SampleService:#349991580
+2019-01-14 19:40:27,729 INFO  main                             -  >>In Binding [jvm] Begins - com.example.demofacade.SampleService.
+2019-01-14 19:40:27,732 INFO  main                             -  >>In Binding [jvm] Ends - com.example.demofacade.SampleService.
+2019-01-14 19:40:27,733 INFO  main                             - Registering component: reference:com.example.demofacade.HelloService:#-803989921
+2019-01-14 19:40:27,733 INFO  main                             -  >>In Binding [bolt] Begins - com.example.demofacade.HelloService.
+2019-01-14 19:40:28,847 INFO  main                             -  >>In Binding [bolt] Ends - com.example.demofacade.HelloService.
+2019-01-14 19:40:28,847 INFO  main                             -  >>In Binding [jvm] Begins - com.example.demofacade.HelloService.
+2019-01-14 19:40:28,848 INFO  main                             -  >>In Binding [jvm] Ends - com.example.demofacade.HelloService.
+2019-01-14 19:40:28,849 INFO  main                             - Registering component: reference:com.example.demo.DemoService:demoService#349991580
+2019-01-14 19:40:28,849 INFO  main                             -  >>In Binding [jvm] Begins - com.example.demo.DemoService:demoService.
+2019-01-14 19:40:28,850 INFO  main                             -  >>In Binding [jvm] Ends - com.example.demo.DemoService:demoService.
+2019-01-14 19:40:30,637 INFO  main                             - Registering component: service:com.example.demofacade.HelloService
+2019-01-14 19:40:30,637 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.example.demofacade.HelloService.
+2019-01-14 19:40:30,645 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.example.demofacade.HelloService.
+2019-01-14 19:40:30,645 INFO  main                             -  <<Out Binding [bolt] Begins - com.example.demofacade.HelloService.
+2019-01-14 19:40:30,668 INFO  main                             -  <<Out Binding [bolt] Ends - com.example.demofacade.HelloService.
+2019-01-14 19:40:30,668 INFO  main                             - Register Service - com.example.demofacade.HelloService
+2019-01-14 19:40:30,670 INFO  main                             - Registering component: service:com.example.demo.DemoService:demoService
+2019-01-14 19:40:30,671 INFO  main                             -  <<PreOut Binding [jvm] Begins - com.example.demo.DemoService:demoService.
+2019-01-14 19:40:30,671 INFO  main                             -  <<PreOut Binding [jvm] Ends - com.example.demo.DemoService:demoService.
+2019-01-14 19:40:30,671 INFO  main                             -  <<Out Binding [jvm] Begins - com.example.demo.DemoService:demoService.
+2019-01-14 19:40:30,671 INFO  main                             -  <<Out Binding [jvm] Ends - com.example.demo.DemoService:demoService.
+2019-01-14 19:40:30,671 INFO  main                             - Register Service - com.example.demo.DemoService:demoService
+2019-01-14 19:40:30,672 INFO  main                             - Registering component: service:com.example.demofacade.HelloOneService
+2019-01-14 19:40:30,672 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.example.demofacade.HelloOneService.
+2019-01-14 19:40:30,672 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.example.demofacade.HelloOneService.
+2019-01-14 19:40:30,673 INFO  main                             -  <<Out Binding [bolt] Begins - com.example.demofacade.HelloOneService.
+2019-01-14 19:40:30,673 INFO  main                             -  <<Out Binding [bolt] Ends - com.example.demofacade.HelloOneService.
+2019-01-14 19:40:30,673 INFO  main                             - Register Service - com.example.demofacade.HelloOneService
+2019-01-14 19:40:30,723 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-14 19:40:30,735 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot Demo End +++++++++++++++++
+2019-01-14 19:40:30,736 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-14 19:40:30,737 INFO  main                             - 
+All activated module list(2) >>>>>>>
+  ├─ com.example.demo-facade
+  └─ com.example.demo-service
+
+Modules that could install(2) >>>>>>>
+  ├─ com.example.demo-facade
+  └─ com.example.demo-service
+
+2019-01-14 19:40:30,739 INFO  main                             - Start install SOFABoot Demos module: com.example.demo-facade
+2019-01-14 19:40:30,771 INFO  main                             - Start install SOFABoot Demos module: com.example.demo-service
+2019-01-14 19:40:30,795 INFO  sofa-module-start-com.example.demo-service - Begin refresh Spring Application Context of module com.example.demo-service of application SOFABoot Demo.
+2019-01-14 19:40:30,795 INFO  sofa-module-start-com.example.demo-facade - Begin refresh Spring Application Context of module com.example.demo-facade of application SOFABoot Demo.
+2019-01-14 19:40:30,854 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot Demo End +++++++++++++++++
+2019-01-14 19:40:30,856 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-14 19:40:30,862 INFO  main                             - 
+Spring context initialize success module list(2) >>>>>>> [totalTime = 113 ms, realTime = 57 ms]
+  ├─ com.example.demo-facade [56 ms]
+  │    `---/Users/henry-sun/data/www/aliant/demo/demo-facade/target/classes/META-INF/spring/service-provide.xml
+  └─ com.example.demo-service [57 ms]
+       `---/Users/henry-sun/data/www/aliant/demo/demo-service/target/classes/META-INF/spring/service-provide.xml
+
+Spring context initialize failed module list(0) >>>>>>>
+
+Spring bean load time cost list(2) >>>>>>> [totalTime = 113 ms, realTime = 57 ms]
+  ├─ com.example.demo-facade [56 ms]
+  └─ com.example.demo-service [57 ms]
+
+2019-01-14 19:40:30,862 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot Demo End +++++++++++++++++
+2019-01-14 19:54:09,931 INFO  main                             - SOFABoot Runtime Starting!
+2019-01-14 19:54:15,601 INFO  main                             - Registering component: reference:com.example.demofacade.SampleService:#349991580
+2019-01-14 19:54:15,601 INFO  main                             -  >>In Binding [jvm] Begins - com.example.demofacade.SampleService.
+2019-01-14 19:54:15,604 INFO  main                             -  >>In Binding [jvm] Ends - com.example.demofacade.SampleService.
+2019-01-14 19:54:15,605 INFO  main                             - Registering component: reference:com.example.demofacade.HelloService:#-1179927426
+2019-01-14 19:54:15,605 INFO  main                             -  >>In Binding [bolt] Begins - com.example.demofacade.HelloService.
+2019-01-14 19:54:16,321 INFO  main                             -  >>In Binding [bolt] Ends - com.example.demofacade.HelloService.
+2019-01-14 19:54:16,323 INFO  main                             -  >>In Binding [jvm] Begins - com.example.demofacade.HelloService.
+2019-01-14 19:54:16,328 INFO  main                             -  >>In Binding [jvm] Ends - com.example.demofacade.HelloService.
+2019-01-14 19:54:16,329 INFO  main                             - Registering component: reference:com.example.demo.DemoService:demoService#349991580
+2019-01-14 19:54:16,329 INFO  main                             -  >>In Binding [jvm] Begins - com.example.demo.DemoService:demoService.
+2019-01-14 19:54:16,332 INFO  main                             -  >>In Binding [jvm] Ends - com.example.demo.DemoService:demoService.
+2019-01-14 19:54:18,108 INFO  main                             - Registering component: service:com.example.demofacade.HelloService
+2019-01-14 19:54:18,108 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.example.demofacade.HelloService.
+2019-01-14 19:54:18,118 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.example.demofacade.HelloService.
+2019-01-14 19:54:18,118 INFO  main                             -  <<Out Binding [bolt] Begins - com.example.demofacade.HelloService.
+2019-01-14 19:54:18,137 INFO  main                             -  <<Out Binding [bolt] Ends - com.example.demofacade.HelloService.
+2019-01-14 19:54:18,138 INFO  main                             - Register Service - com.example.demofacade.HelloService
+2019-01-14 19:54:18,139 INFO  main                             - Registering component: service:com.example.demofacade.HelloOneService
+2019-01-14 19:54:18,139 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.example.demofacade.HelloOneService.
+2019-01-14 19:54:18,139 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.example.demofacade.HelloOneService.
+2019-01-14 19:54:18,139 INFO  main                             -  <<Out Binding [bolt] Begins - com.example.demofacade.HelloOneService.
+2019-01-14 19:54:18,140 INFO  main                             -  <<Out Binding [bolt] Ends - com.example.demofacade.HelloOneService.
+2019-01-14 19:54:18,140 INFO  main                             - Register Service - com.example.demofacade.HelloOneService
+2019-01-14 19:54:18,189 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-14 19:54:18,211 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot Demo End +++++++++++++++++
+2019-01-14 19:54:18,211 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-14 19:54:18,212 INFO  main                             - 
+All activated module list(2) >>>>>>>
+  ├─ com.example.demo-facade
+  └─ com.example.demo-service
+
+Modules that could install(2) >>>>>>>
+  ├─ com.example.demo-facade
+  └─ com.example.demo-service
+
+2019-01-14 19:54:18,222 INFO  main                             - Start install SOFABoot Demos module: com.example.demo-facade
+2019-01-14 19:54:18,368 INFO  main                             - Start install SOFABoot Demos module: com.example.demo-service
+2019-01-14 19:54:18,496 INFO  sofa-module-start-com.example.demo-facade - Begin refresh Spring Application Context of module com.example.demo-facade of application SOFABoot Demo.
+2019-01-14 19:54:18,498 INFO  sofa-module-start-com.example.demo-service - Begin refresh Spring Application Context of module com.example.demo-service of application SOFABoot Demo.
+2019-01-14 19:54:18,544 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot Demo End +++++++++++++++++
+2019-01-14 19:54:18,553 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-14 19:54:18,554 INFO  main                             - 
+Spring context initialize success module list(2) >>>>>>> [totalTime = 87 ms, realTime = 44 ms]
+  ├─ com.example.demo-service [43 ms]
+  │    `---/Users/henry-sun/data/www/aliant/demo/demo-service/target/classes/META-INF/spring/service-provide.xml
+  └─ com.example.demo-facade [44 ms]
+       `---/Users/henry-sun/data/www/aliant/demo/demo-facade/target/classes/META-INF/spring/service-provide.xml
+
+Spring context initialize failed module list(0) >>>>>>>
+
+Spring bean load time cost list(2) >>>>>>> [totalTime = 87 ms, realTime = 44 ms]
+  ├─ com.example.demo-service [43 ms]
+  └─ com.example.demo-facade [44 ms]
+
+2019-01-14 19:54:18,554 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot Demo End +++++++++++++++++
+2019-01-14 20:20:06,213 INFO  main                             - SOFABoot Runtime Starting!
+2019-01-14 20:20:13,577 INFO  main                             - Registering component: reference:com.example.demofacade.SampleService:#349991580
+2019-01-14 20:20:13,578 INFO  main                             -  >>In Binding [jvm] Begins - com.example.demofacade.SampleService.
+2019-01-14 20:20:13,580 INFO  main                             -  >>In Binding [jvm] Ends - com.example.demofacade.SampleService.
+2019-01-14 20:20:13,581 INFO  main                             - Registering component: reference:com.example.demofacade.HelloService:#-1564271433
+2019-01-14 20:20:13,581 INFO  main                             -  >>In Binding [bolt] Begins - com.example.demofacade.HelloService.
+2019-01-14 20:20:14,344 INFO  main                             -  >>In Binding [bolt] Ends - com.example.demofacade.HelloService.
+2019-01-14 20:20:14,349 INFO  main                             -  >>In Binding [jvm] Begins - com.example.demofacade.HelloService.
+2019-01-14 20:20:14,358 INFO  main                             -  >>In Binding [jvm] Ends - com.example.demofacade.HelloService.
+2019-01-14 20:20:14,359 INFO  main                             - Registering component: reference:com.example.demo.DemoService:demoService#349991580
+2019-01-14 20:20:14,360 INFO  main                             -  >>In Binding [jvm] Begins - com.example.demo.DemoService:demoService.
+2019-01-14 20:20:14,365 INFO  main                             -  >>In Binding [jvm] Ends - com.example.demo.DemoService:demoService.
+2019-01-14 20:20:15,884 INFO  main                             - Registering component: service:com.example.demofacade.HelloService
+2019-01-14 20:20:15,885 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.example.demofacade.HelloService.
+2019-01-14 20:20:15,889 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.example.demofacade.HelloService.
+2019-01-14 20:20:15,890 INFO  main                             -  <<Out Binding [bolt] Begins - com.example.demofacade.HelloService.
+2019-01-14 20:20:15,909 INFO  main                             -  <<Out Binding [bolt] Ends - com.example.demofacade.HelloService.
+2019-01-14 20:20:15,910 INFO  main                             - Register Service - com.example.demofacade.HelloService
+2019-01-14 20:20:15,911 INFO  main                             - Registering component: service:com.example.demo.DemoService:demoService
+2019-01-14 20:20:15,911 INFO  main                             -  <<PreOut Binding [jvm] Begins - com.example.demo.DemoService:demoService.
+2019-01-14 20:20:15,911 INFO  main                             -  <<PreOut Binding [jvm] Ends - com.example.demo.DemoService:demoService.
+2019-01-14 20:20:15,911 INFO  main                             -  <<Out Binding [jvm] Begins - com.example.demo.DemoService:demoService.
+2019-01-14 20:20:15,911 INFO  main                             -  <<Out Binding [jvm] Ends - com.example.demo.DemoService:demoService.
+2019-01-14 20:20:15,911 INFO  main                             - Register Service - com.example.demo.DemoService:demoService
+2019-01-14 20:20:15,912 INFO  main                             - Registering component: service:com.example.demofacade.HelloOneService
+2019-01-14 20:20:15,912 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.example.demofacade.HelloOneService.
+2019-01-14 20:20:15,912 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.example.demofacade.HelloOneService.
+2019-01-14 20:20:15,912 INFO  main                             -  <<Out Binding [bolt] Begins - com.example.demofacade.HelloOneService.
+2019-01-14 20:20:15,913 INFO  main                             -  <<Out Binding [bolt] Ends - com.example.demofacade.HelloOneService.
+2019-01-14 20:20:15,913 INFO  main                             - Register Service - com.example.demofacade.HelloOneService
+2019-01-14 20:20:15,960 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-14 20:20:15,968 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot Demo End +++++++++++++++++
+2019-01-14 20:20:15,968 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-14 20:20:15,969 INFO  main                             - 
+All activated module list(2) >>>>>>>
+  ├─ com.example.demo-facade
+  └─ com.example.demo-service
+
+Modules that could install(2) >>>>>>>
+  ├─ com.example.demo-facade
+  └─ com.example.demo-service
+
+2019-01-14 20:20:15,971 INFO  main                             - Start install SOFABoot Demos module: com.example.demo-facade
+2019-01-14 20:20:15,995 INFO  main                             - Start install SOFABoot Demos module: com.example.demo-service
+2019-01-14 20:20:16,016 INFO  sofa-module-start-com.example.demo-facade - Begin refresh Spring Application Context of module com.example.demo-facade of application SOFABoot Demo.
+2019-01-14 20:20:16,016 INFO  sofa-module-start-com.example.demo-service - Begin refresh Spring Application Context of module com.example.demo-service of application SOFABoot Demo.
+2019-01-14 20:20:16,047 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot Demo End +++++++++++++++++
+2019-01-14 20:20:16,047 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-14 20:20:16,048 INFO  main                             - 
+Spring context initialize success module list(2) >>>>>>> [totalTime = 62 ms, realTime = 31 ms]
+  ├─ com.example.demo-facade [31 ms]
+  │    `---/Users/henry-sun/data/www/aliant/demo/demo-facade/target/classes/META-INF/spring/service-provide.xml
+  └─ com.example.demo-service [31 ms]
+       `---/Users/henry-sun/data/www/aliant/demo/demo-service/target/classes/META-INF/spring/service-provide.xml
+
+Spring context initialize failed module list(0) >>>>>>>
+
+Spring bean load time cost list(2) >>>>>>> [totalTime = 62 ms, realTime = 31 ms]
+  ├─ com.example.demo-facade [31 ms]
+  └─ com.example.demo-service [31 ms]
+
+2019-01-14 20:20:16,048 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot Demo End +++++++++++++++++
+2019-01-14 21:10:48,935 INFO  main                             - SOFABoot Runtime Starting!
+2019-01-14 21:10:55,225 INFO  main                             - Registering component: reference:com.example.demofacade.SampleService:#349991580
+2019-01-14 21:10:55,227 INFO  main                             -  >>In Binding [jvm] Begins - com.example.demofacade.SampleService.
+2019-01-14 21:10:55,336 INFO  main                             -  >>In Binding [jvm] Ends - com.example.demofacade.SampleService.
+2019-01-14 21:10:55,363 INFO  main                             - Registering component: reference:com.example.demofacade.HelloService:#-1644051230
+2019-01-14 21:10:55,365 INFO  main                             -  >>In Binding [bolt] Begins - com.example.demofacade.HelloService.
+2019-01-14 21:10:56,859 INFO  main                             -  >>In Binding [bolt] Ends - com.example.demofacade.HelloService.
+2019-01-14 21:10:56,859 INFO  main                             -  >>In Binding [jvm] Begins - com.example.demofacade.HelloService.
+2019-01-14 21:10:56,862 INFO  main                             -  >>In Binding [jvm] Ends - com.example.demofacade.HelloService.
+2019-01-14 21:10:56,863 INFO  main                             - Registering component: reference:com.example.demo.DemoService:demoService#349991580
+2019-01-14 21:10:56,863 INFO  main                             -  >>In Binding [jvm] Begins - com.example.demo.DemoService:demoService.
+2019-01-14 21:10:56,868 INFO  main                             -  >>In Binding [jvm] Ends - com.example.demo.DemoService:demoService.
+2019-01-14 21:10:58,822 INFO  main                             - Registering component: service:com.example.demofacade.HelloService
+2019-01-14 21:10:58,823 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.example.demofacade.HelloService.
+2019-01-14 21:10:58,831 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.example.demofacade.HelloService.
+2019-01-14 21:10:58,831 INFO  main                             -  <<Out Binding [bolt] Begins - com.example.demofacade.HelloService.
+2019-01-14 21:10:58,854 INFO  main                             -  <<Out Binding [bolt] Ends - com.example.demofacade.HelloService.
+2019-01-14 21:10:58,854 INFO  main                             - Register Service - com.example.demofacade.HelloService
+2019-01-14 21:10:58,856 INFO  main                             - Registering component: service:com.example.demo.DemoService:demoService
+2019-01-14 21:10:58,856 INFO  main                             -  <<PreOut Binding [jvm] Begins - com.example.demo.DemoService:demoService.
+2019-01-14 21:10:58,856 INFO  main                             -  <<PreOut Binding [jvm] Ends - com.example.demo.DemoService:demoService.
+2019-01-14 21:10:58,856 INFO  main                             -  <<Out Binding [jvm] Begins - com.example.demo.DemoService:demoService.
+2019-01-14 21:10:58,856 INFO  main                             -  <<Out Binding [jvm] Ends - com.example.demo.DemoService:demoService.
+2019-01-14 21:10:58,856 INFO  main                             - Register Service - com.example.demo.DemoService:demoService
+2019-01-14 21:10:58,857 INFO  main                             - Registering component: service:com.example.demofacade.HelloOneService
+2019-01-14 21:10:58,857 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.example.demofacade.HelloOneService.
+2019-01-14 21:10:58,857 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.example.demofacade.HelloOneService.
+2019-01-14 21:10:58,857 INFO  main                             -  <<Out Binding [bolt] Begins - com.example.demofacade.HelloOneService.
+2019-01-14 21:10:58,858 INFO  main                             -  <<Out Binding [bolt] Ends - com.example.demofacade.HelloOneService.
+2019-01-14 21:10:58,858 INFO  main                             - Register Service - com.example.demofacade.HelloOneService
+2019-01-14 21:10:58,907 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-14 21:10:58,920 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot Demo End +++++++++++++++++
+2019-01-14 21:10:58,920 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-14 21:10:58,921 INFO  main                             - 
+All activated module list(2) >>>>>>>
+  ├─ com.example.demo-facade
+  └─ com.example.demo-service
+
+Modules that could install(2) >>>>>>>
+  ├─ com.example.demo-facade
+  └─ com.example.demo-service
+
+2019-01-14 21:10:58,922 INFO  main                             - Start install SOFABoot Demos module: com.example.demo-facade
+2019-01-14 21:10:58,956 INFO  main                             - Start install SOFABoot Demos module: com.example.demo-service
+2019-01-14 21:10:58,980 INFO  sofa-module-start-com.example.demo-facade - Begin refresh Spring Application Context of module com.example.demo-facade of application SOFABoot Demo.
+2019-01-14 21:10:58,980 INFO  sofa-module-start-com.example.demo-service - Begin refresh Spring Application Context of module com.example.demo-service of application SOFABoot Demo.
+2019-01-14 21:10:59,087 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot Demo End +++++++++++++++++
+2019-01-14 21:10:59,088 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-14 21:10:59,088 INFO  main                             - 
+Spring context initialize success module list(2) >>>>>>> [totalTime = 188 ms, realTime = 107 ms]
+  ├─ com.example.demo-facade [82 ms]
+  │    `---/Users/henry-sun/data/www/aliant/demo/demo-facade/target/classes/META-INF/spring/service-provide.xml
+  └─ com.example.demo-service [106 ms]
+       `---/Users/henry-sun/data/www/aliant/demo/demo-service/target/classes/META-INF/spring/service-provide.xml
+
+Spring context initialize failed module list(0) >>>>>>>
+
+Spring bean load time cost list(2) >>>>>>> [totalTime = 188 ms, realTime = 107 ms]
+  ├─ com.example.demo-facade [82 ms]
+  └─ com.example.demo-service [106 ms]
+
+2019-01-14 21:10:59,088 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot Demo End +++++++++++++++++
+2019-01-14 21:22:26,938 INFO  main                             - SOFABoot Runtime Starting!
+2019-01-14 21:22:32,914 INFO  main                             - Registering component: reference:com.example.demofacade.SampleService:#349991580
+2019-01-14 21:22:32,915 INFO  main                             -  >>In Binding [jvm] Begins - com.example.demofacade.SampleService.
+2019-01-14 21:22:32,917 INFO  main                             -  >>In Binding [jvm] Ends - com.example.demofacade.SampleService.
+2019-01-14 21:22:32,918 INFO  main                             - Registering component: reference:com.example.demofacade.HelloService:#1647352216
+2019-01-14 21:22:32,918 INFO  main                             -  >>In Binding [bolt] Begins - com.example.demofacade.HelloService.
+2019-01-14 21:22:34,045 INFO  main                             -  >>In Binding [bolt] Ends - com.example.demofacade.HelloService.
+2019-01-14 21:22:34,046 INFO  main                             -  >>In Binding [jvm] Begins - com.example.demofacade.HelloService.
+2019-01-14 21:22:34,049 INFO  main                             -  >>In Binding [jvm] Ends - com.example.demofacade.HelloService.
+2019-01-14 21:22:34,050 INFO  main                             - Registering component: reference:com.example.demo.DemoService:demoService#349991580
+2019-01-14 21:22:34,050 INFO  main                             -  >>In Binding [jvm] Begins - com.example.demo.DemoService:demoService.
+2019-01-14 21:22:34,051 INFO  main                             -  >>In Binding [jvm] Ends - com.example.demo.DemoService:demoService.
+2019-01-14 21:22:35,175 INFO  main                             - Registering component: service:com.example.demofacade.HelloService
+2019-01-14 21:22:35,175 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.example.demofacade.HelloService.
+2019-01-14 21:22:35,179 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.example.demofacade.HelloService.
+2019-01-14 21:22:35,179 INFO  main                             -  <<Out Binding [bolt] Begins - com.example.demofacade.HelloService.
+2019-01-14 21:22:35,193 INFO  main                             -  <<Out Binding [bolt] Ends - com.example.demofacade.HelloService.
+2019-01-14 21:22:35,193 INFO  main                             - Register Service - com.example.demofacade.HelloService
+2019-01-14 21:22:35,194 INFO  main                             - Registering component: service:com.example.demo.DemoService:demoService
+2019-01-14 21:22:35,194 INFO  main                             -  <<PreOut Binding [jvm] Begins - com.example.demo.DemoService:demoService.
+2019-01-14 21:22:35,194 INFO  main                             -  <<PreOut Binding [jvm] Ends - com.example.demo.DemoService:demoService.
+2019-01-14 21:22:35,194 INFO  main                             -  <<Out Binding [jvm] Begins - com.example.demo.DemoService:demoService.
+2019-01-14 21:22:35,194 INFO  main                             -  <<Out Binding [jvm] Ends - com.example.demo.DemoService:demoService.
+2019-01-14 21:22:35,194 INFO  main                             - Register Service - com.example.demo.DemoService:demoService
+2019-01-14 21:22:35,195 INFO  main                             - Registering component: service:com.example.demofacade.HelloOneService
+2019-01-14 21:22:35,195 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.example.demofacade.HelloOneService.
+2019-01-14 21:22:35,196 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.example.demofacade.HelloOneService.
+2019-01-14 21:22:35,196 INFO  main                             -  <<Out Binding [bolt] Begins - com.example.demofacade.HelloOneService.
+2019-01-14 21:22:35,198 INFO  main                             -  <<Out Binding [bolt] Ends - com.example.demofacade.HelloOneService.
+2019-01-14 21:22:35,198 INFO  main                             - Register Service - com.example.demofacade.HelloOneService
+2019-01-14 21:22:35,239 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-14 21:22:35,249 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot Demo End +++++++++++++++++
+2019-01-14 21:22:35,250 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-14 21:22:35,251 INFO  main                             - 
+All activated module list(2) >>>>>>>
+  ├─ com.example.demo-facade
+  └─ com.example.demo-service
+
+Modules that could install(2) >>>>>>>
+  ├─ com.example.demo-facade
+  └─ com.example.demo-service
+
+2019-01-14 21:22:35,252 INFO  main                             - Start install SOFABoot Demos module: com.example.demo-facade
+2019-01-14 21:22:35,322 INFO  main                             - Start install SOFABoot Demos module: com.example.demo-service
+2019-01-14 21:22:35,345 INFO  sofa-module-start-com.example.demo-facade - Begin refresh Spring Application Context of module com.example.demo-facade of application SOFABoot Demo.
+2019-01-14 21:22:35,345 INFO  sofa-module-start-com.example.demo-service - Begin refresh Spring Application Context of module com.example.demo-service of application SOFABoot Demo.
+2019-01-14 21:22:35,387 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot Demo End +++++++++++++++++
+2019-01-14 21:22:35,387 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-14 21:22:35,388 INFO  main                             - 
+Spring context initialize success module list(2) >>>>>>> [totalTime = 78 ms, realTime = 39 ms]
+  ├─ com.example.demo-facade [39 ms]
+  │    `---/Users/henry-sun/data/www/aliant/demo/demo-facade/target/classes/META-INF/spring/service-provide.xml
+  └─ com.example.demo-service [39 ms]
+       `---/Users/henry-sun/data/www/aliant/demo/demo-service/target/classes/META-INF/spring/service-provide.xml
+
+Spring context initialize failed module list(0) >>>>>>>
+
+Spring bean load time cost list(2) >>>>>>> [totalTime = 78 ms, realTime = 39 ms]
+  ├─ com.example.demo-facade [39 ms]
+  └─ com.example.demo-service [39 ms]
+
+2019-01-14 21:22:35,388 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot Demo End +++++++++++++++++
+2019-01-14 21:33:20,201 INFO  main                             - SOFABoot Runtime Starting!
+2019-01-14 21:33:29,212 INFO  main                             - Registering component: reference:com.example.demofacade.SampleService:#349991580
+2019-01-14 21:33:29,214 INFO  main                             -  >>In Binding [jvm] Begins - com.example.demofacade.SampleService.
+2019-01-14 21:33:29,219 INFO  main                             -  >>In Binding [jvm] Ends - com.example.demofacade.SampleService.
+2019-01-14 21:33:29,220 INFO  main                             - Registering component: reference:com.example.demofacade.HelloService:#450262596
+2019-01-14 21:33:29,220 INFO  main                             -  >>In Binding [bolt] Begins - com.example.demofacade.HelloService.
+2019-01-14 21:33:30,398 INFO  main                             -  >>In Binding [bolt] Ends - com.example.demofacade.HelloService.
+2019-01-14 21:33:30,398 INFO  main                             -  >>In Binding [jvm] Begins - com.example.demofacade.HelloService.
+2019-01-14 21:33:30,400 INFO  main                             -  >>In Binding [jvm] Ends - com.example.demofacade.HelloService.
+2019-01-14 21:33:30,400 INFO  main                             - Registering component: reference:com.example.demo.DemoService:demoService#349991580
+2019-01-14 21:33:30,400 INFO  main                             -  >>In Binding [jvm] Begins - com.example.demo.DemoService:demoService.
+2019-01-14 21:33:30,401 INFO  main                             -  >>In Binding [jvm] Ends - com.example.demo.DemoService:demoService.
+2019-01-14 21:33:31,577 INFO  main                             - Registering component: service:com.example.demofacade.HelloService
+2019-01-14 21:33:31,577 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.example.demofacade.HelloService.
+2019-01-14 21:33:31,581 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.example.demofacade.HelloService.
+2019-01-14 21:33:31,581 INFO  main                             -  <<Out Binding [bolt] Begins - com.example.demofacade.HelloService.
+2019-01-14 21:33:31,599 INFO  main                             -  <<Out Binding [bolt] Ends - com.example.demofacade.HelloService.
+2019-01-14 21:33:31,599 INFO  main                             - Register Service - com.example.demofacade.HelloService
+2019-01-14 21:33:31,600 INFO  main                             - Registering component: service:com.example.demo.DemoService:demoService
+2019-01-14 21:33:31,600 INFO  main                             -  <<PreOut Binding [jvm] Begins - com.example.demo.DemoService:demoService.
+2019-01-14 21:33:31,600 INFO  main                             -  <<PreOut Binding [jvm] Ends - com.example.demo.DemoService:demoService.
+2019-01-14 21:33:31,600 INFO  main                             -  <<Out Binding [jvm] Begins - com.example.demo.DemoService:demoService.
+2019-01-14 21:33:31,600 INFO  main                             -  <<Out Binding [jvm] Ends - com.example.demo.DemoService:demoService.
+2019-01-14 21:33:31,600 INFO  main                             - Register Service - com.example.demo.DemoService:demoService
+2019-01-14 21:33:31,601 INFO  main                             - Registering component: service:com.example.demofacade.HelloOneService
+2019-01-14 21:33:31,601 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.example.demofacade.HelloOneService.
+2019-01-14 21:33:31,602 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.example.demofacade.HelloOneService.
+2019-01-14 21:33:31,602 INFO  main                             -  <<Out Binding [bolt] Begins - com.example.demofacade.HelloOneService.
+2019-01-14 21:33:31,604 INFO  main                             -  <<Out Binding [bolt] Ends - com.example.demofacade.HelloOneService.
+2019-01-14 21:33:31,605 INFO  main                             - Register Service - com.example.demofacade.HelloOneService
+2019-01-14 21:33:31,804 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-14 21:33:31,828 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot Demo End +++++++++++++++++
+2019-01-14 21:33:31,828 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-14 21:33:31,833 INFO  main                             - 
+All activated module list(2) >>>>>>>
+  ├─ com.example.demo-facade
+  └─ com.example.demo-service
+
+Modules that could install(2) >>>>>>>
+  ├─ com.example.demo-facade
+  └─ com.example.demo-service
+
+2019-01-14 21:33:31,840 INFO  main                             - Start install SOFABoot Demos module: com.example.demo-facade
+2019-01-14 21:33:31,886 INFO  main                             - Start install SOFABoot Demos module: com.example.demo-service
+2019-01-14 21:33:31,905 INFO  sofa-module-start-com.example.demo-facade - Begin refresh Spring Application Context of module com.example.demo-facade of application SOFABoot Demo.
+2019-01-14 21:33:31,905 INFO  sofa-module-start-com.example.demo-service - Begin refresh Spring Application Context of module com.example.demo-service of application SOFABoot Demo.
+2019-01-14 21:33:31,939 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot Demo End +++++++++++++++++
+2019-01-14 21:33:31,939 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-14 21:33:31,939 INFO  main                             - 
+Spring context initialize success module list(2) >>>>>>> [totalTime = 66 ms, realTime = 33 ms]
+  ├─ com.example.demo-facade [33 ms]
+  │    `---/Users/henry-sun/data/www/aliant/demo/demo-facade/target/classes/META-INF/spring/service-provide.xml
+  └─ com.example.demo-service [33 ms]
+       `---/Users/henry-sun/data/www/aliant/demo/demo-service/target/classes/META-INF/spring/service-provide.xml
+
+Spring context initialize failed module list(0) >>>>>>>
+
+Spring bean load time cost list(2) >>>>>>> [totalTime = 66 ms, realTime = 33 ms]
+  ├─ com.example.demo-facade [33 ms]
+  └─ com.example.demo-service [33 ms]
+
+2019-01-14 21:33:31,939 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot Demo End +++++++++++++++++
+2019-01-14 21:34:50,217 INFO  main                             - SOFABoot Runtime Starting!
+2019-01-14 21:34:55,920 INFO  main                             - Registering component: reference:com.example.demofacade.SampleService:#349991580
+2019-01-14 21:34:55,921 INFO  main                             -  >>In Binding [jvm] Begins - com.example.demofacade.SampleService.
+2019-01-14 21:34:55,925 INFO  main                             -  >>In Binding [jvm] Ends - com.example.demofacade.SampleService.
+2019-01-14 21:34:55,926 INFO  main                             - Registering component: reference:com.example.demofacade.HelloService:#-1009248512
+2019-01-14 21:34:55,926 INFO  main                             -  >>In Binding [bolt] Begins - com.example.demofacade.HelloService.
+2019-01-14 21:34:56,800 INFO  main                             -  >>In Binding [bolt] Ends - com.example.demofacade.HelloService.
+2019-01-14 21:34:56,800 INFO  main                             -  >>In Binding [jvm] Begins - com.example.demofacade.HelloService.
+2019-01-14 21:34:56,802 INFO  main                             -  >>In Binding [jvm] Ends - com.example.demofacade.HelloService.
+2019-01-14 21:34:56,802 INFO  main                             - Registering component: reference:com.example.demo.DemoService:demoService#349991580
+2019-01-14 21:34:56,802 INFO  main                             -  >>In Binding [jvm] Begins - com.example.demo.DemoService:demoService.
+2019-01-14 21:34:56,804 INFO  main                             -  >>In Binding [jvm] Ends - com.example.demo.DemoService:demoService.
+2019-01-14 21:34:58,225 INFO  main                             - Registering component: service:com.example.demofacade.HelloService
+2019-01-14 21:34:58,225 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.example.demofacade.HelloService.
+2019-01-14 21:34:58,236 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.example.demofacade.HelloService.
+2019-01-14 21:34:58,236 INFO  main                             -  <<Out Binding [bolt] Begins - com.example.demofacade.HelloService.
+2019-01-14 21:34:58,269 INFO  main                             -  <<Out Binding [bolt] Ends - com.example.demofacade.HelloService.
+2019-01-14 21:34:58,269 INFO  main                             - Register Service - com.example.demofacade.HelloService
+2019-01-14 21:34:58,270 INFO  main                             - Registering component: service:com.example.demo.DemoService:demoService
+2019-01-14 21:34:58,271 INFO  main                             -  <<PreOut Binding [jvm] Begins - com.example.demo.DemoService:demoService.
+2019-01-14 21:34:58,271 INFO  main                             -  <<PreOut Binding [jvm] Ends - com.example.demo.DemoService:demoService.
+2019-01-14 21:34:58,271 INFO  main                             -  <<Out Binding [jvm] Begins - com.example.demo.DemoService:demoService.
+2019-01-14 21:34:58,271 INFO  main                             -  <<Out Binding [jvm] Ends - com.example.demo.DemoService:demoService.
+2019-01-14 21:34:58,271 INFO  main                             - Register Service - com.example.demo.DemoService:demoService
+2019-01-14 21:34:58,271 INFO  main                             - Registering component: service:com.example.demofacade.HelloOneService
+2019-01-14 21:34:58,272 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.example.demofacade.HelloOneService.
+2019-01-14 21:34:58,272 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.example.demofacade.HelloOneService.
+2019-01-14 21:34:58,272 INFO  main                             -  <<Out Binding [bolt] Begins - com.example.demofacade.HelloOneService.
+2019-01-14 21:34:58,273 INFO  main                             -  <<Out Binding [bolt] Ends - com.example.demofacade.HelloOneService.
+2019-01-14 21:34:58,273 INFO  main                             - Register Service - com.example.demofacade.HelloOneService
+2019-01-14 21:34:58,325 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-14 21:34:58,351 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot Demo End +++++++++++++++++
+2019-01-14 21:34:58,351 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-14 21:34:58,352 INFO  main                             - 
+All activated module list(2) >>>>>>>
+  ├─ com.example.demo-facade
+  └─ com.example.demo-service
+
+Modules that could install(2) >>>>>>>
+  ├─ com.example.demo-facade
+  └─ com.example.demo-service
+
+2019-01-14 21:34:58,355 INFO  main                             - Start install SOFABoot Demos module: com.example.demo-facade
+2019-01-14 21:34:58,402 INFO  main                             - Start install SOFABoot Demos module: com.example.demo-service
+2019-01-14 21:34:58,422 INFO  sofa-module-start-com.example.demo-service - Begin refresh Spring Application Context of module com.example.demo-service of application SOFABoot Demo.
+2019-01-14 21:34:58,422 INFO  sofa-module-start-com.example.demo-facade - Begin refresh Spring Application Context of module com.example.demo-facade of application SOFABoot Demo.
+2019-01-14 21:34:58,462 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot Demo End +++++++++++++++++
+2019-01-14 21:34:58,463 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-14 21:34:58,464 INFO  main                             - 
+Spring context initialize success module list(2) >>>>>>> [totalTime = 78 ms, realTime = 39 ms]
+  ├─ com.example.demo-service [39 ms]
+  │    `---/Users/henry-sun/data/www/aliant/demo/demo-service/target/classes/META-INF/spring/service-provide.xml
+  └─ com.example.demo-facade [39 ms]
+       `---/Users/henry-sun/data/www/aliant/demo/demo-facade/target/classes/META-INF/spring/service-provide.xml
+
+Spring context initialize failed module list(0) >>>>>>>
+
+Spring bean load time cost list(2) >>>>>>> [totalTime = 78 ms, realTime = 39 ms]
+  ├─ com.example.demo-service [39 ms]
+  └─ com.example.demo-facade [39 ms]
+
+2019-01-14 21:34:58,464 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot Demo End +++++++++++++++++
+2019-01-14 21:48:42,019 INFO  main                             - SOFABoot Runtime Starting!
+2019-01-14 21:48:47,923 INFO  main                             - Registering component: reference:com.example.demofacade.SampleService:#349991580
+2019-01-14 21:48:47,924 INFO  main                             -  >>In Binding [jvm] Begins - com.example.demofacade.SampleService.
+2019-01-14 21:48:47,926 INFO  main                             -  >>In Binding [jvm] Ends - com.example.demofacade.SampleService.
+2019-01-14 21:48:47,927 INFO  main                             - Registering component: reference:com.example.demofacade.HelloService:#1897617700
+2019-01-14 21:48:47,927 INFO  main                             -  >>In Binding [bolt] Begins - com.example.demofacade.HelloService.
+2019-01-14 21:48:49,257 INFO  main                             -  >>In Binding [bolt] Ends - com.example.demofacade.HelloService.
+2019-01-14 21:48:49,257 INFO  main                             -  >>In Binding [jvm] Begins - com.example.demofacade.HelloService.
+2019-01-14 21:48:49,259 INFO  main                             -  >>In Binding [jvm] Ends - com.example.demofacade.HelloService.
+2019-01-14 21:48:49,259 INFO  main                             - Registering component: reference:com.example.demo.DemoService:demoService#349991580
+2019-01-14 21:48:49,259 INFO  main                             -  >>In Binding [jvm] Begins - com.example.demo.DemoService:demoService.
+2019-01-14 21:48:49,266 INFO  main                             -  >>In Binding [jvm] Ends - com.example.demo.DemoService:demoService.
+2019-01-14 21:48:50,660 INFO  main                             - Registering component: service:com.example.demofacade.HelloService
+2019-01-14 21:48:50,660 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.example.demofacade.HelloService.
+2019-01-14 21:48:50,667 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.example.demofacade.HelloService.
+2019-01-14 21:48:50,667 INFO  main                             -  <<Out Binding [bolt] Begins - com.example.demofacade.HelloService.
+2019-01-14 21:48:50,690 INFO  main                             -  <<Out Binding [bolt] Ends - com.example.demofacade.HelloService.
+2019-01-14 21:48:50,691 INFO  main                             - Register Service - com.example.demofacade.HelloService
+2019-01-14 21:48:50,692 INFO  main                             - Registering component: service:com.example.demo.DemoService:demoService
+2019-01-14 21:48:50,692 INFO  main                             -  <<PreOut Binding [jvm] Begins - com.example.demo.DemoService:demoService.
+2019-01-14 21:48:50,692 INFO  main                             -  <<PreOut Binding [jvm] Ends - com.example.demo.DemoService:demoService.
+2019-01-14 21:48:50,692 INFO  main                             -  <<Out Binding [jvm] Begins - com.example.demo.DemoService:demoService.
+2019-01-14 21:48:50,693 INFO  main                             -  <<Out Binding [jvm] Ends - com.example.demo.DemoService:demoService.
+2019-01-14 21:48:50,693 INFO  main                             - Register Service - com.example.demo.DemoService:demoService
+2019-01-14 21:48:50,694 INFO  main                             - Registering component: service:com.example.demofacade.HelloOneService
+2019-01-14 21:48:50,694 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.example.demofacade.HelloOneService.
+2019-01-14 21:48:50,695 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.example.demofacade.HelloOneService.
+2019-01-14 21:48:50,695 INFO  main                             -  <<Out Binding [bolt] Begins - com.example.demofacade.HelloOneService.
+2019-01-14 21:48:50,696 INFO  main                             -  <<Out Binding [bolt] Ends - com.example.demofacade.HelloOneService.
+2019-01-14 21:48:50,696 INFO  main                             - Register Service - com.example.demofacade.HelloOneService
+2019-01-14 21:48:50,742 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-14 21:48:50,753 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot Demo End +++++++++++++++++
+2019-01-14 21:48:50,753 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-14 21:48:50,754 INFO  main                             - 
+All activated module list(2) >>>>>>>
+  ├─ com.example.demo-facade
+  └─ com.example.demo-service
+
+Modules that could install(2) >>>>>>>
+  ├─ com.example.demo-facade
+  └─ com.example.demo-service
+
+2019-01-14 21:48:50,755 INFO  main                             - Start install SOFABoot Demos module: com.example.demo-facade
+2019-01-14 21:48:50,783 INFO  main                             - Start install SOFABoot Demos module: com.example.demo-service
+2019-01-14 21:48:50,800 INFO  sofa-module-start-com.example.demo-facade - Begin refresh Spring Application Context of module com.example.demo-facade of application SOFABoot Demo.
+2019-01-14 21:48:50,800 INFO  sofa-module-start-com.example.demo-service - Begin refresh Spring Application Context of module com.example.demo-service of application SOFABoot Demo.
+2019-01-14 21:48:50,827 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot Demo End +++++++++++++++++
+2019-01-14 21:48:50,827 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-14 21:48:50,828 INFO  main                             - 
+Spring context initialize success module list(2) >>>>>>> [totalTime = 54 ms, realTime = 27 ms]
+  ├─ com.example.demo-service [27 ms]
+  │    `---/Users/henry-sun/data/www/aliant/demo/demo-service/target/classes/META-INF/spring/service-provide.xml
+  └─ com.example.demo-facade [27 ms]
+       `---/Users/henry-sun/data/www/aliant/demo/demo-facade/target/classes/META-INF/spring/service-provide.xml
+
+Spring context initialize failed module list(0) >>>>>>>
+
+Spring bean load time cost list(2) >>>>>>> [totalTime = 54 ms, realTime = 27 ms]
+  ├─ com.example.demo-service [27 ms]
+  └─ com.example.demo-facade [27 ms]
+
+2019-01-14 21:48:50,828 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot Demo End +++++++++++++++++
+2019-01-14 21:55:02,184 INFO  main                             - SOFABoot Runtime Starting!
+2019-01-14 21:55:07,422 INFO  main                             - Registering component: reference:com.example.demofacade.SampleService:#349991580
+2019-01-14 21:55:07,423 INFO  main                             -  >>In Binding [jvm] Begins - com.example.demofacade.SampleService.
+2019-01-14 21:55:07,432 INFO  main                             -  >>In Binding [jvm] Ends - com.example.demofacade.SampleService.
+2019-01-14 21:55:07,433 INFO  main                             - Registering component: reference:com.example.demofacade.HelloService:#405574464
+2019-01-14 21:55:07,434 INFO  main                             -  >>In Binding [bolt] Begins - com.example.demofacade.HelloService.
+2019-01-14 21:55:08,085 INFO  main                             -  >>In Binding [bolt] Ends - com.example.demofacade.HelloService.
+2019-01-14 21:55:08,086 INFO  main                             -  >>In Binding [jvm] Begins - com.example.demofacade.HelloService.
+2019-01-14 21:55:08,088 INFO  main                             -  >>In Binding [jvm] Ends - com.example.demofacade.HelloService.
+2019-01-14 21:55:08,088 INFO  main                             - Registering component: reference:com.example.demo.DemoService:demoService#349991580
+2019-01-14 21:55:08,088 INFO  main                             -  >>In Binding [jvm] Begins - com.example.demo.DemoService:demoService.
+2019-01-14 21:55:08,090 INFO  main                             -  >>In Binding [jvm] Ends - com.example.demo.DemoService:demoService.
+2019-01-14 21:55:10,043 INFO  main                             - Registering component: service:com.example.demofacade.HelloService
+2019-01-14 21:55:10,043 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.example.demofacade.HelloService.
+2019-01-14 21:55:10,051 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.example.demofacade.HelloService.
+2019-01-14 21:55:10,051 INFO  main                             -  <<Out Binding [bolt] Begins - com.example.demofacade.HelloService.
+2019-01-14 21:55:10,094 INFO  main                             -  <<Out Binding [bolt] Ends - com.example.demofacade.HelloService.
+2019-01-14 21:55:10,095 INFO  main                             - Register Service - com.example.demofacade.HelloService
+2019-01-14 21:55:10,096 INFO  main                             - Registering component: service:com.example.demo.DemoService:demoService
+2019-01-14 21:55:10,097 INFO  main                             -  <<PreOut Binding [jvm] Begins - com.example.demo.DemoService:demoService.
+2019-01-14 21:55:10,097 INFO  main                             -  <<PreOut Binding [jvm] Ends - com.example.demo.DemoService:demoService.
+2019-01-14 21:55:10,097 INFO  main                             -  <<Out Binding [jvm] Begins - com.example.demo.DemoService:demoService.
+2019-01-14 21:55:10,097 INFO  main                             -  <<Out Binding [jvm] Ends - com.example.demo.DemoService:demoService.
+2019-01-14 21:55:10,097 INFO  main                             - Register Service - com.example.demo.DemoService:demoService
+2019-01-14 21:55:10,099 INFO  main                             - Registering component: service:com.example.demofacade.HelloOneService
+2019-01-14 21:55:10,099 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.example.demofacade.HelloOneService.
+2019-01-14 21:55:10,099 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.example.demofacade.HelloOneService.
+2019-01-14 21:55:10,100 INFO  main                             -  <<Out Binding [bolt] Begins - com.example.demofacade.HelloOneService.
+2019-01-14 21:55:10,100 INFO  main                             -  <<Out Binding [bolt] Ends - com.example.demofacade.HelloOneService.
+2019-01-14 21:55:10,100 INFO  main                             - Register Service - com.example.demofacade.HelloOneService
+2019-01-14 21:55:10,198 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-14 21:55:10,209 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot Demo End +++++++++++++++++
+2019-01-14 21:55:10,210 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-14 21:55:10,210 INFO  main                             - 
+All activated module list(2) >>>>>>>
+  ├─ com.example.demo-facade
+  └─ com.example.demo-service
+
+Modules that could install(2) >>>>>>>
+  ├─ com.example.demo-facade
+  └─ com.example.demo-service
+
+2019-01-14 21:55:10,212 INFO  main                             - Start install SOFABoot Demos module: com.example.demo-facade
+2019-01-14 21:55:10,279 INFO  main                             - Start install SOFABoot Demos module: com.example.demo-service
+2019-01-14 21:55:10,319 INFO  sofa-module-start-com.example.demo-facade - Begin refresh Spring Application Context of module com.example.demo-facade of application SOFABoot Demo.
+2019-01-14 21:55:10,323 INFO  sofa-module-start-com.example.demo-service - Begin refresh Spring Application Context of module com.example.demo-service of application SOFABoot Demo.
+2019-01-14 21:55:10,399 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot Demo End +++++++++++++++++
+2019-01-14 21:55:10,399 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-14 21:55:10,399 INFO  main                             - 
+Spring context initialize success module list(2) >>>>>>> [totalTime = 149 ms, realTime = 77 ms]
+  ├─ com.example.demo-facade [77 ms]
+  │    `---/Users/henry-sun/data/www/aliant/demo/demo-facade/target/classes/META-INF/spring/service-provide.xml
+  └─ com.example.demo-service [72 ms]
+       `---/Users/henry-sun/data/www/aliant/demo/demo-service/target/classes/META-INF/spring/service-provide.xml
+
+Spring context initialize failed module list(0) >>>>>>>
+
+Spring bean load time cost list(2) >>>>>>> [totalTime = 149 ms, realTime = 77 ms]
+  ├─ com.example.demo-facade [77 ms]
+  └─ com.example.demo-service [72 ms]
+
+2019-01-14 21:55:10,399 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot Demo End +++++++++++++++++
+2019-01-14 21:56:36,891 INFO  main                             - SOFABoot Runtime Starting!
+2019-01-14 21:56:40,976 INFO  main                             - Registering component: reference:com.example.demofacade.SampleService:#349991580
+2019-01-14 21:56:40,977 INFO  main                             -  >>In Binding [jvm] Begins - com.example.demofacade.SampleService.
+2019-01-14 21:56:40,979 INFO  main                             -  >>In Binding [jvm] Ends - com.example.demofacade.SampleService.
+2019-01-14 21:56:40,980 INFO  main                             - Registering component: reference:com.example.demofacade.HelloService:#960626966
+2019-01-14 21:56:40,980 INFO  main                             -  >>In Binding [bolt] Begins - com.example.demofacade.HelloService.
+2019-01-14 21:56:41,447 INFO  main                             -  >>In Binding [bolt] Ends - com.example.demofacade.HelloService.
+2019-01-14 21:56:41,447 INFO  main                             -  >>In Binding [jvm] Begins - com.example.demofacade.HelloService.
+2019-01-14 21:56:41,449 INFO  main                             -  >>In Binding [jvm] Ends - com.example.demofacade.HelloService.
+2019-01-14 21:56:41,449 INFO  main                             - Registering component: reference:com.example.demo.DemoService:demoService#349991580
+2019-01-14 21:56:41,449 INFO  main                             -  >>In Binding [jvm] Begins - com.example.demo.DemoService:demoService.
+2019-01-14 21:56:41,451 INFO  main                             -  >>In Binding [jvm] Ends - com.example.demo.DemoService:demoService.
+2019-01-14 21:56:42,468 INFO  main                             - Registering component: service:com.example.demofacade.HelloService
+2019-01-14 21:56:42,468 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.example.demofacade.HelloService.
+2019-01-14 21:56:42,474 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.example.demofacade.HelloService.
+2019-01-14 21:56:42,474 INFO  main                             -  <<Out Binding [bolt] Begins - com.example.demofacade.HelloService.
+2019-01-14 21:56:42,492 INFO  main                             -  <<Out Binding [bolt] Ends - com.example.demofacade.HelloService.
+2019-01-14 21:56:42,492 INFO  main                             - Register Service - com.example.demofacade.HelloService
+2019-01-14 21:56:42,493 INFO  main                             - Registering component: service:com.example.demo.DemoService:demoService
+2019-01-14 21:56:42,493 INFO  main                             -  <<PreOut Binding [jvm] Begins - com.example.demo.DemoService:demoService.
+2019-01-14 21:56:42,494 INFO  main                             -  <<PreOut Binding [jvm] Ends - com.example.demo.DemoService:demoService.
+2019-01-14 21:56:42,494 INFO  main                             -  <<Out Binding [jvm] Begins - com.example.demo.DemoService:demoService.
+2019-01-14 21:56:42,494 INFO  main                             -  <<Out Binding [jvm] Ends - com.example.demo.DemoService:demoService.
+2019-01-14 21:56:42,494 INFO  main                             - Register Service - com.example.demo.DemoService:demoService
+2019-01-14 21:56:42,494 INFO  main                             - Registering component: service:com.example.demofacade.HelloOneService
+2019-01-14 21:56:42,494 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.example.demofacade.HelloOneService.
+2019-01-14 21:56:42,495 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.example.demofacade.HelloOneService.
+2019-01-14 21:56:42,495 INFO  main                             -  <<Out Binding [bolt] Begins - com.example.demofacade.HelloOneService.
+2019-01-14 21:56:42,496 INFO  main                             -  <<Out Binding [bolt] Ends - com.example.demofacade.HelloOneService.
+2019-01-14 21:56:42,496 INFO  main                             - Register Service - com.example.demofacade.HelloOneService
+2019-01-14 21:56:42,541 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-14 21:56:42,552 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot Demo End +++++++++++++++++
+2019-01-14 21:56:42,553 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-14 21:56:42,554 INFO  main                             - 
+All activated module list(2) >>>>>>>
+  ├─ com.example.demo-facade
+  └─ com.example.demo-service
+
+Modules that could install(2) >>>>>>>
+  ├─ com.example.demo-facade
+  └─ com.example.demo-service
+
+2019-01-14 21:56:42,554 INFO  main                             - Start install SOFABoot Demos module: com.example.demo-facade
+2019-01-14 21:56:42,577 INFO  main                             - Start install SOFABoot Demos module: com.example.demo-service
+2019-01-14 21:56:42,597 INFO  sofa-module-start-com.example.demo-facade - Begin refresh Spring Application Context of module com.example.demo-facade of application SOFABoot Demo.
+2019-01-14 21:56:42,598 INFO  sofa-module-start-com.example.demo-service - Begin refresh Spring Application Context of module com.example.demo-service of application SOFABoot Demo.
+2019-01-14 21:56:42,626 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot Demo End +++++++++++++++++
+2019-01-14 21:56:42,626 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-14 21:56:42,626 INFO  main                             - 
+Spring context initialize success module list(2) >>>>>>> [totalTime = 55 ms, realTime = 28 ms]
+  ├─ com.example.demo-service [27 ms]
+  │    `---/Users/henry-sun/data/www/aliant/demo/demo-service/target/classes/META-INF/spring/service-provide.xml
+  └─ com.example.demo-facade [28 ms]
+       `---/Users/henry-sun/data/www/aliant/demo/demo-facade/target/classes/META-INF/spring/service-provide.xml
+
+Spring context initialize failed module list(0) >>>>>>>
+
+Spring bean load time cost list(2) >>>>>>> [totalTime = 55 ms, realTime = 28 ms]
+  ├─ com.example.demo-service [27 ms]
+  └─ com.example.demo-facade [28 ms]
+
+2019-01-14 21:56:42,626 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot Demo End +++++++++++++++++

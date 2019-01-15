@@ -1,0 +1,4 @@
+2019-01-12 17:08:25.054[WARN]  rpc-client-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-01-12 17:08:25.065[WARN]  rpc-server-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-01-12 17:14:41.715[WARN]  rpc-client-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-01-12 17:14:41.723[WARN]  rpc-server-stat.log configured stat_log_interval=60 second and default cycle=60
