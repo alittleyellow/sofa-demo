@@ -79,3 +79,4 @@
 2019-01-16 15:37:25,099 INFO  RPC-RES-MONITOR                  RPC-BOLT-THREADPOOL - blockQueue:0, active:0, idle:0, poolSize:0
 2019-01-16 15:37:55,104 INFO  RPC-RES-MONITOR                  RPC-BOLT-THREADPOOL - blockQueue:0, active:0, idle:0, poolSize:0
 2019-01-16 15:38:25,109 INFO  RPC-RES-MONITOR                  RPC-BOLT-THREADPOOL - blockQueue:0, active:0, idle:0, poolSize:0
+2019-01-16 15:38:55,116 INFO  RPC-RES-MONITOR                  RPC-BOLT-THREADPOOL - blockQueue:0, active:0, idle:0, poolSize:0
