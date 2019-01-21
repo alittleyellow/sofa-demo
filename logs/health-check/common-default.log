@@ -126,3 +126,19 @@
 2019-01-21 18:22:55,140 INFO  main                             - SOFABoot ReadinessCheckCallback[rpcAfterHealthCheckCallback] check success.
 2019-01-21 18:22:55,140 INFO  main                             - ReadinessCheckCallback readiness check result: success.
 2019-01-21 18:22:55,140 INFO  main                             - Readiness check result: success
+2019-01-21 18:45:10,837 INFO  main                             - SOFABoot HealthCheck Starting!
+2019-01-21 18:45:16,758 INFO  main                             - Found 2 HealthChecker implementation:sofaModuleHealthChecker,sofaComponentHealthChecker
+2019-01-21 18:45:16,760 INFO  main                             - Found 3 HealthIndicator implementation:sofaBootHealthIndicator,dbHealthIndicator,diskSpaceHealthIndicator
+2019-01-21 18:45:16,763 INFO  main                             - Found 1 ReadinessCheckCallback implementation: rpcAfterHealthCheckCallback
+2019-01-21 18:45:16,763 INFO  main                             - Begin SOFABoot HealthChecker readiness check.
+2019-01-21 18:45:16,765 INFO  main                             - HealthChecker[sofaModuleHealthChecker] readiness check success with 0 retry.
+2019-01-21 18:45:16,765 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check success with 0 retry.
+2019-01-21 18:45:16,765 INFO  main                             - SOFABoot HealthChecker readiness check result: success.
+2019-01-21 18:45:16,766 INFO  main                             - Begin SOFABoot HealthIndicator readiness check.
+2019-01-21 18:45:16,976 INFO  main                             - HealthIndicator[dbHealthIndicator] readiness check success.
+2019-01-21 18:45:16,977 INFO  main                             - HealthIndicator[diskSpaceHealthIndicator] readiness check success.
+2019-01-21 18:45:16,977 INFO  main                             - SOFABoot HealthIndicator readiness check result: success.
+2019-01-21 18:45:16,977 INFO  main                             - Begin ReadinessCheckCallback readiness check
+2019-01-21 18:45:17,288 INFO  main                             - SOFABoot ReadinessCheckCallback[rpcAfterHealthCheckCallback] check success.
+2019-01-21 18:45:17,289 INFO  main                             - ReadinessCheckCallback readiness check result: success.
+2019-01-21 18:45:17,289 INFO  main                             - Readiness check result: success

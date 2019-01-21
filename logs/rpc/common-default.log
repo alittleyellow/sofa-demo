@@ -118,3 +118,18 @@
 2019-01-21 18:22:52,498 INFO  main                             - Refer consumer config : bolt://com.example.demo.service.UserService: with bean id rpc-cfg-0
 2019-01-21 18:22:54,239 INFO  main                             - Export provider config : com.example.demo.service.UserService::bolt with bean id rpc-cfg-1
 2019-01-21 18:22:55,139 INFO  main                             - service published.  interfaceId[com.example.demo.service.UserService]; protocol[bolt]
+2019-01-21 18:45:06,495 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework catch JVM shutdown event, Run shutdown hook now.
+2019-01-21 18:45:06,502 INFO  Thread-23                        - Unexport provider config : com.example.demo.service.UserService::bolt with bean id rpc-cfg-1
+2019-01-21 18:45:06,546 INFO  SOFA-RPC-ShutdownHook            - UnRefer consumer config : bolt://com.example.demo.service.UserService: with bean id rpc-cfg-0
+2019-01-21 18:45:06,661 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: fault-tolerance
+2019-01-21 18:45:06,662 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer-resteasy
+2019-01-21 18:45:06,665 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer
+2019-01-21 18:45:06,666 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework has been release all resources ...
+2019-01-21 18:45:14,856 INFO  main                             - Welcome! Loading SOFA RPC Framework : 5.4.7_20181025093119, PID is:22707
+2019-01-21 18:45:14,867 INFO  main                             - Install Module: fault-tolerance
+2019-01-21 18:45:14,881 INFO  main                             - Install Module: sofaTracer-resteasy
+2019-01-21 18:45:14,953 INFO  main                             - The module lookout does not need to be loaded.
+2019-01-21 18:45:14,953 INFO  main                             - Install Module: sofaTracer
+2019-01-21 18:45:14,975 INFO  main                             - Refer consumer config : bolt://com.example.demo.service.UserService: with bean id rpc-cfg-0
+2019-01-21 18:45:16,667 INFO  main                             - Export provider config : com.example.demo.service.UserService::bolt with bean id rpc-cfg-1
+2019-01-21 18:45:17,286 INFO  main                             - service published.  interfaceId[com.example.demo.service.UserService]; protocol[bolt]

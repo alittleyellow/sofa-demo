@@ -238,3 +238,33 @@ Spring context initialize failed module list(0) >>>>>>>
 Spring bean load time cost list(0) >>>>>>> [totalTime = 0 ms, realTime = 0 ms]
 
 2019-01-21 18:22:54,317 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot Demo End +++++++++++++++++
+2019-01-21 18:45:11,038 INFO  main                             - SOFABoot Runtime Starting!
+2019-01-21 18:45:14,742 INFO  main                             - Registering component: reference:com.example.demo.service.UserService:#1601416239
+2019-01-21 18:45:14,742 INFO  main                             -  >>In Binding [bolt] Begins - com.example.demo.service.UserService.
+2019-01-21 18:45:15,358 INFO  main                             -  >>In Binding [bolt] Ends - com.example.demo.service.UserService.
+2019-01-21 18:45:15,358 INFO  main                             -  >>In Binding [jvm] Begins - com.example.demo.service.UserService.
+2019-01-21 18:45:15,361 INFO  main                             -  >>In Binding [jvm] Ends - com.example.demo.service.UserService.
+2019-01-21 18:45:16,653 INFO  main                             - Registering component: service:com.example.demo.service.UserService
+2019-01-21 18:45:16,653 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.example.demo.service.UserService.
+2019-01-21 18:45:16,658 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.example.demo.service.UserService.
+2019-01-21 18:45:16,658 INFO  main                             -  <<Out Binding [bolt] Begins - com.example.demo.service.UserService.
+2019-01-21 18:45:16,714 INFO  main                             -  <<Out Binding [bolt] Ends - com.example.demo.service.UserService.
+2019-01-21 18:45:16,714 INFO  main                             - Register Service - com.example.demo.service.UserService
+2019-01-21 18:45:16,752 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-21 18:45:16,754 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot Demo End +++++++++++++++++
+2019-01-21 18:45:16,754 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-21 18:45:16,754 INFO  main                             - 
+All activated module list(0) >>>>>>>
+
+Modules that could install(0) >>>>>>>
+
+2019-01-21 18:45:16,755 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot Demo End +++++++++++++++++
+2019-01-21 18:45:16,755 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-21 18:45:16,755 INFO  main                             - 
+Spring context initialize success module list(0) >>>>>>> [totalTime = 0 ms, realTime = 0 ms]
+
+Spring context initialize failed module list(0) >>>>>>>
+
+Spring bean load time cost list(0) >>>>>>> [totalTime = 0 ms, realTime = 0 ms]
+
+2019-01-21 18:45:16,755 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot Demo End +++++++++++++++++

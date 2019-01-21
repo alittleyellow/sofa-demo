@@ -82,3 +82,13 @@
 2019-01-21 18:22:55,258 INFO  [ConnectionEventHandler#290] [Rpc-netty-client-worker-6-thread-1] Connection channel active: 192.168.0.106:12200
 2019-01-21 18:22:55,268 INFO  [ConnectionEventHandler#290] [Rpc-netty-server-worker-1-thread-1] Connection channel registered: 192.168.0.106:54467
 2019-01-21 18:22:55,269 INFO  [ConnectionEventHandler#290] [Rpc-netty-server-worker-1-thread-1] Connection channel active: 192.168.0.106:54467
+2019-01-21 18:45:06,561 INFO  [ConnectionEventHandler#290] [Rpc-netty-client-worker-6-thread-1] Connection closed: 192.168.0.106:12200
+2019-01-21 18:45:06,574 INFO  [ConnectionEventHandler#290] [Rpc-netty-server-worker-1-thread-1] Connection channel inactive: 192.168.0.106:54467
+2019-01-21 18:45:06,575 INFO  [ConnectionEventHandler#290] [Rpc-netty-server-worker-1-thread-1] Connection channel unregistered: 192.168.0.106:54467
+2019-01-21 18:45:06,586 INFO  [ConnectionEventHandler#290] [Rpc-netty-client-worker-6-thread-1] Connection channel inactive: 192.168.0.106:12200
+2019-01-21 18:45:06,589 INFO  [ConnectionEventHandler#290] [Rpc-netty-client-worker-6-thread-1] Connection channel unregistered: 192.168.0.106:12200
+2019-01-21 18:45:17,366 INFO  [ConnectionEventHandler#292] [Rpc-netty-client-worker-6-thread-1] Connection channel registered: UNKNOWN-ADDR
+2019-01-21 18:45:17,367 INFO  [ConnectionEventHandler#80] [Rpc-netty-client-worker-6-thread-1] Try connect to 192.168.0.106:12200
+2019-01-21 18:45:17,371 INFO  [ConnectionEventHandler#290] [Rpc-netty-client-worker-6-thread-1] Connection channel active: 192.168.0.106:12200
+2019-01-21 18:45:17,380 INFO  [ConnectionEventHandler#290] [Rpc-netty-server-worker-1-thread-1] Connection channel registered: 192.168.0.106:55079
+2019-01-21 18:45:17,381 INFO  [ConnectionEventHandler#290] [Rpc-netty-server-worker-1-thread-1] Connection channel active: 192.168.0.106:55079
