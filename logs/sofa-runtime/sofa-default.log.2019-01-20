@@ -1,0 +1,241 @@
+2019-01-20 18:51:23,498 INFO  main                             - SOFABoot Runtime Starting!
+2019-01-20 18:51:26,733 INFO  main                             - Registering component: reference:com.example.demo.service.UserService:#581241825
+2019-01-20 18:51:26,734 INFO  main                             -  >>In Binding [bolt] Begins - com.example.demo.service.UserService.
+2019-01-20 18:51:27,989 INFO  main                             -  >>In Binding [bolt] Ends - com.example.demo.service.UserService.
+2019-01-20 18:51:27,989 INFO  main                             -  >>In Binding [jvm] Begins - com.example.demo.service.UserService.
+2019-01-20 18:51:27,993 INFO  main                             -  >>In Binding [jvm] Ends - com.example.demo.service.UserService.
+2019-01-20 18:51:32,138 INFO  main                             - Registering component: service:com.example.demo.service.UserService
+2019-01-20 18:51:32,138 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.example.demo.service.UserService.
+2019-01-20 18:51:32,144 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.example.demo.service.UserService.
+2019-01-20 18:51:32,144 INFO  main                             -  <<Out Binding [bolt] Begins - com.example.demo.service.UserService.
+2019-01-20 18:51:32,187 INFO  main                             -  <<Out Binding [bolt] Ends - com.example.demo.service.UserService.
+2019-01-20 18:51:32,187 INFO  main                             - Register Service - com.example.demo.service.UserService
+2019-01-20 18:51:32,219 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-20 18:51:32,222 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot Demo End +++++++++++++++++
+2019-01-20 18:51:32,222 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-20 18:51:32,222 INFO  main                             - 
+All activated module list(0) >>>>>>>
+
+Modules that could install(0) >>>>>>>
+
+2019-01-20 18:51:32,227 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot Demo End +++++++++++++++++
+2019-01-20 18:51:32,227 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-20 18:51:32,227 INFO  main                             - 
+Spring context initialize success module list(0) >>>>>>> [totalTime = 0 ms, realTime = 0 ms]
+
+Spring context initialize failed module list(0) >>>>>>>
+
+Spring bean load time cost list(0) >>>>>>> [totalTime = 0 ms, realTime = 0 ms]
+
+2019-01-20 18:51:32,227 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot Demo End +++++++++++++++++
+2019-01-20 18:52:42,425 INFO  main                             - SOFABoot Runtime Starting!
+2019-01-20 18:52:44,988 INFO  main                             - Registering component: reference:com.example.demo.service.UserService:#581241825
+2019-01-20 18:52:44,988 INFO  main                             -  >>In Binding [bolt] Begins - com.example.demo.service.UserService.
+2019-01-20 18:52:46,015 INFO  main                             -  >>In Binding [bolt] Ends - com.example.demo.service.UserService.
+2019-01-20 18:52:46,016 INFO  main                             -  >>In Binding [jvm] Begins - com.example.demo.service.UserService.
+2019-01-20 18:52:46,021 INFO  main                             -  >>In Binding [jvm] Ends - com.example.demo.service.UserService.
+2019-01-20 18:52:49,898 INFO  main                             - Registering component: service:com.example.demo.service.UserService
+2019-01-20 18:52:49,898 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.example.demo.service.UserService.
+2019-01-20 18:52:49,908 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.example.demo.service.UserService.
+2019-01-20 18:52:49,908 INFO  main                             -  <<Out Binding [bolt] Begins - com.example.demo.service.UserService.
+2019-01-20 18:52:49,948 INFO  main                             -  <<Out Binding [bolt] Ends - com.example.demo.service.UserService.
+2019-01-20 18:52:49,948 INFO  main                             - Register Service - com.example.demo.service.UserService
+2019-01-20 18:52:49,984 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-20 18:52:49,986 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot Demo End +++++++++++++++++
+2019-01-20 18:52:49,986 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-20 18:52:49,986 INFO  main                             - 
+All activated module list(0) >>>>>>>
+
+Modules that could install(0) >>>>>>>
+
+2019-01-20 18:52:49,991 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot Demo End +++++++++++++++++
+2019-01-20 18:52:49,991 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-20 18:52:49,991 INFO  main                             - 
+Spring context initialize success module list(0) >>>>>>> [totalTime = 0 ms, realTime = 0 ms]
+
+Spring context initialize failed module list(0) >>>>>>>
+
+Spring bean load time cost list(0) >>>>>>> [totalTime = 0 ms, realTime = 0 ms]
+
+2019-01-20 18:52:49,991 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot Demo End +++++++++++++++++
+2019-01-20 18:53:21,391 INFO  main                             - SOFABoot Runtime Starting!
+2019-01-20 18:53:24,895 INFO  main                             - Registering component: reference:com.example.demo.service.UserService:#1115363377
+2019-01-20 18:53:24,896 INFO  main                             -  >>In Binding [bolt] Begins - com.example.demo.service.UserService.
+2019-01-20 18:53:25,285 INFO  main                             -  >>In Binding [bolt] Ends - com.example.demo.service.UserService.
+2019-01-20 18:53:25,286 INFO  main                             -  >>In Binding [jvm] Begins - com.example.demo.service.UserService.
+2019-01-20 18:53:25,288 INFO  main                             -  >>In Binding [jvm] Ends - com.example.demo.service.UserService.
+2019-01-20 18:53:26,205 INFO  main                             - Registering component: service:com.example.demo.service.UserService
+2019-01-20 18:53:26,206 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.example.demo.service.UserService.
+2019-01-20 18:53:26,211 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.example.demo.service.UserService.
+2019-01-20 18:53:26,211 INFO  main                             -  <<Out Binding [bolt] Begins - com.example.demo.service.UserService.
+2019-01-20 18:53:26,225 INFO  main                             -  <<Out Binding [bolt] Ends - com.example.demo.service.UserService.
+2019-01-20 18:53:26,225 INFO  main                             - Register Service - com.example.demo.service.UserService
+2019-01-20 18:53:26,278 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-20 18:53:26,280 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot Demo End +++++++++++++++++
+2019-01-20 18:53:26,280 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-20 18:53:26,280 INFO  main                             - 
+All activated module list(0) >>>>>>>
+
+Modules that could install(0) >>>>>>>
+
+2019-01-20 18:53:26,281 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot Demo End +++++++++++++++++
+2019-01-20 18:53:26,281 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-20 18:53:26,282 INFO  main                             - 
+Spring context initialize success module list(0) >>>>>>> [totalTime = 0 ms, realTime = 0 ms]
+
+Spring context initialize failed module list(0) >>>>>>>
+
+Spring bean load time cost list(0) >>>>>>> [totalTime = 0 ms, realTime = 0 ms]
+
+2019-01-20 18:53:26,282 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot Demo End +++++++++++++++++
+2019-01-20 18:57:09,251 INFO  main                             - SOFABoot Runtime Starting!
+2019-01-20 18:57:13,518 INFO  main                             - Registering component: reference:com.example.demo.service.UserService:#1623757059
+2019-01-20 18:57:13,518 INFO  main                             -  >>In Binding [bolt] Begins - com.example.demo.service.UserService.
+2019-01-20 18:57:15,569 INFO  main                             -  >>In Binding [bolt] Ends - com.example.demo.service.UserService.
+2019-01-20 18:57:15,571 INFO  main                             -  >>In Binding [jvm] Begins - com.example.demo.service.UserService.
+2019-01-20 18:57:15,578 INFO  main                             -  >>In Binding [jvm] Ends - com.example.demo.service.UserService.
+2019-01-20 18:57:20,148 INFO  main                             - Registering component: service:com.example.demo.service.UserService
+2019-01-20 18:57:20,149 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.example.demo.service.UserService.
+2019-01-20 18:57:20,157 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.example.demo.service.UserService.
+2019-01-20 18:57:20,157 INFO  main                             -  <<Out Binding [bolt] Begins - com.example.demo.service.UserService.
+2019-01-20 18:57:20,180 INFO  main                             -  <<Out Binding [bolt] Ends - com.example.demo.service.UserService.
+2019-01-20 18:57:20,180 INFO  main                             - Register Service - com.example.demo.service.UserService
+2019-01-20 18:57:20,212 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-20 18:57:20,215 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot Demo End +++++++++++++++++
+2019-01-20 18:57:20,215 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-20 18:57:20,215 INFO  main                             - 
+All activated module list(0) >>>>>>>
+
+Modules that could install(0) >>>>>>>
+
+2019-01-20 18:57:20,219 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot Demo End +++++++++++++++++
+2019-01-20 18:57:20,220 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-20 18:57:20,220 INFO  main                             - 
+Spring context initialize success module list(0) >>>>>>> [totalTime = 0 ms, realTime = 0 ms]
+
+Spring context initialize failed module list(0) >>>>>>>
+
+Spring bean load time cost list(0) >>>>>>> [totalTime = 0 ms, realTime = 0 ms]
+
+2019-01-20 18:57:20,220 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot Demo End +++++++++++++++++
+2019-01-20 18:57:37,497 INFO  main                             - SOFABoot Runtime Starting!
+2019-01-20 18:57:40,691 INFO  main                             - Registering component: reference:com.example.demo.service.UserService:#1255677265
+2019-01-20 18:57:40,691 INFO  main                             -  >>In Binding [bolt] Begins - com.example.demo.service.UserService.
+2019-01-20 18:57:42,328 INFO  main                             -  >>In Binding [bolt] Ends - com.example.demo.service.UserService.
+2019-01-20 18:57:42,329 INFO  main                             -  >>In Binding [jvm] Begins - com.example.demo.service.UserService.
+2019-01-20 18:57:42,333 INFO  main                             -  >>In Binding [jvm] Ends - com.example.demo.service.UserService.
+2019-01-20 18:57:45,809 INFO  main                             - Registering component: service:com.example.demo.service.UserService
+2019-01-20 18:57:45,810 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.example.demo.service.UserService.
+2019-01-20 18:57:45,817 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.example.demo.service.UserService.
+2019-01-20 18:57:45,817 INFO  main                             -  <<Out Binding [bolt] Begins - com.example.demo.service.UserService.
+2019-01-20 18:57:45,844 INFO  main                             -  <<Out Binding [bolt] Ends - com.example.demo.service.UserService.
+2019-01-20 18:57:45,844 INFO  main                             - Register Service - com.example.demo.service.UserService
+2019-01-20 18:57:45,884 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-20 18:57:45,887 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot Demo End +++++++++++++++++
+2019-01-20 18:57:45,888 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-20 18:57:45,888 INFO  main                             - 
+All activated module list(0) >>>>>>>
+
+Modules that could install(0) >>>>>>>
+
+2019-01-20 18:57:45,893 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot Demo End +++++++++++++++++
+2019-01-20 18:57:45,893 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-20 18:57:45,894 INFO  main                             - 
+Spring context initialize success module list(0) >>>>>>> [totalTime = 0 ms, realTime = 0 ms]
+
+Spring context initialize failed module list(0) >>>>>>>
+
+Spring bean load time cost list(0) >>>>>>> [totalTime = 0 ms, realTime = 0 ms]
+
+2019-01-20 18:57:45,894 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot Demo End +++++++++++++++++
+2019-01-20 18:59:48,778 INFO  main                             - SOFABoot Runtime Starting!
+2019-01-20 18:59:51,491 INFO  main                             - Registering component: reference:com.example.demo.service.UserService:#1255677265
+2019-01-20 18:59:51,491 INFO  main                             -  >>In Binding [bolt] Begins - com.example.demo.service.UserService.
+2019-01-20 18:59:52,981 INFO  main                             -  >>In Binding [bolt] Ends - com.example.demo.service.UserService.
+2019-01-20 18:59:52,981 INFO  main                             -  >>In Binding [jvm] Begins - com.example.demo.service.UserService.
+2019-01-20 18:59:52,985 INFO  main                             -  >>In Binding [jvm] Ends - com.example.demo.service.UserService.
+2019-01-20 18:59:56,433 INFO  main                             - Registering component: service:com.example.demo.service.UserService
+2019-01-20 18:59:56,434 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.example.demo.service.UserService.
+2019-01-20 18:59:56,443 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.example.demo.service.UserService.
+2019-01-20 18:59:56,443 INFO  main                             -  <<Out Binding [bolt] Begins - com.example.demo.service.UserService.
+2019-01-20 18:59:56,472 INFO  main                             -  <<Out Binding [bolt] Ends - com.example.demo.service.UserService.
+2019-01-20 18:59:56,472 INFO  main                             - Register Service - com.example.demo.service.UserService
+2019-01-20 18:59:56,509 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-20 18:59:56,514 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot Demo End +++++++++++++++++
+2019-01-20 18:59:56,514 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-20 18:59:56,515 INFO  main                             - 
+All activated module list(0) >>>>>>>
+
+Modules that could install(0) >>>>>>>
+
+2019-01-20 18:59:56,518 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot Demo End +++++++++++++++++
+2019-01-20 18:59:56,519 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-20 18:59:56,519 INFO  main                             - 
+Spring context initialize success module list(0) >>>>>>> [totalTime = 0 ms, realTime = 0 ms]
+
+Spring context initialize failed module list(0) >>>>>>>
+
+Spring bean load time cost list(0) >>>>>>> [totalTime = 0 ms, realTime = 0 ms]
+
+2019-01-20 18:59:56,519 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot Demo End +++++++++++++++++
+2019-01-20 19:01:46,684 INFO  main                             - SOFABoot Runtime Starting!
+2019-01-20 19:01:49,415 INFO  main                             - Registering component: reference:com.example.demo.service.UserService:#1405014709
+2019-01-20 19:01:49,416 INFO  main                             -  >>In Binding [bolt] Begins - com.example.demo.service.UserService.
+2019-01-20 19:01:50,821 INFO  main                             -  >>In Binding [bolt] Ends - com.example.demo.service.UserService.
+2019-01-20 19:01:50,822 INFO  main                             -  >>In Binding [jvm] Begins - com.example.demo.service.UserService.
+2019-01-20 19:01:50,827 INFO  main                             -  >>In Binding [jvm] Ends - com.example.demo.service.UserService.
+2019-01-20 19:01:54,724 INFO  main                             - Registering component: service:com.example.demo.service.UserService
+2019-01-20 19:01:54,725 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.example.demo.service.UserService.
+2019-01-20 19:01:54,732 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.example.demo.service.UserService.
+2019-01-20 19:01:54,732 INFO  main                             -  <<Out Binding [bolt] Begins - com.example.demo.service.UserService.
+2019-01-20 19:01:54,756 INFO  main                             -  <<Out Binding [bolt] Ends - com.example.demo.service.UserService.
+2019-01-20 19:01:54,756 INFO  main                             - Register Service - com.example.demo.service.UserService
+2019-01-20 19:01:54,793 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-20 19:01:54,795 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot Demo End +++++++++++++++++
+2019-01-20 19:01:54,795 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-20 19:01:54,795 INFO  main                             - 
+All activated module list(0) >>>>>>>
+
+Modules that could install(0) >>>>>>>
+
+2019-01-20 19:01:54,800 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot Demo End +++++++++++++++++
+2019-01-20 19:01:54,800 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-20 19:01:54,801 INFO  main                             - 
+Spring context initialize success module list(0) >>>>>>> [totalTime = 0 ms, realTime = 0 ms]
+
+Spring context initialize failed module list(0) >>>>>>>
+
+Spring bean load time cost list(0) >>>>>>> [totalTime = 0 ms, realTime = 0 ms]
+
+2019-01-20 19:01:54,801 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot Demo End +++++++++++++++++
+2019-01-20 20:14:59,654 INFO  main                             - SOFABoot Runtime Starting!
+2019-01-20 20:15:15,475 INFO  main                             - SOFABoot Runtime Starting!
+2019-01-20 20:15:18,540 INFO  main                             - Registering component: reference:com.example.demo.service.UserService:#459247101
+2019-01-20 20:15:18,541 INFO  main                             -  >>In Binding [bolt] Begins - com.example.demo.service.UserService.
+2019-01-20 20:15:19,133 INFO  main                             -  >>In Binding [bolt] Ends - com.example.demo.service.UserService.
+2019-01-20 20:15:19,133 INFO  main                             -  >>In Binding [jvm] Begins - com.example.demo.service.UserService.
+2019-01-20 20:15:19,140 INFO  main                             -  >>In Binding [jvm] Ends - com.example.demo.service.UserService.
+2019-01-20 20:15:20,097 INFO  main                             - Registering component: service:com.example.demo.service.UserService
+2019-01-20 20:15:20,097 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.example.demo.service.UserService.
+2019-01-20 20:15:20,105 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.example.demo.service.UserService.
+2019-01-20 20:15:20,105 INFO  main                             -  <<Out Binding [bolt] Begins - com.example.demo.service.UserService.
+2019-01-20 20:15:20,126 INFO  main                             -  <<Out Binding [bolt] Ends - com.example.demo.service.UserService.
+2019-01-20 20:15:20,126 INFO  main                             - Register Service - com.example.demo.service.UserService
+2019-01-20 20:15:20,174 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-20 20:15:20,176 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of SOFABoot Demo End +++++++++++++++++
+2019-01-20 20:15:20,176 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-20 20:15:20,177 INFO  main                             - 
+All activated module list(0) >>>>>>>
+
+Modules that could install(0) >>>>>>>
+
+2019-01-20 20:15:20,180 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of SOFABoot Demo End +++++++++++++++++
+2019-01-20 20:15:20,181 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot Demo Start +++++++++++++++++
+2019-01-20 20:15:20,181 INFO  main                             - 
+Spring context initialize success module list(0) >>>>>>> [totalTime = 0 ms, realTime = 0 ms]
+
+Spring context initialize failed module list(0) >>>>>>>
+
+Spring bean load time cost list(0) >>>>>>> [totalTime = 0 ms, realTime = 0 ms]
+
+2019-01-20 20:15:20,181 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of SOFABoot Demo End +++++++++++++++++

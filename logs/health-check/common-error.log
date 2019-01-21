@@ -1,66 +1,273 @@
-2019-01-14 16:27:21,213 ERROR main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 20 retry; fail details:{"reference:com.example.demo.DemoService:#226679324":"passed","service:com.example.demo.DemoService":"passed","reference:com.example.demofacade.SampleService:#349991580":"jvm#can not find corresponding jvm service","reference:com.example.demofacade.HelloService:#226679324":"passed"}; strict mode:true
-2019-01-14 16:27:21,214 ERROR main                             - SOFABoot HealthChecker readiness check result: failed.
-2019-01-14 16:27:21,693 ERROR main                             - Readiness check result: fail
-2019-01-14 17:10:40,564 ERROR main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 20 retry; fail details:{"service:com.example.demo.DemoService":"passed","reference:com.example.demo.DemoService:#288587720":"passed","reference:com.example.demofacade.SampleService:#349991580":"jvm#can not find corresponding jvm service","reference:com.example.demofacade.HelloService:#288587720":"passed"}; strict mode:true
-2019-01-14 17:10:40,564 ERROR main                             - SOFABoot HealthChecker readiness check result: failed.
-2019-01-14 17:10:40,935 ERROR main                             - Readiness check result: fail
-2019-01-14 17:14:35,030 ERROR main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 20 retry; fail details:{"reference:com.example.demofacade.HelloService:#-1470910517":"passed","service:com.example.demo.DemoService":"passed","reference:com.example.demofacade.SampleService:#349991580":"jvm#can not find corresponding jvm service","reference:com.example.demo.DemoService:#-361665169":"passed"}; strict mode:true
-2019-01-14 17:14:35,031 ERROR main                             - SOFABoot HealthChecker readiness check result: failed.
-2019-01-14 17:14:35,342 ERROR main                             - Readiness check result: fail
-2019-01-14 17:20:41,148 ERROR main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 20 retry; fail details:{"service:com.example.demo.DemoService":"passed","service:com.example.demofacade.HelloService":"passed","service:com.example.demofacade.HelloOneService":"passed","reference:com.example.demofacade.HelloService:#-1730595999":"passed","reference:com.example.demofacade.SampleService:#349991580":"jvm#can not find corresponding jvm service","reference:com.example.demo.DemoService:#-1730595999":"passed"}; strict mode:true
-2019-01-14 17:20:41,149 ERROR main                             - SOFABoot HealthChecker readiness check result: failed.
-2019-01-14 17:20:41,593 ERROR main                             - Readiness check result: fail
-2019-01-14 17:33:42,557 ERROR main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 20 retry; fail details:{"service:com.example.demo.DemoService":"passed","reference:com.example.demofacade.HelloService:#1167162955":"passed","service:com.example.demofacade.HelloService":"passed","service:com.example.demofacade.HelloOneService":"passed","reference:com.example.demofacade.SampleService:#349991580":"jvm#can not find corresponding jvm service","reference:com.example.demo.DemoService:#1167162955":"passed"}; strict mode:true
-2019-01-14 17:33:42,558 ERROR main                             - SOFABoot HealthChecker readiness check result: failed.
-2019-01-14 17:33:42,889 ERROR main                             - Readiness check result: fail
-2019-01-14 19:04:16,568 ERROR main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 20 retry; fail details:{"service:com.example.demo.DemoService":"passed","service:com.example.demofacade.HelloService":"passed","service:com.example.demofacade.HelloOneService":"passed","reference:com.example.demofacade.SampleService:#349991580":"jvm#can not find corresponding jvm service","reference:com.example.demo.DemoService:#349991580":"passed","reference:com.example.demofacade.HelloService:#-210926287":"passed"}; strict mode:true
-2019-01-14 19:04:16,568 ERROR main                             - SOFABoot HealthChecker readiness check result: failed.
-2019-01-14 19:04:17,460 ERROR main                             - Readiness check result: fail
-2019-01-14 19:07:15,175 ERROR main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 20 retry; fail details:{"reference:com.example.demo.DemoService:#1620554315":"passed","service:com.example.demo.DemoService":"passed","service:com.example.demofacade.HelloService":"passed","service:com.example.demofacade.HelloOneService":"passed","reference:com.example.demofacade.SampleService:#349991580":"jvm#can not find corresponding jvm service","reference:com.example.demofacade.HelloService:#984464111":"passed"}; strict mode:true
-2019-01-14 19:07:15,176 ERROR main                             - SOFABoot HealthChecker readiness check result: failed.
-2019-01-14 19:07:15,475 ERROR main                             - Readiness check result: fail
-2019-01-14 19:22:49,812 ERROR main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 20 retry; fail details:{"service:com.example.demo.DemoService":"passed","service:com.example.demofacade.HelloService":"passed","service:com.example.demofacade.HelloOneService":"passed","reference:com.example.demofacade.SampleService:#349991580":"jvm#can not find corresponding jvm service","reference:com.example.demofacade.HelloService:#-1247518599":"passed"}; strict mode:true
-2019-01-14 19:22:49,813 ERROR main                             - SOFABoot HealthChecker readiness check result: failed.
-2019-01-14 19:22:50,178 ERROR main                             - Readiness check result: fail
-2019-01-14 19:27:30,129 ERROR main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 20 retry; fail details:{"reference:com.example.demofacade.HelloService:#-1310240149":"passed","reference:com.example.demo.DemoService:#-1310240149":"passed","service:com.example.demofacade.HelloService":"passed","service:com.example.demofacade.HelloOneService":"passed","reference:com.example.demofacade.SampleService:#349991580":"jvm#can not find corresponding jvm service"}; strict mode:true
-2019-01-14 19:27:30,129 ERROR main                             - SOFABoot HealthChecker readiness check result: failed.
-2019-01-14 19:27:30,839 ERROR main                             - Readiness check result: fail
-2019-01-14 19:28:48,764 ERROR main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 20 retry; fail details:{"service:com.example.demofacade.HelloService":"passed","service:com.example.demofacade.HelloOneService":"passed","reference:com.example.demofacade.SampleService:#349991580":"jvm#can not find corresponding jvm service","reference:com.example.demo.DemoService:#349991580":"jvm#can not find corresponding jvm service","reference:com.example.demofacade.HelloService:#1812701182":"passed"}; strict mode:true
-2019-01-14 19:28:48,764 ERROR main                             - SOFABoot HealthChecker readiness check result: failed.
-2019-01-14 19:28:49,089 ERROR main                             - Readiness check result: fail
-2019-01-14 19:35:34,111 ERROR main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 20 retry; fail details:{"service:com.example.demofacade.HelloService":"passed","service:com.example.demofacade.HelloOneService":"passed","reference:com.example.demofacade.SampleService:#349991580":"jvm#can not find corresponding jvm service","reference:com.example.demo.DemoService:demoService#349991580":"jvm#can not find corresponding jvm service","reference:com.example.demofacade.HelloService:#-2003748139":"passed"}; strict mode:true
-2019-01-14 19:35:34,112 ERROR main                             - SOFABoot HealthChecker readiness check result: failed.
-2019-01-14 19:35:34,534 ERROR main                             - Readiness check result: fail
-2019-01-14 19:39:09,392 ERROR main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 20 retry; fail details:{"service:com.example.demofacade.HelloService":"passed","service:com.example.demofacade.HelloOneService":"passed","reference:com.example.demofacade.SampleService:#349991580":"jvm#can not find corresponding jvm service","reference:com.example.demofacade.HelloService:#-2144682017":"passed","reference:com.example.demo.DemoService:demoService#349991580":"jvm#can not find corresponding jvm service"}; strict mode:true
-2019-01-14 19:39:09,393 ERROR main                             - SOFABoot HealthChecker readiness check result: failed.
-2019-01-14 19:39:09,760 ERROR main                             - Readiness check result: fail
-2019-01-14 19:40:51,002 ERROR main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 20 retry; fail details:{"reference:com.example.demofacade.HelloService:#-803989921":"passed","service:com.example.demofacade.HelloService":"passed","service:com.example.demofacade.HelloOneService":"passed","reference:com.example.demofacade.SampleService:#349991580":"jvm#can not find corresponding jvm service","reference:com.example.demo.DemoService:demoService#349991580":"passed","service:com.example.demo.DemoService:demoService":"passed"}; strict mode:true
-2019-01-14 19:40:51,003 ERROR main                             - SOFABoot HealthChecker readiness check result: failed.
-2019-01-14 19:40:51,411 ERROR main                             - Readiness check result: fail
-2019-01-14 19:54:38,692 ERROR main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 20 retry; fail details:{"reference:com.example.demofacade.HelloService:#-1179927426":"passed","service:com.example.demofacade.HelloService":"passed","service:com.example.demofacade.HelloOneService":"passed","reference:com.example.demofacade.SampleService:#349991580":"jvm#can not find corresponding jvm service","reference:com.example.demo.DemoService:demoService#349991580":"jvm#can not find corresponding jvm service"}; strict mode:true
-2019-01-14 19:54:38,692 ERROR main                             - SOFABoot HealthChecker readiness check result: failed.
-2019-01-14 19:54:39,043 ERROR main                             - Readiness check result: fail
-2019-01-14 20:20:36,143 ERROR main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 20 retry; fail details:{"service:com.example.demofacade.HelloService":"passed","service:com.example.demofacade.HelloOneService":"passed","reference:com.example.demofacade.SampleService:#349991580":"jvm#can not find corresponding jvm service","reference:com.example.demofacade.HelloService:#-1564271433":"passed","reference:com.example.demo.DemoService:demoService#349991580":"passed","service:com.example.demo.DemoService:demoService":"passed"}; strict mode:true
-2019-01-14 20:20:36,144 ERROR main                             - SOFABoot HealthChecker readiness check result: failed.
-2019-01-14 20:20:36,483 ERROR main                             - Readiness check result: fail
-2019-01-14 21:11:19,204 ERROR main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 20 retry; fail details:{"service:com.example.demofacade.HelloService":"passed","service:com.example.demofacade.HelloOneService":"passed","reference:com.example.demofacade.HelloService:#-1644051230":"passed","reference:com.example.demofacade.SampleService:#349991580":"jvm#can not find corresponding jvm service","reference:com.example.demo.DemoService:demoService#349991580":"passed","service:com.example.demo.DemoService:demoService":"passed"}; strict mode:true
-2019-01-14 21:11:19,205 ERROR main                             - SOFABoot HealthChecker readiness check result: failed.
-2019-01-14 21:11:19,701 ERROR main                             - Readiness check result: fail
-2019-01-14 21:22:55,498 ERROR main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 20 retry; fail details:{"service:com.example.demofacade.HelloService":"passed","service:com.example.demofacade.HelloOneService":"passed","reference:com.example.demofacade.HelloService:#1647352216":"passed","reference:com.example.demofacade.SampleService:#349991580":"jvm#can not find corresponding jvm service","reference:com.example.demo.DemoService:demoService#349991580":"passed","service:com.example.demo.DemoService:demoService":"passed"}; strict mode:true
-2019-01-14 21:22:55,498 ERROR main                             - SOFABoot HealthChecker readiness check result: failed.
-2019-01-14 21:22:55,922 ERROR main                             - Readiness check result: fail
-2019-01-14 21:33:52,041 ERROR main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 20 retry; fail details:{"service:com.example.demofacade.HelloService":"passed","service:com.example.demofacade.HelloOneService":"passed","reference:com.example.demofacade.HelloService:#450262596":"passed","reference:com.example.demofacade.SampleService:#349991580":"jvm#can not find corresponding jvm service","reference:com.example.demo.DemoService:demoService#349991580":"passed","service:com.example.demo.DemoService:demoService":"passed"}; strict mode:true
-2019-01-14 21:33:52,042 ERROR main                             - SOFABoot HealthChecker readiness check result: failed.
-2019-01-14 21:33:53,652 ERROR main                             - Readiness check result: fail
-2019-01-14 21:35:18,564 ERROR main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 20 retry; fail details:{"service:com.example.demofacade.HelloService":"passed","service:com.example.demofacade.HelloOneService":"passed","reference:com.example.demofacade.SampleService:#349991580":"jvm#can not find corresponding jvm service","reference:com.example.demo.DemoService:demoService#349991580":"passed","service:com.example.demo.DemoService:demoService":"passed","reference:com.example.demofacade.HelloService:#-1009248512":"passed"}; strict mode:true
-2019-01-14 21:35:18,564 ERROR main                             - SOFABoot HealthChecker readiness check result: failed.
-2019-01-14 21:35:18,918 ERROR main                             - Readiness check result: fail
-2019-01-14 21:49:10,929 ERROR main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 20 retry; fail details:{"service:com.example.demofacade.HelloService":"passed","reference:com.example.demofacade.HelloService:#1897617700":"passed","service:com.example.demofacade.HelloOneService":"passed","reference:com.example.demofacade.SampleService:#349991580":"jvm#can not find corresponding jvm service","reference:com.example.demo.DemoService:demoService#349991580":"passed","service:com.example.demo.DemoService:demoService":"passed"}; strict mode:true
-2019-01-14 21:49:10,930 ERROR main                             - SOFABoot HealthChecker readiness check result: failed.
-2019-01-14 21:49:11,415 ERROR main                             - Readiness check result: fail
-2019-01-14 21:55:30,512 ERROR main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 20 retry; fail details:{"service:com.example.demofacade.HelloService":"passed","service:com.example.demofacade.HelloOneService":"passed","reference:com.example.demofacade.SampleService:#349991580":"jvm#can not find corresponding jvm service","reference:com.example.demofacade.HelloService:#405574464":"passed","reference:com.example.demo.DemoService:demoService#349991580":"passed","service:com.example.demo.DemoService:demoService":"passed"}; strict mode:true
-2019-01-14 21:55:30,513 ERROR main                             - SOFABoot HealthChecker readiness check result: failed.
-2019-01-14 21:55:31,198 ERROR main                             - Readiness check result: fail
-2019-01-14 21:57:02,712 ERROR main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 20 retry; fail details:{"service:com.example.demofacade.HelloService":"passed","service:com.example.demofacade.HelloOneService":"passed","reference:com.example.demofacade.HelloService:#960626966":"passed","reference:com.example.demofacade.SampleService:#349991580":"jvm#can not find corresponding jvm service","reference:com.example.demo.DemoService:demoService#349991580":"passed","service:com.example.demo.DemoService:demoService":"passed"}; strict mode:true
-2019-01-14 21:57:02,713 ERROR main                             - SOFABoot HealthChecker readiness check result: failed.
-2019-01-14 21:57:03,047 ERROR main                             - Readiness check result: fail
+2019-01-20 18:57:20,836 ERROR main                             - Error occurred while doing ReadinessCheckCallback[rpcAfterHealthCheckCallback] check.
+com.alipay.sofa.rpc.core.exception.SofaRpcRuntimeException: Failed to start bolt server, see more detail from bolt log.
+	at com.alipay.sofa.rpc.server.bolt.BoltServer.start(BoltServer.java:121)
+	at com.alipay.sofa.rpc.boot.container.ServerConfigContainer.startServers(ServerConfigContainer.java:84)
+	at com.alipay.sofa.rpc.boot.context.SofaBootRpcStartListener.onApplicationEvent(SofaBootRpcStartListener.java:74)
+	at com.alipay.sofa.rpc.boot.context.SofaBootRpcStartListener.onApplicationEvent(SofaBootRpcStartListener.java:42)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:398)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:355)
+	at com.alipay.sofa.rpc.boot.health.RpcAfterHealthCheckCallback.onHealthy(RpcAfterHealthCheckCallback.java:45)
+	at com.alipay.sofa.healthcheck.core.AfterReadinessCheckCallbackProcessor.doHealthCheckCallback(AfterReadinessCheckCallbackProcessor.java:95)
+	at com.alipay.sofa.healthcheck.core.AfterReadinessCheckCallbackProcessor.lambda$afterReadinessCheckCallback$1(AfterReadinessCheckCallbackProcessor.java:76)
+	at com.alipay.sofa.healthcheck.core.AfterReadinessCheckCallbackProcessor$$Lambda$530/82750270.apply(Unknown Source)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:512)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:502)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.reduce(ReferencePipeline.java:474)
+	at com.alipay.sofa.healthcheck.core.AfterReadinessCheckCallbackProcessor.afterReadinessCheckCallback(AfterReadinessCheckCallbackProcessor.java:77)
+	at com.alipay.sofa.healthcheck.startup.ReadinessCheckListener.readinessHealthCheck(ReadinessCheckListener.java:103)
+	at com.alipay.sofa.healthcheck.startup.ReadinessCheckListener.onApplicationEvent(ReadinessCheckListener.java:79)
+	at com.alipay.sofa.healthcheck.startup.ReadinessCheckListener.onApplicationEvent(ReadinessCheckListener.java:39)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:398)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:355)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:882)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:127)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+2019-01-20 18:57:20,839 ERROR main                             - ReadinessCheckCallback readiness check result: failed.
+2019-01-20 18:57:20,839 ERROR main                             - Readiness check result: fail
+2019-01-20 18:57:46,388 ERROR main                             - Error occurred while doing ReadinessCheckCallback[rpcAfterHealthCheckCallback] check.
+com.alipay.sofa.rpc.core.exception.SofaRpcRuntimeException: Failed to start bolt server, see more detail from bolt log.
+	at com.alipay.sofa.rpc.server.bolt.BoltServer.start(BoltServer.java:121)
+	at com.alipay.sofa.rpc.boot.container.ServerConfigContainer.startServers(ServerConfigContainer.java:84)
+	at com.alipay.sofa.rpc.boot.context.SofaBootRpcStartListener.onApplicationEvent(SofaBootRpcStartListener.java:74)
+	at com.alipay.sofa.rpc.boot.context.SofaBootRpcStartListener.onApplicationEvent(SofaBootRpcStartListener.java:42)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:398)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:355)
+	at com.alipay.sofa.rpc.boot.health.RpcAfterHealthCheckCallback.onHealthy(RpcAfterHealthCheckCallback.java:45)
+	at com.alipay.sofa.healthcheck.core.AfterReadinessCheckCallbackProcessor.doHealthCheckCallback(AfterReadinessCheckCallbackProcessor.java:95)
+	at com.alipay.sofa.healthcheck.core.AfterReadinessCheckCallbackProcessor.lambda$afterReadinessCheckCallback$1(AfterReadinessCheckCallbackProcessor.java:76)
+	at com.alipay.sofa.healthcheck.core.AfterReadinessCheckCallbackProcessor$$Lambda$537/282166934.apply(Unknown Source)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:512)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:502)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.reduce(ReferencePipeline.java:474)
+	at com.alipay.sofa.healthcheck.core.AfterReadinessCheckCallbackProcessor.afterReadinessCheckCallback(AfterReadinessCheckCallbackProcessor.java:77)
+	at com.alipay.sofa.healthcheck.startup.ReadinessCheckListener.readinessHealthCheck(ReadinessCheckListener.java:103)
+	at com.alipay.sofa.healthcheck.startup.ReadinessCheckListener.onApplicationEvent(ReadinessCheckListener.java:79)
+	at com.alipay.sofa.healthcheck.startup.ReadinessCheckListener.onApplicationEvent(ReadinessCheckListener.java:39)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:398)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:355)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:882)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:127)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+2019-01-20 18:57:46,389 ERROR main                             - ReadinessCheckCallback readiness check result: failed.
+2019-01-20 18:57:46,390 ERROR main                             - Readiness check result: fail
+2019-01-20 18:59:57,028 ERROR main                             - Error occurred while doing ReadinessCheckCallback[rpcAfterHealthCheckCallback] check.
+com.alipay.sofa.rpc.core.exception.SofaRpcRuntimeException: Failed to start bolt server, see more detail from bolt log.
+	at com.alipay.sofa.rpc.server.bolt.BoltServer.start(BoltServer.java:121)
+	at com.alipay.sofa.rpc.boot.container.ServerConfigContainer.startServers(ServerConfigContainer.java:84)
+	at com.alipay.sofa.rpc.boot.context.SofaBootRpcStartListener.onApplicationEvent(SofaBootRpcStartListener.java:74)
+	at com.alipay.sofa.rpc.boot.context.SofaBootRpcStartListener.onApplicationEvent(SofaBootRpcStartListener.java:42)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:398)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:355)
+	at com.alipay.sofa.rpc.boot.health.RpcAfterHealthCheckCallback.onHealthy(RpcAfterHealthCheckCallback.java:45)
+	at com.alipay.sofa.healthcheck.core.AfterReadinessCheckCallbackProcessor.doHealthCheckCallback(AfterReadinessCheckCallbackProcessor.java:95)
+	at com.alipay.sofa.healthcheck.core.AfterReadinessCheckCallbackProcessor.lambda$afterReadinessCheckCallback$1(AfterReadinessCheckCallbackProcessor.java:76)
+	at com.alipay.sofa.healthcheck.core.AfterReadinessCheckCallbackProcessor$$Lambda$537/445726857.apply(Unknown Source)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:512)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:502)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.reduce(ReferencePipeline.java:474)
+	at com.alipay.sofa.healthcheck.core.AfterReadinessCheckCallbackProcessor.afterReadinessCheckCallback(AfterReadinessCheckCallbackProcessor.java:77)
+	at com.alipay.sofa.healthcheck.startup.ReadinessCheckListener.readinessHealthCheck(ReadinessCheckListener.java:103)
+	at com.alipay.sofa.healthcheck.startup.ReadinessCheckListener.onApplicationEvent(ReadinessCheckListener.java:79)
+	at com.alipay.sofa.healthcheck.startup.ReadinessCheckListener.onApplicationEvent(ReadinessCheckListener.java:39)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:398)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:355)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:882)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:127)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+2019-01-20 18:59:57,030 ERROR main                             - ReadinessCheckCallback readiness check result: failed.
+2019-01-20 18:59:57,031 ERROR main                             - Readiness check result: fail
+2019-01-20 19:01:55,302 ERROR main                             - Error occurred while doing ReadinessCheckCallback[rpcAfterHealthCheckCallback] check.
+com.alipay.sofa.rpc.core.exception.SofaRpcRuntimeException: Failed to start bolt server, see more detail from bolt log.
+	at com.alipay.sofa.rpc.server.bolt.BoltServer.start(BoltServer.java:121)
+	at com.alipay.sofa.rpc.boot.container.ServerConfigContainer.startServers(ServerConfigContainer.java:84)
+	at com.alipay.sofa.rpc.boot.context.SofaBootRpcStartListener.onApplicationEvent(SofaBootRpcStartListener.java:74)
+	at com.alipay.sofa.rpc.boot.context.SofaBootRpcStartListener.onApplicationEvent(SofaBootRpcStartListener.java:42)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:398)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:355)
+	at com.alipay.sofa.rpc.boot.health.RpcAfterHealthCheckCallback.onHealthy(RpcAfterHealthCheckCallback.java:45)
+	at com.alipay.sofa.healthcheck.core.AfterReadinessCheckCallbackProcessor.doHealthCheckCallback(AfterReadinessCheckCallbackProcessor.java:95)
+	at com.alipay.sofa.healthcheck.core.AfterReadinessCheckCallbackProcessor.lambda$afterReadinessCheckCallback$1(AfterReadinessCheckCallbackProcessor.java:76)
+	at com.alipay.sofa.healthcheck.core.AfterReadinessCheckCallbackProcessor$$Lambda$537/1804292128.apply(Unknown Source)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:512)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:502)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.reduce(ReferencePipeline.java:474)
+	at com.alipay.sofa.healthcheck.core.AfterReadinessCheckCallbackProcessor.afterReadinessCheckCallback(AfterReadinessCheckCallbackProcessor.java:77)
+	at com.alipay.sofa.healthcheck.startup.ReadinessCheckListener.readinessHealthCheck(ReadinessCheckListener.java:103)
+	at com.alipay.sofa.healthcheck.startup.ReadinessCheckListener.onApplicationEvent(ReadinessCheckListener.java:79)
+	at com.alipay.sofa.healthcheck.startup.ReadinessCheckListener.onApplicationEvent(ReadinessCheckListener.java:39)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:398)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:355)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:882)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:127)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+2019-01-20 19:01:55,304 ERROR main                             - ReadinessCheckCallback readiness check result: failed.
+2019-01-20 19:01:55,304 ERROR main                             - Readiness check result: fail

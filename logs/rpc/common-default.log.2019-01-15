@@ -1,0 +1,177 @@
+2019-01-15 15:54:47,456 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework catch JVM shutdown event, Run shutdown hook now.
+2019-01-15 15:54:47,607 INFO  Thread-62                        - Unexport provider config : com.example.demofacade.HelloService::bolt with bean id rpc-cfg-1
+2019-01-15 15:54:47,651 INFO  Thread-62                        - Unexport provider config : com.example.demofacade.HelloOneService::bolt with bean id rpc-cfg-2
+2019-01-15 15:54:47,768 INFO  SOFA-RPC-ShutdownHook            - UnRefer consumer config : bolt://com.example.demofacade.HelloService: with bean id rpc-cfg-0
+2019-01-15 15:54:47,845 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: fault-tolerance
+2019-01-15 15:54:47,846 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer-resteasy
+2019-01-15 15:54:47,846 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer
+2019-01-15 15:54:47,847 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework has been release all resources ...
+2019-01-15 15:55:06,018 INFO  main                             - Welcome! Loading SOFA RPC Framework : 5.4.7_20181025093119, PID is:70141
+2019-01-15 15:55:06,041 INFO  main                             - Install Module: fault-tolerance
+2019-01-15 15:55:06,052 INFO  main                             - Install Module: sofaTracer-resteasy
+2019-01-15 15:55:06,107 INFO  main                             - The module lookout does not need to be loaded.
+2019-01-15 15:55:06,108 INFO  main                             - Install Module: sofaTracer
+2019-01-15 15:55:06,150 INFO  main                             - Refer consumer config : bolt://com.example.demo.service.UserService: with bean id rpc-cfg-0
+2019-01-15 15:55:08,066 INFO  main                             - Export provider config : com.example.demofacade.HelloService::bolt with bean id rpc-cfg-1
+2019-01-15 15:55:08,087 INFO  main                             - Export provider config : com.example.demofacade.HelloOneService::bolt with bean id rpc-cfg-2
+2019-01-15 15:55:08,583 INFO  main                             - service published.  interfaceId[com.example.demofacade.HelloService]; protocol[bolt]
+2019-01-15 15:55:08,592 INFO  main                             - service published.  interfaceId[com.example.demofacade.HelloOneService]; protocol[bolt]
+2019-01-15 15:57:37,296 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework catch JVM shutdown event, Run shutdown hook now.
+2019-01-15 15:57:37,298 INFO  Thread-25                        - Unexport provider config : com.example.demofacade.HelloService::bolt with bean id rpc-cfg-1
+2019-01-15 15:57:37,299 INFO  Thread-25                        - Unexport provider config : com.example.demofacade.HelloOneService::bolt with bean id rpc-cfg-2
+2019-01-15 15:57:37,322 INFO  SOFA-RPC-ShutdownHook            - UnRefer consumer config : bolt://com.example.demo.service.UserService: with bean id rpc-cfg-0
+2019-01-15 15:57:37,366 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: fault-tolerance
+2019-01-15 15:57:37,367 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer-resteasy
+2019-01-15 15:57:37,367 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer
+2019-01-15 15:57:37,367 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework has been release all resources ...
+2019-01-15 15:57:49,451 INFO  main                             - Welcome! Loading SOFA RPC Framework : 5.4.7_20181025093119, PID is:70207
+2019-01-15 15:57:49,476 INFO  main                             - Install Module: fault-tolerance
+2019-01-15 15:57:49,490 INFO  main                             - Install Module: sofaTracer-resteasy
+2019-01-15 15:57:49,574 INFO  main                             - The module lookout does not need to be loaded.
+2019-01-15 15:57:49,575 INFO  main                             - Install Module: sofaTracer
+2019-01-15 15:57:49,590 INFO  main                             - Refer consumer config : bolt://com.example.demo.service.UserService: with bean id rpc-cfg-0
+2019-01-15 15:57:50,891 INFO  main                             - Export provider config : com.example.demofacade.HelloService::bolt with bean id rpc-cfg-1
+2019-01-15 15:57:50,906 INFO  main                             - Export provider config : com.example.demofacade.HelloOneService::bolt with bean id rpc-cfg-2
+2019-01-15 15:57:51,502 INFO  main                             - service published.  interfaceId[com.example.demofacade.HelloService]; protocol[bolt]
+2019-01-15 15:57:51,518 INFO  main                             - service published.  interfaceId[com.example.demofacade.HelloOneService]; protocol[bolt]
+2019-01-15 15:59:53,943 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework catch JVM shutdown event, Run shutdown hook now.
+2019-01-15 15:59:53,945 INFO  Thread-20                        - Unexport provider config : com.example.demofacade.HelloService::bolt with bean id rpc-cfg-1
+2019-01-15 15:59:53,945 INFO  Thread-20                        - Unexport provider config : com.example.demofacade.HelloOneService::bolt with bean id rpc-cfg-2
+2019-01-15 15:59:53,959 INFO  SOFA-RPC-ShutdownHook            - UnRefer consumer config : bolt://com.example.demo.service.UserService: with bean id rpc-cfg-0
+2019-01-15 15:59:53,995 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: fault-tolerance
+2019-01-15 15:59:53,995 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer-resteasy
+2019-01-15 15:59:53,995 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer
+2019-01-15 15:59:53,996 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework has been release all resources ...
+2019-01-15 16:00:05,990 INFO  main                             - Welcome! Loading SOFA RPC Framework : 5.4.7_20181025093119, PID is:70255
+2019-01-15 16:00:06,022 INFO  main                             - Install Module: fault-tolerance
+2019-01-15 16:00:06,035 INFO  main                             - Install Module: sofaTracer-resteasy
+2019-01-15 16:00:06,084 INFO  main                             - The module lookout does not need to be loaded.
+2019-01-15 16:00:06,084 INFO  main                             - Install Module: sofaTracer
+2019-01-15 16:00:06,111 INFO  main                             - Refer consumer config : bolt://com.example.demo.service.UserService: with bean id rpc-cfg-0
+2019-01-15 16:00:07,459 INFO  main                             - Export provider config : com.example.demofacade.HelloService::bolt with bean id rpc-cfg-1
+2019-01-15 16:00:07,477 INFO  main                             - Export provider config : com.example.demofacade.HelloOneService::bolt with bean id rpc-cfg-2
+2019-01-15 16:00:08,023 INFO  main                             - service published.  interfaceId[com.example.demofacade.HelloService]; protocol[bolt]
+2019-01-15 16:00:08,028 INFO  main                             - service published.  interfaceId[com.example.demofacade.HelloOneService]; protocol[bolt]
+2019-01-15 16:06:36,524 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework catch JVM shutdown event, Run shutdown hook now.
+2019-01-15 16:06:36,524 INFO  Thread-24                        - Unexport provider config : com.example.demofacade.HelloService::bolt with bean id rpc-cfg-1
+2019-01-15 16:06:36,559 INFO  Thread-24                        - Unexport provider config : com.example.demofacade.HelloOneService::bolt with bean id rpc-cfg-2
+2019-01-15 16:06:36,568 INFO  SOFA-RPC-ShutdownHook            - UnRefer consumer config : bolt://com.example.demo.service.UserService: with bean id rpc-cfg-0
+2019-01-15 16:06:36,677 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: fault-tolerance
+2019-01-15 16:06:36,679 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer-resteasy
+2019-01-15 16:06:36,679 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer
+2019-01-15 16:06:36,680 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework has been release all resources ...
+2019-01-15 16:06:50,634 INFO  main                             - Welcome! Loading SOFA RPC Framework : 5.4.7_20181025093119, PID is:70396
+2019-01-15 16:06:50,684 INFO  main                             - Install Module: fault-tolerance
+2019-01-15 16:06:50,703 INFO  main                             - Install Module: sofaTracer-resteasy
+2019-01-15 16:06:50,777 INFO  main                             - The module lookout does not need to be loaded.
+2019-01-15 16:06:50,779 INFO  main                             - Install Module: sofaTracer
+2019-01-15 16:06:50,819 INFO  main                             - Refer consumer config : bolt://com.example.demo.service.UserService: with bean id rpc-cfg-0
+2019-01-15 16:06:52,686 INFO  main                             - Export provider config : com.example.demofacade.HelloService::bolt with bean id rpc-cfg-1
+2019-01-15 16:06:52,710 INFO  main                             - Export provider config : com.example.demofacade.HelloOneService::bolt with bean id rpc-cfg-2
+2019-01-15 16:06:53,541 INFO  main                             - service published.  interfaceId[com.example.demofacade.HelloService]; protocol[bolt]
+2019-01-15 16:06:53,556 INFO  main                             - service published.  interfaceId[com.example.demofacade.HelloOneService]; protocol[bolt]
+2019-01-15 16:08:24,037 INFO  http-nio-8080-exec-5             - Load tracer impl success: sofaTracer, com.alipay.sofa.rpc.tracer.sofatracer.RpcSofaTracer@36676298
+2019-01-15 16:10:35,166 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework catch JVM shutdown event, Run shutdown hook now.
+2019-01-15 16:10:35,167 INFO  Thread-27                        - Unexport provider config : com.example.demofacade.HelloService::bolt with bean id rpc-cfg-1
+2019-01-15 16:10:35,168 INFO  Thread-27                        - Unexport provider config : com.example.demofacade.HelloOneService::bolt with bean id rpc-cfg-2
+2019-01-15 16:10:35,187 INFO  SOFA-RPC-ShutdownHook            - UnRefer consumer config : bolt://com.example.demo.service.UserService: with bean id rpc-cfg-0
+2019-01-15 16:10:35,219 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: fault-tolerance
+2019-01-15 16:10:35,219 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer-resteasy
+2019-01-15 16:10:35,219 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer
+2019-01-15 16:10:35,220 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework has been release all resources ...
+2019-01-15 16:10:45,902 INFO  main                             - Welcome! Loading SOFA RPC Framework : 5.4.7_20181025093119, PID is:70586
+2019-01-15 16:10:45,931 INFO  main                             - Install Module: fault-tolerance
+2019-01-15 16:10:45,965 INFO  main                             - Install Module: sofaTracer-resteasy
+2019-01-15 16:10:46,033 INFO  main                             - The module lookout does not need to be loaded.
+2019-01-15 16:10:46,034 INFO  main                             - Install Module: sofaTracer
+2019-01-15 16:10:46,058 INFO  main                             - Refer consumer config : bolt://com.example.demo.service.UserService: with bean id rpc-cfg-0
+2019-01-15 16:10:47,691 INFO  main                             - Export provider config : com.example.demofacade.HelloService::bolt with bean id rpc-cfg-1
+2019-01-15 16:10:47,709 INFO  main                             - Export provider config : com.example.demo.service.UserService::bolt with bean id rpc-cfg-2
+2019-01-15 16:10:47,711 INFO  main                             - Export provider config : com.example.demofacade.HelloOneService::bolt with bean id rpc-cfg-3
+2019-01-15 16:10:48,420 INFO  main                             - service published.  interfaceId[com.example.demofacade.HelloService]; protocol[bolt]
+2019-01-15 16:10:48,427 INFO  main                             - service published.  interfaceId[com.example.demo.service.UserService]; protocol[bolt]
+2019-01-15 16:10:48,435 INFO  main                             - service published.  interfaceId[com.example.demofacade.HelloOneService]; protocol[bolt]
+2019-01-15 16:13:34,407 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework catch JVM shutdown event, Run shutdown hook now.
+2019-01-15 16:13:34,409 INFO  Thread-23                        - Unexport provider config : com.example.demofacade.HelloService::bolt with bean id rpc-cfg-1
+2019-01-15 16:13:34,423 INFO  Thread-23                        - Unexport provider config : com.example.demo.service.UserService::bolt with bean id rpc-cfg-2
+2019-01-15 16:13:34,423 INFO  Thread-23                        - Unexport provider config : com.example.demofacade.HelloOneService::bolt with bean id rpc-cfg-3
+2019-01-15 16:13:34,428 INFO  SOFA-RPC-ShutdownHook            - UnRefer consumer config : bolt://com.example.demo.service.UserService: with bean id rpc-cfg-0
+2019-01-15 16:13:34,517 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: fault-tolerance
+2019-01-15 16:13:34,518 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer-resteasy
+2019-01-15 16:13:34,518 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer
+2019-01-15 16:13:34,520 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework has been release all resources ...
+2019-01-15 16:13:45,284 INFO  main                             - Welcome! Loading SOFA RPC Framework : 5.4.7_20181025093119, PID is:70656
+2019-01-15 16:13:45,322 INFO  main                             - Install Module: fault-tolerance
+2019-01-15 16:13:45,356 INFO  main                             - Install Module: sofaTracer-resteasy
+2019-01-15 16:13:45,434 INFO  main                             - The module lookout does not need to be loaded.
+2019-01-15 16:13:45,435 INFO  main                             - Install Module: sofaTracer
+2019-01-15 16:13:45,468 INFO  main                             - Refer consumer config : bolt://com.example.demo.service.UserService: with bean id rpc-cfg-0
+2019-01-15 16:13:47,052 INFO  main                             - Export provider config : com.example.demofacade.HelloService::bolt with bean id rpc-cfg-1
+2019-01-15 16:13:47,065 INFO  main                             - Export provider config : com.example.demo.service.UserService::bolt with bean id rpc-cfg-2
+2019-01-15 16:13:47,067 INFO  main                             - Export provider config : com.example.demofacade.HelloOneService::bolt with bean id rpc-cfg-3
+2019-01-15 16:13:47,665 INFO  main                             - service published.  interfaceId[com.example.demofacade.HelloService]; protocol[bolt]
+2019-01-15 16:13:47,669 INFO  main                             - service published.  interfaceId[com.example.demo.service.UserService]; protocol[bolt]
+2019-01-15 16:13:47,676 INFO  main                             - service published.  interfaceId[com.example.demofacade.HelloOneService]; protocol[bolt]
+2019-01-15 16:16:27,571 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework catch JVM shutdown event, Run shutdown hook now.
+2019-01-15 16:16:27,572 INFO  Thread-22                        - Unexport provider config : com.example.demofacade.HelloService::bolt with bean id rpc-cfg-1
+2019-01-15 16:16:27,593 INFO  Thread-22                        - Unexport provider config : com.example.demo.service.UserService::bolt with bean id rpc-cfg-2
+2019-01-15 16:16:27,593 INFO  Thread-22                        - Unexport provider config : com.example.demofacade.HelloOneService::bolt with bean id rpc-cfg-3
+2019-01-15 16:16:27,604 INFO  SOFA-RPC-ShutdownHook            - UnRefer consumer config : bolt://com.example.demo.service.UserService: with bean id rpc-cfg-0
+2019-01-15 16:16:27,703 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: fault-tolerance
+2019-01-15 16:16:27,708 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer-resteasy
+2019-01-15 16:16:27,708 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer
+2019-01-15 16:16:27,709 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework has been release all resources ...
+2019-01-15 16:16:35,872 INFO  main                             - Welcome! Loading SOFA RPC Framework : 5.4.7_20181025093119, PID is:70725
+2019-01-15 16:16:35,898 INFO  main                             - Install Module: fault-tolerance
+2019-01-15 16:16:35,928 INFO  main                             - Install Module: sofaTracer-resteasy
+2019-01-15 16:16:35,988 INFO  main                             - The module lookout does not need to be loaded.
+2019-01-15 16:16:35,988 INFO  main                             - Install Module: sofaTracer
+2019-01-15 16:16:36,014 INFO  main                             - Refer consumer config : bolt://com.example.demo.service.UserService: with bean id rpc-cfg-0
+2019-01-15 16:16:37,729 INFO  main                             - Export provider config : com.example.demofacade.HelloService::bolt with bean id rpc-cfg-1
+2019-01-15 16:16:37,744 INFO  main                             - Export provider config : com.example.demo.service.UserService::bolt with bean id rpc-cfg-2
+2019-01-15 16:16:37,751 INFO  main                             - Export provider config : com.example.demofacade.HelloOneService::bolt with bean id rpc-cfg-3
+2019-01-15 16:16:38,457 INFO  main                             - service published.  interfaceId[com.example.demofacade.HelloService]; protocol[bolt]
+2019-01-15 16:16:38,461 INFO  main                             - service published.  interfaceId[com.example.demo.service.UserService]; protocol[bolt]
+2019-01-15 16:16:38,468 INFO  main                             - service published.  interfaceId[com.example.demofacade.HelloOneService]; protocol[bolt]
+2019-01-15 16:21:18,840 INFO  Thread-23                        - Unexport provider config : com.example.demofacade.HelloService::bolt with bean id rpc-cfg-1
+2019-01-15 16:21:18,840 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework catch JVM shutdown event, Run shutdown hook now.
+2019-01-15 16:21:18,844 INFO  Thread-23                        - Unexport provider config : com.example.demo.service.UserService::bolt with bean id rpc-cfg-2
+2019-01-15 16:21:18,873 INFO  Thread-23                        - Unexport provider config : com.example.demofacade.HelloOneService::bolt with bean id rpc-cfg-3
+2019-01-15 16:21:18,877 INFO  SOFA-RPC-ShutdownHook            - UnRefer consumer config : bolt://com.example.demo.service.UserService: with bean id rpc-cfg-0
+2019-01-15 16:21:18,930 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: fault-tolerance
+2019-01-15 16:21:18,930 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer-resteasy
+2019-01-15 16:21:18,931 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer
+2019-01-15 16:21:18,931 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework has been release all resources ...
+2019-01-15 16:21:27,128 INFO  main                             - Welcome! Loading SOFA RPC Framework : 5.4.7_20181025093119, PID is:70833
+2019-01-15 16:21:27,152 INFO  main                             - Install Module: fault-tolerance
+2019-01-15 16:21:27,170 INFO  main                             - Install Module: sofaTracer-resteasy
+2019-01-15 16:21:27,251 INFO  main                             - The module lookout does not need to be loaded.
+2019-01-15 16:21:27,252 INFO  main                             - Install Module: sofaTracer
+2019-01-15 16:21:27,272 INFO  main                             - Refer consumer config : bolt://com.example.demo.service.UserService: with bean id rpc-cfg-0
+2019-01-15 16:21:28,841 INFO  main                             - Export provider config : com.example.demofacade.HelloService::bolt with bean id rpc-cfg-1
+2019-01-15 16:21:28,870 INFO  main                             - Export provider config : com.example.demo.service.UserService::bolt with bean id rpc-cfg-2
+2019-01-15 16:21:28,873 INFO  main                             - Export provider config : com.example.demofacade.HelloOneService::bolt with bean id rpc-cfg-3
+2019-01-15 16:21:29,546 INFO  main                             - service published.  interfaceId[com.example.demofacade.HelloService]; protocol[bolt]
+2019-01-15 16:21:29,552 INFO  main                             - service published.  interfaceId[com.example.demo.service.UserService]; protocol[bolt]
+2019-01-15 16:21:29,567 INFO  main                             - service published.  interfaceId[com.example.demofacade.HelloOneService]; protocol[bolt]
+2019-01-15 16:25:19,804 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework catch JVM shutdown event, Run shutdown hook now.
+2019-01-15 16:25:19,822 INFO  Thread-22                        - Unexport provider config : com.example.demofacade.HelloService::bolt with bean id rpc-cfg-1
+2019-01-15 16:25:19,889 INFO  Thread-22                        - Unexport provider config : com.example.demo.service.UserService::bolt with bean id rpc-cfg-2
+2019-01-15 16:25:19,889 INFO  Thread-22                        - Unexport provider config : com.example.demofacade.HelloOneService::bolt with bean id rpc-cfg-3
+2019-01-15 16:25:19,905 INFO  SOFA-RPC-ShutdownHook            - UnRefer consumer config : bolt://com.example.demo.service.UserService: with bean id rpc-cfg-0
+2019-01-15 16:25:20,149 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: fault-tolerance
+2019-01-15 16:25:20,149 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer-resteasy
+2019-01-15 16:25:20,150 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer
+2019-01-15 16:25:20,152 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework has been release all resources ...
+2019-01-15 16:25:37,593 INFO  main                             - Welcome! Loading SOFA RPC Framework : 5.4.7_20181025093119, PID is:70930
+2019-01-15 16:25:37,615 INFO  main                             - Install Module: fault-tolerance
+2019-01-15 16:25:37,627 INFO  main                             - Install Module: sofaTracer-resteasy
+2019-01-15 16:25:37,686 INFO  main                             - The module lookout does not need to be loaded.
+2019-01-15 16:25:37,686 INFO  main                             - Install Module: sofaTracer
+2019-01-15 16:25:37,715 INFO  main                             - Refer consumer config : bolt://com.example.demo.service.UserService: with bean id rpc-cfg-0
+2019-01-15 16:25:39,521 INFO  main                             - Export provider config : com.example.demofacade.HelloService::bolt with bean id rpc-cfg-1
+2019-01-15 16:25:39,541 INFO  main                             - Export provider config : com.example.demo.service.UserService::bolt with bean id rpc-cfg-2
+2019-01-15 16:25:39,546 INFO  main                             - Export provider config : com.example.demofacade.HelloOneService::bolt with bean id rpc-cfg-3
+2019-01-15 16:25:40,621 INFO  main                             - service published.  interfaceId[com.example.demofacade.HelloService]; protocol[bolt]
+2019-01-15 16:25:40,629 INFO  main                             - service published.  interfaceId[com.example.demo.service.UserService]; protocol[bolt]
+2019-01-15 16:25:40,637 INFO  main                             - service published.  interfaceId[com.example.demofacade.HelloOneService]; protocol[bolt]

@@ -1,140 +1,159 @@
-2019-01-16 01:31:48.488  INFO 70930 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Client session timed out, have not heard from server in 6442304ms for sessionid 0x1683d5a822d005f, closing socket connection and attempting reconnect
-2019-01-16 01:31:48.846  INFO 70930 --- [main-EventThread] o.a.c.f.state.ConnectionStateManager     : State change: SUSPENDED
-2019-01-16 01:31:49.112  INFO 70930 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
-2019-01-16 01:31:49.112  INFO 70930 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
-2019-01-16 01:31:49.113  INFO 70930 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Unable to reconnect to ZooKeeper service, session 0x1683d5a822d005f has expired, closing socket connection
-2019-01-16 01:31:49.113  WARN 70930 --- [main-EventThread] org.apache.curator.ConnectionState       : Session expired event received
-2019-01-16 01:31:49.113  INFO 70930 --- [main-EventThread] org.apache.zookeeper.ZooKeeper           : Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@6f1a16fe
-2019-01-16 01:31:49.113  INFO 70930 --- [main-EventThread] o.a.c.f.state.ConnectionStateManager     : State change: LOST
-2019-01-16 01:31:49.114  INFO 70930 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
-2019-01-16 01:31:49.114  INFO 70930 --- [main-EventThread] org.apache.zookeeper.ClientCnxn          : EventThread shut down
-2019-01-16 01:31:49.114  INFO 70930 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
-2019-01-16 01:31:49.117  INFO 70930 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Session establishment complete on server 127.0.0.1/127.0.0.1:2181, sessionid = 0x1683d5a822d0060, negotiated timeout = 40000
-2019-01-16 01:31:49.118  INFO 70930 --- [main-EventThread] o.a.c.f.state.ConnectionStateManager     : State change: RECONNECTED
-2019-01-16 01:32:03.236  WARN 70930 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h47m43s240ms).
-2019-01-16 01:42:44.419  INFO 70930 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Client session timed out, have not heard from server in 534246ms for sessionid 0x1683d5a822d0060, closing socket connection and attempting reconnect
-2019-01-16 01:42:44.534  INFO 70930 --- [main-EventThread] o.a.c.f.state.ConnectionStateManager     : State change: SUSPENDED
-2019-01-16 01:42:45.824  INFO 70930 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
-2019-01-16 01:42:45.825  INFO 70930 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
-2019-01-16 01:42:45.826  WARN 70930 --- [main-EventThread] org.apache.curator.ConnectionState       : Session expired event received
-2019-01-16 01:42:45.826  INFO 70930 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Unable to reconnect to ZooKeeper service, session 0x1683d5a822d0060 has expired, closing socket connection
-2019-01-16 01:42:45.826  INFO 70930 --- [main-EventThread] org.apache.zookeeper.ZooKeeper           : Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@6f1a16fe
-2019-01-16 01:42:45.827  INFO 70930 --- [main-EventThread] o.a.c.f.state.ConnectionStateManager     : State change: LOST
-2019-01-16 01:42:45.827  INFO 70930 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
-2019-01-16 01:42:45.827  INFO 70930 --- [main-EventThread] org.apache.zookeeper.ClientCnxn          : EventThread shut down
-2019-01-16 01:42:45.828  INFO 70930 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
-2019-01-16 01:42:45.832  INFO 70930 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Session establishment complete on server 127.0.0.1/127.0.0.1:2181, sessionid = 0x1683d5a822d0061, negotiated timeout = 40000
-2019-01-16 01:42:45.833  INFO 70930 --- [main-EventThread] o.a.c.f.state.ConnectionStateManager     : State change: RECONNECTED
-2019-01-16 01:42:54.485  WARN 70930 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m21s233ms).
-2019-01-16 03:30:49.414  INFO 70930 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Client session timed out, have not heard from server in 6442570ms for sessionid 0x1683d5a822d0061, closing socket connection and attempting reconnect
-2019-01-16 03:30:49.524  INFO 70930 --- [main-EventThread] o.a.c.f.state.ConnectionStateManager     : State change: SUSPENDED
-2019-01-16 03:30:51.188  INFO 70930 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
-2019-01-16 03:30:51.188  INFO 70930 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
-2019-01-16 03:30:51.189  INFO 70930 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Unable to reconnect to ZooKeeper service, session 0x1683d5a822d0061 has expired, closing socket connection
-2019-01-16 03:30:51.189  WARN 70930 --- [main-EventThread] org.apache.curator.ConnectionState       : Session expired event received
-2019-01-16 03:30:51.189  INFO 70930 --- [main-EventThread] org.apache.zookeeper.ZooKeeper           : Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@6f1a16fe
-2019-01-16 03:30:51.190  INFO 70930 --- [main-EventThread] o.a.c.f.state.ConnectionStateManager     : State change: LOST
-2019-01-16 03:30:51.190  INFO 70930 --- [main-EventThread] org.apache.zookeeper.ClientCnxn          : EventThread shut down
-2019-01-16 03:30:51.190  INFO 70930 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
-2019-01-16 03:30:51.196  INFO 70930 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
-2019-01-16 03:30:51.203  INFO 70930 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Session establishment complete on server 127.0.0.1/127.0.0.1:2181, sessionid = 0x1683d5a822d0062, negotiated timeout = 40000
-2019-01-16 03:30:51.204  INFO 70930 --- [main-EventThread] o.a.c.f.state.ConnectionStateManager     : State change: RECONNECTED
-2019-01-16 03:31:10.899  WARN 70930 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h47m46s407ms).
-2019-01-16 05:18:54.662  INFO 70930 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Client session timed out, have not heard from server in 6442432ms for sessionid 0x1683d5a822d0062, closing socket connection and attempting reconnect
-2019-01-16 05:18:54.775  INFO 70930 --- [main-EventThread] o.a.c.f.state.ConnectionStateManager     : State change: SUSPENDED
-2019-01-16 05:18:55.547  WARN 70930 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h47m44s648ms).
-2019-01-16 05:18:56.516  INFO 70930 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
-2019-01-16 05:18:56.516  INFO 70930 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
-2019-01-16 05:18:56.517  WARN 70930 --- [main-EventThread] org.apache.curator.ConnectionState       : Session expired event received
-2019-01-16 05:18:56.517  INFO 70930 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Unable to reconnect to ZooKeeper service, session 0x1683d5a822d0062 has expired, closing socket connection
-2019-01-16 05:18:56.517  INFO 70930 --- [main-EventThread] org.apache.zookeeper.ZooKeeper           : Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@6f1a16fe
-2019-01-16 05:18:56.518  INFO 70930 --- [main-EventThread] o.a.c.f.state.ConnectionStateManager     : State change: LOST
-2019-01-16 05:18:56.518  INFO 70930 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
-2019-01-16 05:18:56.518  INFO 70930 --- [main-EventThread] org.apache.zookeeper.ClientCnxn          : EventThread shut down
-2019-01-16 05:18:56.519  INFO 70930 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
-2019-01-16 05:18:56.521  INFO 70930 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Session establishment complete on server 127.0.0.1/127.0.0.1:2181, sessionid = 0x1683d5a822d0063, negotiated timeout = 40000
-2019-01-16 05:18:56.521  INFO 70930 --- [main-EventThread] o.a.c.f.state.ConnectionStateManager     : State change: RECONNECTED
-2019-01-16 07:06:59.427  INFO 70930 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Client session timed out, have not heard from server in 6441889ms for sessionid 0x1683d5a822d0063, closing socket connection and attempting reconnect
-2019-01-16 07:06:59.545  INFO 70930 --- [main-EventThread] o.a.c.f.state.ConnectionStateManager     : State change: SUSPENDED
-2019-01-16 07:07:00.858  INFO 70930 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
-2019-01-16 07:07:00.859  INFO 70930 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
-2019-01-16 07:07:00.860  INFO 70930 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Unable to reconnect to ZooKeeper service, session 0x1683d5a822d0063 has expired, closing socket connection
-2019-01-16 07:07:00.860  WARN 70930 --- [main-EventThread] org.apache.curator.ConnectionState       : Session expired event received
-2019-01-16 07:07:00.860  INFO 70930 --- [main-EventThread] org.apache.zookeeper.ZooKeeper           : Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@6f1a16fe
-2019-01-16 07:07:00.861  INFO 70930 --- [main-EventThread] o.a.c.f.state.ConnectionStateManager     : State change: LOST
-2019-01-16 07:07:00.861  INFO 70930 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
-2019-01-16 07:07:00.861  INFO 70930 --- [main-EventThread] org.apache.zookeeper.ClientCnxn          : EventThread shut down
-2019-01-16 07:07:00.862  INFO 70930 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
-2019-01-16 07:07:00.864  INFO 70930 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Session establishment complete on server 127.0.0.1/127.0.0.1:2181, sessionid = 0x1683d5a822d0064, negotiated timeout = 40000
-2019-01-16 07:07:00.864  INFO 70930 --- [main-EventThread] o.a.c.f.state.ConnectionStateManager     : State change: RECONNECTED
-2019-01-16 07:07:09.594  WARN 70930 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h47m44s38ms).
-2019-01-16 08:55:04.462  INFO 70930 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Client session timed out, have not heard from server in 6442583ms for sessionid 0x1683d5a822d0064, closing socket connection and attempting reconnect
-2019-01-16 08:55:04.567  INFO 70930 --- [main-EventThread] o.a.c.f.state.ConnectionStateManager     : State change: SUSPENDED
-2019-01-16 08:55:05.878  INFO 70930 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
-2019-01-16 08:55:05.879  INFO 70930 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
-2019-01-16 08:55:05.882  INFO 70930 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Unable to reconnect to ZooKeeper service, session 0x1683d5a822d0064 has expired, closing socket connection
-2019-01-16 08:55:05.882  WARN 70930 --- [main-EventThread] org.apache.curator.ConnectionState       : Session expired event received
-2019-01-16 08:55:05.883  INFO 70930 --- [main-EventThread] org.apache.zookeeper.ZooKeeper           : Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@6f1a16fe
-2019-01-16 08:55:05.883  INFO 70930 --- [main-EventThread] o.a.c.f.state.ConnectionStateManager     : State change: LOST
-2019-01-16 08:55:05.883  INFO 70930 --- [main-EventThread] org.apache.zookeeper.ClientCnxn          : EventThread shut down
-2019-01-16 08:55:05.884  INFO 70930 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
-2019-01-16 08:55:05.884  INFO 70930 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
-2019-01-16 08:55:05.889  INFO 70930 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Session establishment complete on server 127.0.0.1/127.0.0.1:2181, sessionid = 0x1683d5a822d0065, negotiated timeout = 40000
-2019-01-16 08:55:05.890  INFO 70930 --- [main-EventThread] o.a.c.f.state.ConnectionStateManager     : State change: RECONNECTED
-2019-01-16 08:55:24.017  WARN 70930 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h47m44s412ms).
-2019-01-16 10:43:09.226  WARN 70930 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h47m45s209ms).
-2019-01-16 10:43:09.429  INFO 70930 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Client session timed out, have not heard from server in 6442519ms for sessionid 0x1683d5a822d0065, closing socket connection and attempting reconnect
-2019-01-16 10:43:09.537  INFO 70930 --- [main-EventThread] o.a.c.f.state.ConnectionStateManager     : State change: SUSPENDED
-2019-01-16 10:43:10.834  INFO 70930 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
-2019-01-16 10:43:10.835  INFO 70930 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
-2019-01-16 10:43:10.837  INFO 70930 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Unable to reconnect to ZooKeeper service, session 0x1683d5a822d0065 has expired, closing socket connection
-2019-01-16 10:43:10.837  WARN 70930 --- [main-EventThread] org.apache.curator.ConnectionState       : Session expired event received
-2019-01-16 10:43:10.837  INFO 70930 --- [main-EventThread] org.apache.zookeeper.ZooKeeper           : Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@6f1a16fe
-2019-01-16 10:43:10.838  INFO 70930 --- [main-EventThread] o.a.c.f.state.ConnectionStateManager     : State change: LOST
-2019-01-16 10:43:10.838  INFO 70930 --- [main-EventThread] org.apache.zookeeper.ClientCnxn          : EventThread shut down
-2019-01-16 10:43:10.839  INFO 70930 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
-2019-01-16 10:43:10.839  INFO 70930 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
-2019-01-16 10:43:10.842  INFO 70930 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Session establishment complete on server 127.0.0.1/127.0.0.1:2181, sessionid = 0x1683d5a822d0066, negotiated timeout = 40000
-2019-01-16 10:43:10.842  INFO 70930 --- [main-EventThread] o.a.c.f.state.ConnectionStateManager     : State change: RECONNECTED
-2019-01-16 12:07:13.434  INFO 70930 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Client session timed out, have not heard from server in 5001565ms for sessionid 0x1683d5a822d0066, closing socket connection and attempting reconnect
-2019-01-16 12:07:13.550  INFO 70930 --- [main-EventThread] o.a.c.f.state.ConnectionStateManager     : State change: SUSPENDED
-2019-01-16 12:07:14.749  INFO 70930 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
-2019-01-16 12:07:14.750  INFO 70930 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
-2019-01-16 12:07:14.751  INFO 70930 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Unable to reconnect to ZooKeeper service, session 0x1683d5a822d0066 has expired, closing socket connection
-2019-01-16 12:07:14.751  WARN 70930 --- [main-EventThread] org.apache.curator.ConnectionState       : Session expired event received
-2019-01-16 12:07:14.751  INFO 70930 --- [main-EventThread] org.apache.zookeeper.ZooKeeper           : Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@6f1a16fe
-2019-01-16 12:07:14.752  INFO 70930 --- [main-EventThread] o.a.c.f.state.ConnectionStateManager     : State change: LOST
-2019-01-16 12:07:14.753  INFO 70930 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
-2019-01-16 12:07:14.753  INFO 70930 --- [main-EventThread] org.apache.zookeeper.ClientCnxn          : EventThread shut down
-2019-01-16 12:07:14.754  INFO 70930 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
-2019-01-16 12:07:14.758  INFO 70930 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Session establishment complete on server 127.0.0.1/127.0.0.1:2181, sessionid = 0x1683d5a822d0067, negotiated timeout = 40000
-2019-01-16 12:07:14.759  INFO 70930 --- [main-EventThread] o.a.c.f.state.ConnectionStateManager     : State change: RECONNECTED
-2019-01-16 12:07:21.653  WARN 70930 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h23m42s237ms).
-2019-01-16 13:55:18.435  INFO 70930 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Client session timed out, have not heard from server in 6442652ms for sessionid 0x1683d5a822d0067, closing socket connection and attempting reconnect
-2019-01-16 13:55:18.539  INFO 70930 --- [main-EventThread] o.a.c.f.state.ConnectionStateManager     : State change: SUSPENDED
-2019-01-16 13:55:19.778  INFO 70930 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
-2019-01-16 13:55:19.779  INFO 70930 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
-2019-01-16 13:55:19.780  INFO 70930 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Unable to reconnect to ZooKeeper service, session 0x1683d5a822d0067 has expired, closing socket connection
-2019-01-16 13:55:19.780  WARN 70930 --- [main-EventThread] org.apache.curator.ConnectionState       : Session expired event received
-2019-01-16 13:55:19.780  INFO 70930 --- [main-EventThread] org.apache.zookeeper.ZooKeeper           : Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@6f1a16fe
-2019-01-16 13:55:19.781  INFO 70930 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
-2019-01-16 13:55:19.781  INFO 70930 --- [main-EventThread] o.a.c.f.state.ConnectionStateManager     : State change: LOST
-2019-01-16 13:55:19.781  INFO 70930 --- [main-EventThread] org.apache.zookeeper.ClientCnxn          : EventThread shut down
-2019-01-16 13:55:19.782  INFO 70930 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
-2019-01-16 13:55:19.785  INFO 70930 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Session establishment complete on server 127.0.0.1/127.0.0.1:2181, sessionid = 0x1683d5a822d0068, negotiated timeout = 40000
-2019-01-16 13:55:19.785  INFO 70930 --- [main-EventThread] o.a.c.f.state.ConnectionStateManager     : State change: RECONNECTED
-2019-01-16 13:55:37.525  WARN 70930 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h47m45s863ms).
-2019-01-16 15:06:56.015  WARN 70930 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h11m18s490ms).
-2019-01-16 15:06:56.424  INFO 70930 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Client session timed out, have not heard from server in 4255610ms for sessionid 0x1683d5a822d0068, closing socket connection and attempting reconnect
-2019-01-16 15:06:56.528  INFO 70930 --- [main-EventThread] o.a.c.f.state.ConnectionStateManager     : State change: SUSPENDED
-2019-01-16 15:06:58.599  INFO 70930 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
-2019-01-16 15:06:58.599  INFO 70930 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
-2019-01-16 15:06:58.603  WARN 70930 --- [main-EventThread] org.apache.curator.ConnectionState       : Session expired event received
-2019-01-16 15:06:58.603  INFO 70930 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Unable to reconnect to ZooKeeper service, session 0x1683d5a822d0068 has expired, closing socket connection
-2019-01-16 15:06:58.603  INFO 70930 --- [main-EventThread] org.apache.zookeeper.ZooKeeper           : Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@6f1a16fe
-2019-01-16 15:06:58.605  INFO 70930 --- [main-EventThread] o.a.c.f.state.ConnectionStateManager     : State change: LOST
-2019-01-16 15:06:58.605  INFO 70930 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
-2019-01-16 15:06:58.605  INFO 70930 --- [main-EventThread] org.apache.zookeeper.ClientCnxn          : EventThread shut down
-2019-01-16 15:06:58.606  INFO 70930 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
-2019-01-16 15:06:58.607  INFO 70930 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Session establishment complete on server 127.0.0.1/127.0.0.1:2181, sessionid = 0x1683d5a822d0069, negotiated timeout = 40000
-2019-01-16 15:06:58.608  INFO 70930 --- [main-EventThread] o.a.c.f.state.ConnectionStateManager     : State change: RECONNECTED
+2019-01-21 00:11:13.867  INFO 16556 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Client session timed out, have not heard from server in 3113007ms for sessionid 0x1683d5a822d0075, closing socket connection and attempting reconnect
+2019-01-21 00:11:13.994  INFO 16556 --- [main-EventThread] o.a.c.f.state.ConnectionStateManager     : State change: SUSPENDED
+2019-01-21 00:11:15.515  INFO 16556 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-01-21 00:11:15.516  INFO 16556 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
+2019-01-21 00:11:15.524  INFO 16556 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Unable to reconnect to ZooKeeper service, session 0x1683d5a822d0075 has expired, closing socket connection
+2019-01-21 00:11:15.526  WARN 16556 --- [main-EventThread] org.apache.curator.ConnectionState       : Session expired event received
+2019-01-21 00:11:15.526  INFO 16556 --- [main-EventThread] org.apache.zookeeper.ZooKeeper           : Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@58740366
+2019-01-21 00:11:15.527  INFO 16556 --- [main-EventThread] o.a.c.f.state.ConnectionStateManager     : State change: LOST
+2019-01-21 00:11:15.527  INFO 16556 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-01-21 00:11:15.528  INFO 16556 --- [main-EventThread] org.apache.zookeeper.ClientCnxn          : EventThread shut down
+2019-01-21 00:11:15.528  INFO 16556 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
+2019-01-21 00:11:15.533  INFO 16556 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Session establishment complete on server 127.0.0.1/127.0.0.1:2181, sessionid = 0x1683d5a822d0076, negotiated timeout = 40000
+2019-01-21 00:11:15.534  INFO 16556 --- [main-EventThread] o.a.c.f.state.ConnectionStateManager     : State change: RECONNECTED
+2019-01-21 00:11:33.044  WARN 16556 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=52m19s263ms).
+2019-01-21 00:24:27.021  INFO 16556 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Client session timed out, have not heard from server in 70293ms for sessionid 0x1683d5a822d0076, closing socket connection and attempting reconnect
+2019-01-21 00:24:27.526  INFO 16556 --- [main-EventThread] o.a.c.f.state.ConnectionStateManager     : State change: SUSPENDED
+2019-01-21 00:24:28.487  INFO 16556 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-01-21 00:24:28.488  INFO 16556 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
+2019-01-21 00:24:28.512  INFO 16556 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Unable to reconnect to ZooKeeper service, session 0x1683d5a822d0076 has expired, closing socket connection
+2019-01-21 00:24:28.512  WARN 16556 --- [main-EventThread] org.apache.curator.ConnectionState       : Session expired event received
+2019-01-21 00:24:28.513  INFO 16556 --- [main-EventThread] org.apache.zookeeper.ZooKeeper           : Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@58740366
+2019-01-21 00:24:28.514  INFO 16556 --- [main-EventThread] o.a.c.f.state.ConnectionStateManager     : State change: LOST
+2019-01-21 00:24:28.514  INFO 16556 --- [main-EventThread] org.apache.zookeeper.ClientCnxn          : EventThread shut down
+2019-01-21 00:24:28.514  INFO 16556 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-01-21 00:24:28.515  INFO 16556 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
+2019-01-21 00:24:28.541  WARN 16556 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m25s377ms).
+2019-01-21 00:24:28.543  INFO 16556 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Session establishment complete on server 127.0.0.1/127.0.0.1:2181, sessionid = 0x1683d5a822d0077, negotiated timeout = 40000
+2019-01-21 00:24:28.543  INFO 16556 --- [main-EventThread] o.a.c.f.state.ConnectionStateManager     : State change: RECONNECTED
+2019-01-21 02:07:32.541  INFO 16556 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Client session timed out, have not heard from server in 5036014ms for sessionid 0x1683d5a822d0077, closing socket connection and attempting reconnect
+2019-01-21 02:07:32.647  INFO 16556 --- [main-EventThread] o.a.c.f.state.ConnectionStateManager     : State change: SUSPENDED
+2019-01-21 02:07:34.189  INFO 16556 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-01-21 02:07:34.190  INFO 16556 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
+2019-01-21 02:07:34.196  WARN 16556 --- [main-EventThread] org.apache.curator.ConnectionState       : Session expired event received
+2019-01-21 02:07:34.196  INFO 16556 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Unable to reconnect to ZooKeeper service, session 0x1683d5a822d0077 has expired, closing socket connection
+2019-01-21 02:07:34.196  INFO 16556 --- [main-EventThread] org.apache.zookeeper.ZooKeeper           : Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@58740366
+2019-01-21 02:07:34.197  INFO 16556 --- [main-EventThread] o.a.c.f.state.ConnectionStateManager     : State change: LOST
+2019-01-21 02:07:34.197  INFO 16556 --- [main-EventThread] org.apache.zookeeper.ClientCnxn          : EventThread shut down
+2019-01-21 02:07:34.200  INFO 16556 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-01-21 02:07:34.201  INFO 16556 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
+2019-01-21 02:07:34.205  INFO 16556 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Session establishment complete on server 127.0.0.1/127.0.0.1:2181, sessionid = 0x1683d5a822d0078, negotiated timeout = 40000
+2019-01-21 02:07:34.205  INFO 16556 --- [main-EventThread] o.a.c.f.state.ConnectionStateManager     : State change: RECONNECTED
+2019-01-21 02:07:50.932  WARN 16556 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h24m22s213ms).
+2019-01-21 03:55:37.540  INFO 16556 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Client session timed out, have not heard from server in 6442309ms for sessionid 0x1683d5a822d0078, closing socket connection and attempting reconnect
+2019-01-21 03:55:37.653  INFO 16556 --- [main-EventThread] o.a.c.f.state.ConnectionStateManager     : State change: SUSPENDED
+2019-01-21 03:55:38.738  INFO 16556 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-01-21 03:55:38.743  INFO 16556 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
+2019-01-21 03:55:38.748  WARN 16556 --- [main-EventThread] org.apache.curator.ConnectionState       : Session expired event received
+2019-01-21 03:55:38.748  INFO 16556 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Unable to reconnect to ZooKeeper service, session 0x1683d5a822d0078 has expired, closing socket connection
+2019-01-21 03:55:38.748  INFO 16556 --- [main-EventThread] org.apache.zookeeper.ZooKeeper           : Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@58740366
+2019-01-21 03:55:38.749  INFO 16556 --- [main-EventThread] o.a.c.f.state.ConnectionStateManager     : State change: LOST
+2019-01-21 03:55:38.749  INFO 16556 --- [main-EventThread] org.apache.zookeeper.ClientCnxn          : EventThread shut down
+2019-01-21 03:55:38.751  INFO 16556 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-01-21 03:55:38.752  INFO 16556 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
+2019-01-21 03:55:38.755  INFO 16556 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Session establishment complete on server 127.0.0.1/127.0.0.1:2181, sessionid = 0x1683d5a822d0079, negotiated timeout = 40000
+2019-01-21 03:55:38.755  INFO 16556 --- [main-EventThread] o.a.c.f.state.ConnectionStateManager     : State change: RECONNECTED
+2019-01-21 03:56:05.433  WARN 16556 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h47m44s493ms).
+2019-01-21 05:43:49.454  INFO 16556 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Client session timed out, have not heard from server in 6369643ms for sessionid 0x1683d5a822d0079, closing socket connection and attempting reconnect
+2019-01-21 05:43:49.567  INFO 16556 --- [main-EventThread] o.a.c.f.state.ConnectionStateManager     : State change: SUSPENDED
+2019-01-21 05:43:50.360  INFO 16556 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-01-21 05:43:50.368  INFO 16556 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
+2019-01-21 05:43:50.371  WARN 16556 --- [main-EventThread] org.apache.curator.ConnectionState       : Session expired event received
+2019-01-21 05:43:50.370  INFO 16556 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Unable to reconnect to ZooKeeper service, session 0x1683d5a822d0079 has expired, closing socket connection
+2019-01-21 05:43:50.371  INFO 16556 --- [main-EventThread] org.apache.zookeeper.ZooKeeper           : Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@58740366
+2019-01-21 05:43:50.376  INFO 16556 --- [main-EventThread] o.a.c.f.state.ConnectionStateManager     : State change: LOST
+2019-01-21 05:43:50.377  INFO 16556 --- [main-EventThread] org.apache.zookeeper.ClientCnxn          : EventThread shut down
+2019-01-21 05:43:50.385  INFO 16556 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-01-21 05:43:50.386  INFO 16556 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
+2019-01-21 05:43:50.390  INFO 16556 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Session establishment complete on server 127.0.0.1/127.0.0.1:2181, sessionid = 0x1683d5a822d007a, negotiated timeout = 40000
+2019-01-21 05:43:50.390  INFO 16556 --- [main-EventThread] o.a.c.f.state.ConnectionStateManager     : State change: RECONNECTED
+2019-01-21 05:44:11.127  WARN 16556 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h46m35s668ms).
+2019-01-21 07:31:54.467  INFO 16556 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Client session timed out, have not heard from server in 6442858ms for sessionid 0x1683d5a822d007a, closing socket connection and attempting reconnect
+2019-01-21 07:31:54.576  INFO 16556 --- [main-EventThread] o.a.c.f.state.ConnectionStateManager     : State change: SUSPENDED
+2019-01-21 07:31:55.821  INFO 16556 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-01-21 07:31:55.821  INFO 16556 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
+2019-01-21 07:31:55.831  INFO 16556 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Unable to reconnect to ZooKeeper service, session 0x1683d5a822d007a has expired, closing socket connection
+2019-01-21 07:31:55.831  WARN 16556 --- [main-EventThread] org.apache.curator.ConnectionState       : Session expired event received
+2019-01-21 07:31:55.832  INFO 16556 --- [main-EventThread] org.apache.zookeeper.ZooKeeper           : Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@58740366
+2019-01-21 07:31:55.834  INFO 16556 --- [main-EventThread] o.a.c.f.state.ConnectionStateManager     : State change: LOST
+2019-01-21 07:31:55.835  INFO 16556 --- [main-EventThread] org.apache.zookeeper.ClientCnxn          : EventThread shut down
+2019-01-21 07:31:55.838  INFO 16556 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-01-21 07:31:55.838  INFO 16556 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
+2019-01-21 07:31:55.844  INFO 16556 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Session establishment complete on server 127.0.0.1/127.0.0.1:2181, sessionid = 0x1683d5a822d007b, negotiated timeout = 40000
+2019-01-21 07:31:55.844  INFO 16556 --- [main-EventThread] o.a.c.f.state.ConnectionStateManager     : State change: RECONNECTED
+2019-01-21 07:31:56.076  WARN 16556 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h47m44s949ms).
+2019-01-21 09:19:59.452  INFO 16556 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Client session timed out, have not heard from server in 6442591ms for sessionid 0x1683d5a822d007b, closing socket connection and attempting reconnect
+2019-01-21 09:19:59.557  INFO 16556 --- [main-EventThread] o.a.c.f.state.ConnectionStateManager     : State change: SUSPENDED
+2019-01-21 09:19:59.727  INFO 16556 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-01-21 09:19:59.728  INFO 16556 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
+2019-01-21 09:19:59.732  INFO 16556 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Unable to reconnect to ZooKeeper service, session 0x1683d5a822d007b has expired, closing socket connection
+2019-01-21 09:19:59.732  WARN 16556 --- [main-EventThread] org.apache.curator.ConnectionState       : Session expired event received
+2019-01-21 09:19:59.733  INFO 16556 --- [main-EventThread] org.apache.zookeeper.ZooKeeper           : Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@58740366
+2019-01-21 09:19:59.734  INFO 16556 --- [main-EventThread] o.a.c.f.state.ConnectionStateManager     : State change: LOST
+2019-01-21 09:19:59.735  INFO 16556 --- [main-EventThread] org.apache.zookeeper.ClientCnxn          : EventThread shut down
+2019-01-21 09:19:59.736  INFO 16556 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-01-21 09:19:59.738  INFO 16556 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
+2019-01-21 09:19:59.743  INFO 16556 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Session establishment complete on server 127.0.0.1/127.0.0.1:2181, sessionid = 0x1683d5a822d007c, negotiated timeout = 40000
+2019-01-21 09:19:59.743  INFO 16556 --- [main-EventThread] o.a.c.f.state.ConnectionStateManager     : State change: RECONNECTED
+2019-01-21 09:20:09.410  WARN 16556 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h47m43s326ms).
+2019-01-21 11:08:04.490  INFO 16556 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Client session timed out, have not heard from server in 6442895ms for sessionid 0x1683d5a822d007c, closing socket connection and attempting reconnect
+2019-01-21 11:08:04.598  INFO 16556 --- [main-EventThread] o.a.c.f.state.ConnectionStateManager     : State change: SUSPENDED
+2019-01-21 11:08:05.792  INFO 16556 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-01-21 11:08:05.793  INFO 16556 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
+2019-01-21 11:08:05.794  WARN 16556 --- [main-EventThread] org.apache.curator.ConnectionState       : Session expired event received
+2019-01-21 11:08:05.794  INFO 16556 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Unable to reconnect to ZooKeeper service, session 0x1683d5a822d007c has expired, closing socket connection
+2019-01-21 11:08:05.794  INFO 16556 --- [main-EventThread] org.apache.zookeeper.ZooKeeper           : Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@58740366
+2019-01-21 11:08:05.796  INFO 16556 --- [main-EventThread] o.a.c.f.state.ConnectionStateManager     : State change: LOST
+2019-01-21 11:08:05.796  INFO 16556 --- [main-EventThread] org.apache.zookeeper.ClientCnxn          : EventThread shut down
+2019-01-21 11:08:05.797  INFO 16556 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-01-21 11:08:05.798  INFO 16556 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
+2019-01-21 11:08:05.543  INFO 16556 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Session establishment complete on server 127.0.0.1/127.0.0.1:2181, sessionid = 0x1683d5a822d007d, negotiated timeout = 40000
+2019-01-21 11:08:05.543  INFO 16556 --- [main-EventThread] o.a.c.f.state.ConnectionStateManager     : State change: RECONNECTED
+2019-01-21 11:08:24.684  WARN 16556 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h47m45s262ms).
+2019-01-21 12:08:49.392  WARN 16556 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h24s708ms).
+2019-01-21 12:08:49.472  INFO 16556 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Client session timed out, have not heard from server in 3602642ms for sessionid 0x1683d5a822d007d, closing socket connection and attempting reconnect
+2019-01-21 12:08:49.579  INFO 16556 --- [main-EventThread] o.a.c.f.state.ConnectionStateManager     : State change: SUSPENDED
+2019-01-21 12:08:51.501  INFO 16556 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-01-21 12:08:51.502  INFO 16556 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
+2019-01-21 12:08:51.504  WARN 16556 --- [main-EventThread] org.apache.curator.ConnectionState       : Session expired event received
+2019-01-21 12:08:51.504  INFO 16556 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Unable to reconnect to ZooKeeper service, session 0x1683d5a822d007d has expired, closing socket connection
+2019-01-21 12:08:51.504  INFO 16556 --- [main-EventThread] org.apache.zookeeper.ZooKeeper           : Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@58740366
+2019-01-21 12:08:51.505  INFO 16556 --- [main-EventThread] o.a.c.f.state.ConnectionStateManager     : State change: LOST
+2019-01-21 12:08:51.505  INFO 16556 --- [main-EventThread] org.apache.zookeeper.ClientCnxn          : EventThread shut down
+2019-01-21 12:08:51.512  INFO 16556 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-01-21 12:08:51.513  INFO 16556 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
+2019-01-21 12:08:51.519  INFO 16556 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Session establishment complete on server 127.0.0.1/127.0.0.1:2181, sessionid = 0x1683d5a822d007e, negotiated timeout = 40000
+2019-01-21 12:08:51.519  INFO 16556 --- [main-EventThread] o.a.c.f.state.ConnectionStateManager     : State change: RECONNECTED
+2019-01-21 13:56:54.428  INFO 16556 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Client session timed out, have not heard from server in 6441895ms for sessionid 0x1683d5a822d007e, closing socket connection and attempting reconnect
+2019-01-21 13:56:54.535  INFO 16556 --- [main-EventThread] o.a.c.f.state.ConnectionStateManager     : State change: SUSPENDED
+2019-01-21 13:56:56.327  INFO 16556 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-01-21 13:56:56.328  INFO 16556 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
+2019-01-21 13:56:56.332  INFO 16556 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Unable to reconnect to ZooKeeper service, session 0x1683d5a822d007e has expired, closing socket connection
+2019-01-21 13:56:56.333  WARN 16556 --- [main-EventThread] org.apache.curator.ConnectionState       : Session expired event received
+2019-01-21 13:56:56.334  INFO 16556 --- [main-EventThread] org.apache.zookeeper.ZooKeeper           : Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@58740366
+2019-01-21 13:56:56.335  INFO 16556 --- [main-EventThread] o.a.c.f.state.ConnectionStateManager     : State change: LOST
+2019-01-21 13:56:56.336  INFO 16556 --- [main-EventThread] org.apache.zookeeper.ClientCnxn          : EventThread shut down
+2019-01-21 13:56:56.337  INFO 16556 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-01-21 13:56:56.338  INFO 16556 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
+2019-01-21 13:56:56.343  INFO 16556 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Session establishment complete on server 127.0.0.1/127.0.0.1:2181, sessionid = 0x1683d5a822d007f, negotiated timeout = 40000
+2019-01-21 13:56:56.344  INFO 16556 --- [main-EventThread] o.a.c.f.state.ConnectionStateManager     : State change: RECONNECTED
+2019-01-21 13:57:03.761  WARN 16556 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h47m44s332ms).
+2019-01-21 15:32:33.532  INFO 16556 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Client session timed out, have not heard from server in 5696167ms for sessionid 0x1683d5a822d007f, closing socket connection and attempting reconnect
+2019-01-21 15:32:33.642  INFO 16556 --- [main-EventThread] o.a.c.f.state.ConnectionStateManager     : State change: SUSPENDED
+2019-01-21 15:32:35.708  INFO 16556 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-01-21 15:32:35.708  INFO 16556 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
+2019-01-21 15:32:35.710  WARN 16556 --- [main-EventThread] org.apache.curator.ConnectionState       : Session expired event received
+2019-01-21 15:32:35.710  INFO 16556 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Unable to reconnect to ZooKeeper service, session 0x1683d5a822d007f has expired, closing socket connection
+2019-01-21 15:32:35.710  INFO 16556 --- [main-EventThread] org.apache.zookeeper.ZooKeeper           : Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@58740366
+2019-01-21 15:32:35.710  INFO 16556 --- [main-EventThread] o.a.c.f.state.ConnectionStateManager     : State change: LOST
+2019-01-21 15:32:35.711  INFO 16556 --- [main-EventThread] org.apache.zookeeper.ClientCnxn          : EventThread shut down
+2019-01-21 15:32:35.713  INFO 16556 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-01-21 15:32:35.713  INFO 16556 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
+2019-01-21 15:32:35.720  INFO 16556 --- [main-SendThread(127.0.0.1:2181)] org.apache.zookeeper.ClientCnxn          : Session establishment complete on server 127.0.0.1/127.0.0.1:2181, sessionid = 0x1683d5a822d0080, negotiated timeout = 40000
+2019-01-21 15:32:35.720  INFO 16556 --- [main-EventThread] o.a.c.f.state.ConnectionStateManager     : State change: RECONNECTED
+2019-01-21 15:32:52.332  WARN 16556 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h35m18s561ms).
+2019-01-21 17:25:04.183  INFO 16556 --- [Thread-20] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-21 17:25:04.188  INFO 16556 --- [Thread-20] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-01-21 17:25:04.194  INFO 16556 --- [main-EventThread] org.apache.zookeeper.ClientCnxn          : EventThread shut down
+2019-01-21 17:25:04.211  INFO 16556 --- [SOFA-RPC-ShutdownHook] org.apache.zookeeper.ZooKeeper           : Session: 0x1683d5a822d0080 closed
+2019-01-21 17:25:04.220  INFO 16556 --- [Thread-20] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

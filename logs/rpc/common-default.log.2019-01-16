@@ -1,0 +1,9 @@
+2019-01-16 18:09:19,117 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework catch JVM shutdown event, Run shutdown hook now.
+2019-01-16 18:09:19,258 INFO  Thread-27                        - Unexport provider config : com.example.demofacade.HelloService::bolt with bean id rpc-cfg-1
+2019-01-16 18:09:19,403 INFO  Thread-27                        - Unexport provider config : com.example.demo.service.UserService::bolt with bean id rpc-cfg-2
+2019-01-16 18:09:19,404 INFO  Thread-27                        - Unexport provider config : com.example.demofacade.HelloOneService::bolt with bean id rpc-cfg-3
+2019-01-16 18:09:19,497 INFO  SOFA-RPC-ShutdownHook            - UnRefer consumer config : bolt://com.example.demo.service.UserService: with bean id rpc-cfg-0
+2019-01-16 18:09:19,793 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: fault-tolerance
+2019-01-16 18:09:19,797 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer-resteasy
+2019-01-16 18:09:19,798 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer
+2019-01-16 18:09:19,799 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework has been release all resources ...

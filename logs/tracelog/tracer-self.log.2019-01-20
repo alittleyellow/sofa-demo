@@ -1,0 +1,20 @@
+2019-01-20 18:51:27.187[WARN]  rpc-client-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-01-20 18:51:27.196[WARN]  rpc-server-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-01-20 18:52:45.408[WARN]  rpc-client-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-01-20 18:52:45.418[WARN]  rpc-server-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-01-20 18:53:25.012[WARN]  rpc-client-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-01-20 18:53:25.017[WARN]  rpc-server-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-01-20 18:57:13.994[WARN]  rpc-client-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-01-20 18:57:14.039[WARN]  rpc-server-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-01-20 18:57:41.137[WARN]  rpc-client-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-01-20 18:57:41.147[WARN]  rpc-server-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-01-20 18:59:51.959[WARN]  rpc-client-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-01-20 18:59:51.964[WARN]  rpc-server-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-01-20 19:01:49.820[WARN]  rpc-client-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-01-20 19:01:49.825[WARN]  rpc-server-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-01-20 19:53:25.213[INFO]  Deleted log file: static-info.log.2019-01-11
+2019-01-20 19:53:25.216[INFO]  Deleted log file: static-info.log.2019-01-12
+2019-01-20 19:53:25.218[INFO]  Deleted log file: tracer-self.log.2019-01-11
+2019-01-20 19:53:25.219[INFO]  Deleted log file: tracer-self.log.2019-01-12
+2019-01-20 20:15:18.701[WARN]  rpc-client-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-01-20 20:15:18.708[WARN]  rpc-server-stat.log configured stat_log_interval=60 second and default cycle=60

@@ -1,0 +1,390 @@
+2019-01-20 18:51:23,424 INFO  main                             - SOFABoot HealthCheck Starting!
+2019-01-20 18:51:32,231 INFO  main                             - Found 2 HealthChecker implementation:sofaModuleHealthChecker,sofaComponentHealthChecker
+2019-01-20 18:51:32,233 INFO  main                             - Found 3 HealthIndicator implementation:sofaBootHealthIndicator,dbHealthIndicator,diskSpaceHealthIndicator
+2019-01-20 18:51:32,235 INFO  main                             - Found 1 ReadinessCheckCallback implementation: rpcAfterHealthCheckCallback
+2019-01-20 18:51:32,236 INFO  main                             - Begin SOFABoot HealthChecker readiness check.
+2019-01-20 18:51:32,238 INFO  main                             - HealthChecker[sofaModuleHealthChecker] readiness check success with 0 retry.
+2019-01-20 18:51:32,238 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check success with 0 retry.
+2019-01-20 18:51:32,238 INFO  main                             - SOFABoot HealthChecker readiness check result: success.
+2019-01-20 18:51:32,239 INFO  main                             - Begin SOFABoot HealthIndicator readiness check.
+2019-01-20 18:51:32,813 INFO  main                             - HealthIndicator[dbHealthIndicator] readiness check success.
+2019-01-20 18:51:32,813 INFO  main                             - HealthIndicator[diskSpaceHealthIndicator] readiness check success.
+2019-01-20 18:51:32,813 INFO  main                             - SOFABoot HealthIndicator readiness check result: success.
+2019-01-20 18:51:32,813 INFO  main                             - Begin ReadinessCheckCallback readiness check
+2019-01-20 18:51:33,230 INFO  main                             - SOFABoot ReadinessCheckCallback[rpcAfterHealthCheckCallback] check success.
+2019-01-20 18:51:33,231 INFO  main                             - ReadinessCheckCallback readiness check result: success.
+2019-01-20 18:51:33,231 INFO  main                             - Readiness check result: success
+2019-01-20 18:52:42,339 INFO  main                             - SOFABoot HealthCheck Starting!
+2019-01-20 18:52:49,994 INFO  main                             - Found 2 HealthChecker implementation:sofaModuleHealthChecker,sofaComponentHealthChecker
+2019-01-20 18:52:49,998 INFO  main                             - Found 3 HealthIndicator implementation:sofaBootHealthIndicator,dbHealthIndicator,diskSpaceHealthIndicator
+2019-01-20 18:52:50,001 INFO  main                             - Found 1 ReadinessCheckCallback implementation: rpcAfterHealthCheckCallback
+2019-01-20 18:52:50,002 INFO  main                             - Begin SOFABoot HealthChecker readiness check.
+2019-01-20 18:52:50,005 INFO  main                             - HealthChecker[sofaModuleHealthChecker] readiness check success with 0 retry.
+2019-01-20 18:52:50,006 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check success with 0 retry.
+2019-01-20 18:52:50,006 INFO  main                             - SOFABoot HealthChecker readiness check result: success.
+2019-01-20 18:52:50,007 INFO  main                             - Begin SOFABoot HealthIndicator readiness check.
+2019-01-20 18:52:50,479 INFO  main                             - HealthIndicator[dbHealthIndicator] readiness check success.
+2019-01-20 18:52:50,480 INFO  main                             - HealthIndicator[diskSpaceHealthIndicator] readiness check success.
+2019-01-20 18:52:50,480 INFO  main                             - SOFABoot HealthIndicator readiness check result: success.
+2019-01-20 18:52:50,480 INFO  main                             - Begin ReadinessCheckCallback readiness check
+2019-01-20 18:52:50,911 INFO  main                             - SOFABoot ReadinessCheckCallback[rpcAfterHealthCheckCallback] check success.
+2019-01-20 18:52:50,912 INFO  main                             - ReadinessCheckCallback readiness check result: success.
+2019-01-20 18:52:50,912 INFO  main                             - Readiness check result: success
+2019-01-20 18:53:21,248 INFO  main                             - SOFABoot HealthCheck Starting!
+2019-01-20 18:53:26,284 INFO  main                             - Found 2 HealthChecker implementation:sofaModuleHealthChecker,sofaComponentHealthChecker
+2019-01-20 18:53:26,286 INFO  main                             - Found 3 HealthIndicator implementation:sofaBootHealthIndicator,dbHealthIndicator,diskSpaceHealthIndicator
+2019-01-20 18:53:26,287 INFO  main                             - Found 1 ReadinessCheckCallback implementation: rpcAfterHealthCheckCallback
+2019-01-20 18:53:26,288 INFO  main                             - Begin SOFABoot HealthChecker readiness check.
+2019-01-20 18:53:26,289 INFO  main                             - HealthChecker[sofaModuleHealthChecker] readiness check success with 0 retry.
+2019-01-20 18:53:26,289 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check success with 0 retry.
+2019-01-20 18:53:26,289 INFO  main                             - SOFABoot HealthChecker readiness check result: success.
+2019-01-20 18:53:26,290 INFO  main                             - Begin SOFABoot HealthIndicator readiness check.
+2019-01-20 18:53:26,449 INFO  main                             - HealthIndicator[dbHealthIndicator] readiness check success.
+2019-01-20 18:53:26,449 INFO  main                             - HealthIndicator[diskSpaceHealthIndicator] readiness check success.
+2019-01-20 18:53:26,450 INFO  main                             - SOFABoot HealthIndicator readiness check result: success.
+2019-01-20 18:53:26,450 INFO  main                             - Begin ReadinessCheckCallback readiness check
+2019-01-20 18:53:26,630 INFO  main                             - SOFABoot ReadinessCheckCallback[rpcAfterHealthCheckCallback] check success.
+2019-01-20 18:53:26,630 INFO  main                             - ReadinessCheckCallback readiness check result: success.
+2019-01-20 18:53:26,630 INFO  main                             - Readiness check result: success
+2019-01-20 18:57:09,018 INFO  main                             - SOFABoot HealthCheck Starting!
+2019-01-20 18:57:20,223 INFO  main                             - Found 2 HealthChecker implementation:sofaModuleHealthChecker,sofaComponentHealthChecker
+2019-01-20 18:57:20,230 INFO  main                             - Found 3 HealthIndicator implementation:sofaBootHealthIndicator,dbHealthIndicator,diskSpaceHealthIndicator
+2019-01-20 18:57:20,231 INFO  main                             - Found 1 ReadinessCheckCallback implementation: rpcAfterHealthCheckCallback
+2019-01-20 18:57:20,232 INFO  main                             - Begin SOFABoot HealthChecker readiness check.
+2019-01-20 18:57:20,239 INFO  main                             - HealthChecker[sofaModuleHealthChecker] readiness check success with 0 retry.
+2019-01-20 18:57:20,240 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check success with 0 retry.
+2019-01-20 18:57:20,240 INFO  main                             - SOFABoot HealthChecker readiness check result: success.
+2019-01-20 18:57:20,241 INFO  main                             - Begin SOFABoot HealthIndicator readiness check.
+2019-01-20 18:57:20,747 INFO  main                             - HealthIndicator[dbHealthIndicator] readiness check success.
+2019-01-20 18:57:20,748 INFO  main                             - HealthIndicator[diskSpaceHealthIndicator] readiness check success.
+2019-01-20 18:57:20,748 INFO  main                             - SOFABoot HealthIndicator readiness check result: success.
+2019-01-20 18:57:20,748 INFO  main                             - Begin ReadinessCheckCallback readiness check
+2019-01-20 18:57:20,836 ERROR main                             - Error occurred while doing ReadinessCheckCallback[rpcAfterHealthCheckCallback] check.
+com.alipay.sofa.rpc.core.exception.SofaRpcRuntimeException: Failed to start bolt server, see more detail from bolt log.
+	at com.alipay.sofa.rpc.server.bolt.BoltServer.start(BoltServer.java:121)
+	at com.alipay.sofa.rpc.boot.container.ServerConfigContainer.startServers(ServerConfigContainer.java:84)
+	at com.alipay.sofa.rpc.boot.context.SofaBootRpcStartListener.onApplicationEvent(SofaBootRpcStartListener.java:74)
+	at com.alipay.sofa.rpc.boot.context.SofaBootRpcStartListener.onApplicationEvent(SofaBootRpcStartListener.java:42)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:398)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:355)
+	at com.alipay.sofa.rpc.boot.health.RpcAfterHealthCheckCallback.onHealthy(RpcAfterHealthCheckCallback.java:45)
+	at com.alipay.sofa.healthcheck.core.AfterReadinessCheckCallbackProcessor.doHealthCheckCallback(AfterReadinessCheckCallbackProcessor.java:95)
+	at com.alipay.sofa.healthcheck.core.AfterReadinessCheckCallbackProcessor.lambda$afterReadinessCheckCallback$1(AfterReadinessCheckCallbackProcessor.java:76)
+	at com.alipay.sofa.healthcheck.core.AfterReadinessCheckCallbackProcessor$$Lambda$530/82750270.apply(Unknown Source)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:512)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:502)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.reduce(ReferencePipeline.java:474)
+	at com.alipay.sofa.healthcheck.core.AfterReadinessCheckCallbackProcessor.afterReadinessCheckCallback(AfterReadinessCheckCallbackProcessor.java:77)
+	at com.alipay.sofa.healthcheck.startup.ReadinessCheckListener.readinessHealthCheck(ReadinessCheckListener.java:103)
+	at com.alipay.sofa.healthcheck.startup.ReadinessCheckListener.onApplicationEvent(ReadinessCheckListener.java:79)
+	at com.alipay.sofa.healthcheck.startup.ReadinessCheckListener.onApplicationEvent(ReadinessCheckListener.java:39)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:398)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:355)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:882)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:127)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+2019-01-20 18:57:20,839 ERROR main                             - ReadinessCheckCallback readiness check result: failed.
+2019-01-20 18:57:20,839 ERROR main                             - Readiness check result: fail
+2019-01-20 18:57:37,439 INFO  main                             - SOFABoot HealthCheck Starting!
+2019-01-20 18:57:45,898 INFO  main                             - Found 2 HealthChecker implementation:sofaModuleHealthChecker,sofaComponentHealthChecker
+2019-01-20 18:57:45,902 INFO  main                             - Found 3 HealthIndicator implementation:sofaBootHealthIndicator,dbHealthIndicator,diskSpaceHealthIndicator
+2019-01-20 18:57:45,904 INFO  main                             - Found 1 ReadinessCheckCallback implementation: rpcAfterHealthCheckCallback
+2019-01-20 18:57:45,904 INFO  main                             - Begin SOFABoot HealthChecker readiness check.
+2019-01-20 18:57:45,907 INFO  main                             - HealthChecker[sofaModuleHealthChecker] readiness check success with 0 retry.
+2019-01-20 18:57:45,907 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check success with 0 retry.
+2019-01-20 18:57:45,908 INFO  main                             - SOFABoot HealthChecker readiness check result: success.
+2019-01-20 18:57:45,909 INFO  main                             - Begin SOFABoot HealthIndicator readiness check.
+2019-01-20 18:57:46,321 INFO  main                             - HealthIndicator[dbHealthIndicator] readiness check success.
+2019-01-20 18:57:46,321 INFO  main                             - HealthIndicator[diskSpaceHealthIndicator] readiness check success.
+2019-01-20 18:57:46,321 INFO  main                             - SOFABoot HealthIndicator readiness check result: success.
+2019-01-20 18:57:46,322 INFO  main                             - Begin ReadinessCheckCallback readiness check
+2019-01-20 18:57:46,388 ERROR main                             - Error occurred while doing ReadinessCheckCallback[rpcAfterHealthCheckCallback] check.
+com.alipay.sofa.rpc.core.exception.SofaRpcRuntimeException: Failed to start bolt server, see more detail from bolt log.
+	at com.alipay.sofa.rpc.server.bolt.BoltServer.start(BoltServer.java:121)
+	at com.alipay.sofa.rpc.boot.container.ServerConfigContainer.startServers(ServerConfigContainer.java:84)
+	at com.alipay.sofa.rpc.boot.context.SofaBootRpcStartListener.onApplicationEvent(SofaBootRpcStartListener.java:74)
+	at com.alipay.sofa.rpc.boot.context.SofaBootRpcStartListener.onApplicationEvent(SofaBootRpcStartListener.java:42)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:398)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:355)
+	at com.alipay.sofa.rpc.boot.health.RpcAfterHealthCheckCallback.onHealthy(RpcAfterHealthCheckCallback.java:45)
+	at com.alipay.sofa.healthcheck.core.AfterReadinessCheckCallbackProcessor.doHealthCheckCallback(AfterReadinessCheckCallbackProcessor.java:95)
+	at com.alipay.sofa.healthcheck.core.AfterReadinessCheckCallbackProcessor.lambda$afterReadinessCheckCallback$1(AfterReadinessCheckCallbackProcessor.java:76)
+	at com.alipay.sofa.healthcheck.core.AfterReadinessCheckCallbackProcessor$$Lambda$537/282166934.apply(Unknown Source)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:512)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:502)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.reduce(ReferencePipeline.java:474)
+	at com.alipay.sofa.healthcheck.core.AfterReadinessCheckCallbackProcessor.afterReadinessCheckCallback(AfterReadinessCheckCallbackProcessor.java:77)
+	at com.alipay.sofa.healthcheck.startup.ReadinessCheckListener.readinessHealthCheck(ReadinessCheckListener.java:103)
+	at com.alipay.sofa.healthcheck.startup.ReadinessCheckListener.onApplicationEvent(ReadinessCheckListener.java:79)
+	at com.alipay.sofa.healthcheck.startup.ReadinessCheckListener.onApplicationEvent(ReadinessCheckListener.java:39)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:398)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:355)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:882)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:127)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+2019-01-20 18:57:46,389 ERROR main                             - ReadinessCheckCallback readiness check result: failed.
+2019-01-20 18:57:46,390 ERROR main                             - Readiness check result: fail
+2019-01-20 18:59:48,721 INFO  main                             - SOFABoot HealthCheck Starting!
+2019-01-20 18:59:56,523 INFO  main                             - Found 2 HealthChecker implementation:sofaModuleHealthChecker,sofaComponentHealthChecker
+2019-01-20 18:59:56,526 INFO  main                             - Found 3 HealthIndicator implementation:sofaBootHealthIndicator,dbHealthIndicator,diskSpaceHealthIndicator
+2019-01-20 18:59:56,528 INFO  main                             - Found 1 ReadinessCheckCallback implementation: rpcAfterHealthCheckCallback
+2019-01-20 18:59:56,528 INFO  main                             - Begin SOFABoot HealthChecker readiness check.
+2019-01-20 18:59:56,532 INFO  main                             - HealthChecker[sofaModuleHealthChecker] readiness check success with 0 retry.
+2019-01-20 18:59:56,534 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check success with 0 retry.
+2019-01-20 18:59:56,534 INFO  main                             - SOFABoot HealthChecker readiness check result: success.
+2019-01-20 18:59:56,535 INFO  main                             - Begin SOFABoot HealthIndicator readiness check.
+2019-01-20 18:59:56,933 INFO  main                             - HealthIndicator[dbHealthIndicator] readiness check success.
+2019-01-20 18:59:56,933 INFO  main                             - HealthIndicator[diskSpaceHealthIndicator] readiness check success.
+2019-01-20 18:59:56,934 INFO  main                             - SOFABoot HealthIndicator readiness check result: success.
+2019-01-20 18:59:56,934 INFO  main                             - Begin ReadinessCheckCallback readiness check
+2019-01-20 18:59:57,028 ERROR main                             - Error occurred while doing ReadinessCheckCallback[rpcAfterHealthCheckCallback] check.
+com.alipay.sofa.rpc.core.exception.SofaRpcRuntimeException: Failed to start bolt server, see more detail from bolt log.
+	at com.alipay.sofa.rpc.server.bolt.BoltServer.start(BoltServer.java:121)
+	at com.alipay.sofa.rpc.boot.container.ServerConfigContainer.startServers(ServerConfigContainer.java:84)
+	at com.alipay.sofa.rpc.boot.context.SofaBootRpcStartListener.onApplicationEvent(SofaBootRpcStartListener.java:74)
+	at com.alipay.sofa.rpc.boot.context.SofaBootRpcStartListener.onApplicationEvent(SofaBootRpcStartListener.java:42)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:398)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:355)
+	at com.alipay.sofa.rpc.boot.health.RpcAfterHealthCheckCallback.onHealthy(RpcAfterHealthCheckCallback.java:45)
+	at com.alipay.sofa.healthcheck.core.AfterReadinessCheckCallbackProcessor.doHealthCheckCallback(AfterReadinessCheckCallbackProcessor.java:95)
+	at com.alipay.sofa.healthcheck.core.AfterReadinessCheckCallbackProcessor.lambda$afterReadinessCheckCallback$1(AfterReadinessCheckCallbackProcessor.java:76)
+	at com.alipay.sofa.healthcheck.core.AfterReadinessCheckCallbackProcessor$$Lambda$537/445726857.apply(Unknown Source)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:512)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:502)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.reduce(ReferencePipeline.java:474)
+	at com.alipay.sofa.healthcheck.core.AfterReadinessCheckCallbackProcessor.afterReadinessCheckCallback(AfterReadinessCheckCallbackProcessor.java:77)
+	at com.alipay.sofa.healthcheck.startup.ReadinessCheckListener.readinessHealthCheck(ReadinessCheckListener.java:103)
+	at com.alipay.sofa.healthcheck.startup.ReadinessCheckListener.onApplicationEvent(ReadinessCheckListener.java:79)
+	at com.alipay.sofa.healthcheck.startup.ReadinessCheckListener.onApplicationEvent(ReadinessCheckListener.java:39)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:398)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:355)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:882)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:127)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+2019-01-20 18:59:57,030 ERROR main                             - ReadinessCheckCallback readiness check result: failed.
+2019-01-20 18:59:57,031 ERROR main                             - Readiness check result: fail
+2019-01-20 19:01:46,610 INFO  main                             - SOFABoot HealthCheck Starting!
+2019-01-20 19:01:54,804 INFO  main                             - Found 2 HealthChecker implementation:sofaModuleHealthChecker,sofaComponentHealthChecker
+2019-01-20 19:01:54,807 INFO  main                             - Found 3 HealthIndicator implementation:sofaBootHealthIndicator,dbHealthIndicator,diskSpaceHealthIndicator
+2019-01-20 19:01:54,809 INFO  main                             - Found 1 ReadinessCheckCallback implementation: rpcAfterHealthCheckCallback
+2019-01-20 19:01:54,809 INFO  main                             - Begin SOFABoot HealthChecker readiness check.
+2019-01-20 19:01:54,814 INFO  main                             - HealthChecker[sofaModuleHealthChecker] readiness check success with 0 retry.
+2019-01-20 19:01:54,814 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check success with 0 retry.
+2019-01-20 19:01:54,815 INFO  main                             - SOFABoot HealthChecker readiness check result: success.
+2019-01-20 19:01:54,815 INFO  main                             - Begin SOFABoot HealthIndicator readiness check.
+2019-01-20 19:01:55,238 INFO  main                             - HealthIndicator[dbHealthIndicator] readiness check success.
+2019-01-20 19:01:55,239 INFO  main                             - HealthIndicator[diskSpaceHealthIndicator] readiness check success.
+2019-01-20 19:01:55,239 INFO  main                             - SOFABoot HealthIndicator readiness check result: success.
+2019-01-20 19:01:55,239 INFO  main                             - Begin ReadinessCheckCallback readiness check
+2019-01-20 19:01:55,302 ERROR main                             - Error occurred while doing ReadinessCheckCallback[rpcAfterHealthCheckCallback] check.
+com.alipay.sofa.rpc.core.exception.SofaRpcRuntimeException: Failed to start bolt server, see more detail from bolt log.
+	at com.alipay.sofa.rpc.server.bolt.BoltServer.start(BoltServer.java:121)
+	at com.alipay.sofa.rpc.boot.container.ServerConfigContainer.startServers(ServerConfigContainer.java:84)
+	at com.alipay.sofa.rpc.boot.context.SofaBootRpcStartListener.onApplicationEvent(SofaBootRpcStartListener.java:74)
+	at com.alipay.sofa.rpc.boot.context.SofaBootRpcStartListener.onApplicationEvent(SofaBootRpcStartListener.java:42)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:398)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:355)
+	at com.alipay.sofa.rpc.boot.health.RpcAfterHealthCheckCallback.onHealthy(RpcAfterHealthCheckCallback.java:45)
+	at com.alipay.sofa.healthcheck.core.AfterReadinessCheckCallbackProcessor.doHealthCheckCallback(AfterReadinessCheckCallbackProcessor.java:95)
+	at com.alipay.sofa.healthcheck.core.AfterReadinessCheckCallbackProcessor.lambda$afterReadinessCheckCallback$1(AfterReadinessCheckCallbackProcessor.java:76)
+	at com.alipay.sofa.healthcheck.core.AfterReadinessCheckCallbackProcessor$$Lambda$537/1804292128.apply(Unknown Source)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:512)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:502)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.reduce(ReferencePipeline.java:474)
+	at com.alipay.sofa.healthcheck.core.AfterReadinessCheckCallbackProcessor.afterReadinessCheckCallback(AfterReadinessCheckCallbackProcessor.java:77)
+	at com.alipay.sofa.healthcheck.startup.ReadinessCheckListener.readinessHealthCheck(ReadinessCheckListener.java:103)
+	at com.alipay.sofa.healthcheck.startup.ReadinessCheckListener.onApplicationEvent(ReadinessCheckListener.java:79)
+	at com.alipay.sofa.healthcheck.startup.ReadinessCheckListener.onApplicationEvent(ReadinessCheckListener.java:39)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:398)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:355)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:882)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:127)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+2019-01-20 19:01:55,304 ERROR main                             - ReadinessCheckCallback readiness check result: failed.
+2019-01-20 19:01:55,304 ERROR main                             - Readiness check result: fail
+2019-01-20 20:14:59,570 INFO  main                             - SOFABoot HealthCheck Starting!
+2019-01-20 20:15:15,414 INFO  main                             - SOFABoot HealthCheck Starting!
+2019-01-20 20:15:20,185 INFO  main                             - Found 2 HealthChecker implementation:sofaModuleHealthChecker,sofaComponentHealthChecker
+2019-01-20 20:15:20,188 INFO  main                             - Found 3 HealthIndicator implementation:sofaBootHealthIndicator,dbHealthIndicator,diskSpaceHealthIndicator
+2019-01-20 20:15:20,190 INFO  main                             - Found 1 ReadinessCheckCallback implementation: rpcAfterHealthCheckCallback
+2019-01-20 20:15:20,191 INFO  main                             - Begin SOFABoot HealthChecker readiness check.
+2019-01-20 20:15:20,192 INFO  main                             - HealthChecker[sofaModuleHealthChecker] readiness check success with 0 retry.
+2019-01-20 20:15:20,192 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check success with 0 retry.
+2019-01-20 20:15:20,192 INFO  main                             - SOFABoot HealthChecker readiness check result: success.
+2019-01-20 20:15:20,192 INFO  main                             - Begin SOFABoot HealthIndicator readiness check.
+2019-01-20 20:15:20,405 INFO  main                             - HealthIndicator[dbHealthIndicator] readiness check success.
+2019-01-20 20:15:20,405 INFO  main                             - HealthIndicator[diskSpaceHealthIndicator] readiness check success.
+2019-01-20 20:15:20,405 INFO  main                             - SOFABoot HealthIndicator readiness check result: success.
+2019-01-20 20:15:20,405 INFO  main                             - Begin ReadinessCheckCallback readiness check
+2019-01-20 20:15:20,621 INFO  main                             - SOFABoot ReadinessCheckCallback[rpcAfterHealthCheckCallback] check success.
+2019-01-20 20:15:20,621 INFO  main                             - ReadinessCheckCallback readiness check result: success.
+2019-01-20 20:15:20,622 INFO  main                             - Readiness check result: success

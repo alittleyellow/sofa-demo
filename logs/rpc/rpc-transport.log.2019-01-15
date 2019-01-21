@@ -1,0 +1,14 @@
+2019-01-15 15:54:47,776 INFO  SOFA-CLI-DISCONN-com.example.demofacade.HelloService-7-T1 com.alipay.sofa.rpc.transport.bolt.BoltClientTransport - Try disconnect client transport now. The connection is 192.168.0.106:55369 -> 192.168.0.106:12200.
+2019-01-15 15:54:47,841 INFO  SOFA-RPC-ShutdownHook            com.alipay.sofa.rpc.transport.ClientTransportFactory - Shutdown all client transport now!
+2019-01-15 15:57:37,366 INFO  SOFA-RPC-ShutdownHook            com.alipay.sofa.rpc.transport.ClientTransportFactory - Shutdown all client transport now!
+2019-01-15 15:59:53,995 INFO  SOFA-RPC-ShutdownHook            com.alipay.sofa.rpc.transport.ClientTransportFactory - Shutdown all client transport now!
+2019-01-15 16:06:36,675 INFO  SOFA-RPC-ShutdownHook            com.alipay.sofa.rpc.transport.ClientTransportFactory - Shutdown all client transport now!
+2019-01-15 16:10:35,218 INFO  SOFA-RPC-ShutdownHook            com.alipay.sofa.rpc.transport.ClientTransportFactory - Shutdown all client transport now!
+2019-01-15 16:13:34,441 INFO  SOFA-CLI-DISCONN-com.example.demo.service.UserService-8-T1 com.alipay.sofa.rpc.transport.bolt.BoltClientTransport - Try disconnect client transport now. The connection is 192.168.0.106:58692 -> 192.168.0.106:12200.
+2019-01-15 16:13:34,510 INFO  SOFA-RPC-ShutdownHook            com.alipay.sofa.rpc.transport.ClientTransportFactory - Shutdown all client transport now!
+2019-01-15 16:16:27,607 INFO  SOFA-CLI-DISCONN-com.example.demo.service.UserService-8-T1 com.alipay.sofa.rpc.transport.bolt.BoltClientTransport - Try disconnect client transport now. The connection is 192.168.0.106:58808 -> 192.168.0.106:12200.
+2019-01-15 16:16:27,695 INFO  SOFA-RPC-ShutdownHook            com.alipay.sofa.rpc.transport.ClientTransportFactory - Shutdown all client transport now!
+2019-01-15 16:21:18,879 INFO  SOFA-CLI-DISCONN-com.example.demo.service.UserService-8-T1 com.alipay.sofa.rpc.transport.bolt.BoltClientTransport - Try disconnect client transport now. The connection is 192.168.0.106:58916 -> 192.168.0.106:12200.
+2019-01-15 16:21:18,929 INFO  SOFA-RPC-ShutdownHook            com.alipay.sofa.rpc.transport.ClientTransportFactory - Shutdown all client transport now!
+2019-01-15 16:25:19,920 INFO  SOFA-CLI-DISCONN-com.example.demo.service.UserService-8-T1 com.alipay.sofa.rpc.transport.bolt.BoltClientTransport - Try disconnect client transport now. The connection is 192.168.0.106:59051 -> 192.168.0.106:12200.
+2019-01-15 16:25:20,148 INFO  SOFA-RPC-ShutdownHook            com.alipay.sofa.rpc.transport.ClientTransportFactory - Shutdown all client transport now!

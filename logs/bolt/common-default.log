@@ -1,33 +1,38 @@
-2019-01-15 15:54:47,782 WARN  [DefaultConnectionManager#365] [SOFA-CLI-DISCONN-com.example.demofacade.HelloService-7-T1] Remove and close all connections in ConnectionPool of poolKey=192.168.0.106:12200
-2019-01-15 15:54:47,787 INFO  [Connection$1#308] [Rpc-netty-client-worker-6-thread-1] Close the connection to remote address=192.168.0.106:12200, result=true, cause=null
-2019-01-15 15:54:47,797 WARN  [DefaultConnectionManager#334] [Rpc-netty-client-worker-6-thread-1] Remove and close a standalone connection.
-2019-01-15 15:55:08,482 WARN  [RemotingServer#56] [main] Initialize the server.
-2019-01-15 15:55:08,520 WARN  [RemotingServer#92] [main] Server started on 0.0.0.0:12200
-2019-01-15 15:57:51,365 WARN  [RemotingServer#56] [main] Initialize the server.
-2019-01-15 15:57:51,421 WARN  [RemotingServer#92] [main] Server started on 0.0.0.0:12200
-2019-01-15 16:00:07,923 WARN  [RemotingServer#56] [main] Initialize the server.
-2019-01-15 16:00:07,958 WARN  [RemotingServer#92] [main] Server started on 0.0.0.0:12200
-2019-01-15 16:06:53,386 WARN  [RemotingServer#56] [main] Initialize the server.
-2019-01-15 16:06:53,451 WARN  [RemotingServer#92] [main] Server started on 0.0.0.0:12200
-2019-01-15 16:10:48,317 WARN  [RemotingServer#56] [main] Initialize the server.
-2019-01-15 16:10:48,352 WARN  [RemotingServer#92] [main] Server started on 0.0.0.0:12200
-2019-01-15 16:13:34,443 WARN  [DefaultConnectionManager#365] [SOFA-CLI-DISCONN-com.example.demo.service.UserService-8-T1] Remove and close all connections in ConnectionPool of poolKey=192.168.0.106:12200
-2019-01-15 16:13:34,449 INFO  [Connection$1#308] [Rpc-netty-client-worker-6-thread-1] Close the connection to remote address=192.168.0.106:12200, result=true, cause=null
-2019-01-15 16:13:34,456 WARN  [DefaultConnectionManager#334] [Rpc-netty-client-worker-6-thread-1] Remove and close a standalone connection.
-2019-01-15 16:13:47,531 WARN  [RemotingServer#56] [main] Initialize the server.
-2019-01-15 16:13:47,584 WARN  [RemotingServer#92] [main] Server started on 0.0.0.0:12200
-2019-01-15 16:16:27,609 WARN  [DefaultConnectionManager#365] [SOFA-CLI-DISCONN-com.example.demo.service.UserService-8-T1] Remove and close all connections in ConnectionPool of poolKey=192.168.0.106:12200
-2019-01-15 16:16:27,611 INFO  [Connection$1#308] [Rpc-netty-client-worker-6-thread-1] Close the connection to remote address=192.168.0.106:12200, result=true, cause=null
-2019-01-15 16:16:27,636 WARN  [DefaultConnectionManager#334] [Rpc-netty-client-worker-6-thread-1] Remove and close a standalone connection.
-2019-01-15 16:16:38,316 WARN  [RemotingServer#56] [main] Initialize the server.
-2019-01-15 16:16:38,368 WARN  [RemotingServer#92] [main] Server started on 0.0.0.0:12200
-2019-01-15 16:21:18,881 WARN  [DefaultConnectionManager#365] [SOFA-CLI-DISCONN-com.example.demo.service.UserService-8-T1] Remove and close all connections in ConnectionPool of poolKey=192.168.0.106:12200
-2019-01-15 16:21:18,885 INFO  [Connection$1#308] [Rpc-netty-client-worker-6-thread-1] Close the connection to remote address=192.168.0.106:12200, result=true, cause=null
-2019-01-15 16:21:18,886 WARN  [DefaultConnectionManager#334] [Rpc-netty-client-worker-6-thread-1] Remove and close a standalone connection.
-2019-01-15 16:21:29,396 WARN  [RemotingServer#56] [main] Initialize the server.
-2019-01-15 16:21:29,450 WARN  [RemotingServer#92] [main] Server started on 0.0.0.0:12200
-2019-01-15 16:25:19,923 WARN  [DefaultConnectionManager#365] [SOFA-CLI-DISCONN-com.example.demo.service.UserService-8-T1] Remove and close all connections in ConnectionPool of poolKey=192.168.0.106:12200
-2019-01-15 16:25:19,940 INFO  [Connection$1#308] [Rpc-netty-client-worker-6-thread-1] Close the connection to remote address=192.168.0.106:12200, result=true, cause=null
-2019-01-15 16:25:19,966 WARN  [DefaultConnectionManager#334] [Rpc-netty-client-worker-6-thread-1] Remove and close a standalone connection.
-2019-01-15 16:25:40,456 WARN  [RemotingServer#56] [main] Initialize the server.
-2019-01-15 16:25:40,528 WARN  [RemotingServer#92] [main] Server started on 0.0.0.0:12200
+2019-01-21 17:25:04,217 INFO  [Connection$1#308] [Rpc-netty-client-worker-6-thread-1] Close the connection to remote address=192.168.0.106:12200, result=true, cause=null
+2019-01-21 17:25:04,222 WARN  [DefaultConnectionManager#334] [Rpc-netty-client-worker-6-thread-1] Remove and close a standalone connection.
+2019-01-21 17:25:04,214 WARN  [DefaultConnectionManager#365] [SOFA-RPC-ShutdownHook] Remove and close all connections in ConnectionPool of poolKey=192.168.0.106:12200
+2019-01-21 17:25:16,583 WARN  [RemotingServer#56] [main] Initialize the server.
+2019-01-21 17:25:16,663 WARN  [RemotingServer#92] [main] Server started on 0.0.0.0:12200
+2019-01-21 17:26:14,107 WARN  [DefaultConnectionManager#365] [SOFA-CLI-DISCONN-com.example.demo.service.UserService-6-T1] Remove and close all connections in ConnectionPool of poolKey=192.168.0.106:12200
+2019-01-21 17:26:14,111 INFO  [Connection$1#308] [Rpc-netty-client-worker-6-thread-1] Close the connection to remote address=192.168.0.106:12200, result=true, cause=null
+2019-01-21 17:26:14,112 WARN  [DefaultConnectionManager#334] [Rpc-netty-client-worker-6-thread-1] Remove and close a standalone connection.
+2019-01-21 17:26:26,687 WARN  [RemotingServer#56] [main] Initialize the server.
+2019-01-21 17:26:26,730 WARN  [RemotingServer#92] [main] Server started on 0.0.0.0:12200
+2019-01-21 17:26:44,919 WARN  [DefaultConnectionManager#365] [SOFA-CLI-DISCONN-com.example.demo.service.UserService-6-T1] Remove and close all connections in ConnectionPool of poolKey=192.168.0.106:12200
+2019-01-21 17:26:44,920 INFO  [Connection$1#308] [Rpc-netty-client-worker-6-thread-1] Close the connection to remote address=192.168.0.106:12200, result=true, cause=null
+2019-01-21 17:26:44,922 WARN  [DefaultConnectionManager#334] [Rpc-netty-client-worker-6-thread-1] Remove and close a standalone connection.
+2019-01-21 17:55:39,779 WARN  [RemotingServer#56] [main] Initialize the server.
+2019-01-21 17:55:40,030 WARN  [RemotingServer#92] [main] Server started on 0.0.0.0:12200
+2019-01-21 17:55:41,187 WARN  [DefaultConnectionManager#365] [SOFA-CLI-DISCONN-com.example.demo.service.UserService-6-T1] Remove and close all connections in ConnectionPool of poolKey=192.168.0.106:12200
+2019-01-21 17:55:41,188 INFO  [Connection$1#308] [Rpc-netty-client-worker-6-thread-1] Close the connection to remote address=192.168.0.106:12200, result=true, cause=null
+2019-01-21 17:55:41,231 WARN  [DefaultConnectionManager#334] [Rpc-netty-client-worker-6-thread-1] Remove and close a standalone connection.
+2019-01-21 17:56:13,184 WARN  [RemotingServer#56] [main] Initialize the server.
+2019-01-21 17:56:13,265 WARN  [RemotingServer#92] [main] Server started on 0.0.0.0:12200
+2019-01-21 17:56:13,872 WARN  [DefaultConnectionManager#365] [SOFA-CLI-DISCONN-com.example.demo.service.UserService-6-T1] Remove and close all connections in ConnectionPool of poolKey=192.168.0.106:12200
+2019-01-21 17:56:13,872 INFO  [Connection$1#308] [Rpc-netty-client-worker-6-thread-1] Close the connection to remote address=192.168.0.106:12200, result=true, cause=null
+2019-01-21 17:56:13,887 WARN  [DefaultConnectionManager#334] [Rpc-netty-client-worker-6-thread-1] Remove and close a standalone connection.
+2019-01-21 17:59:47,266 WARN  [RemotingServer#56] [main] Initialize the server.
+2019-01-21 17:59:47,470 WARN  [RemotingServer#92] [main] Server started on 0.0.0.0:12200
+2019-01-21 17:59:48,660 WARN  [DefaultConnectionManager#365] [SOFA-CLI-DISCONN-com.example.demo.service.UserService-6-T1] Remove and close all connections in ConnectionPool of poolKey=192.168.0.106:12200
+2019-01-21 17:59:48,661 INFO  [Connection$1#308] [Rpc-netty-client-worker-6-thread-1] Close the connection to remote address=192.168.0.106:12200, result=true, cause=null
+2019-01-21 17:59:48,690 WARN  [DefaultConnectionManager#334] [Rpc-netty-client-worker-6-thread-1] Remove and close a standalone connection.
+2019-01-21 17:59:51,665 WARN  [RemotingServer#56] [main] Initialize the server.
+2019-01-21 17:59:51,690 WARN  [RemotingServer#92] [main] Server started on 0.0.0.0:12200
+2019-01-21 17:59:52,368 WARN  [DefaultConnectionManager#365] [SOFA-RPC-ShutdownHook] Remove and close all connections in ConnectionPool of poolKey=192.168.0.106:12200
+2019-01-21 18:06:44,686 WARN  [RemotingServer#56] [main] Initialize the server.
+2019-01-21 18:06:44,778 WARN  [RemotingServer#92] [main] Server started on 0.0.0.0:12200
+2019-01-21 18:19:31,105 WARN  [DefaultConnectionManager#365] [SOFA-CLI-DISCONN-com.example.demo.service.UserService-6-T1] Remove and close all connections in ConnectionPool of poolKey=192.168.0.106:12200
+2019-01-21 18:19:31,107 INFO  [Connection$1#308] [Rpc-netty-client-worker-6-thread-1] Close the connection to remote address=192.168.0.106:12200, result=true, cause=null
+2019-01-21 18:19:31,140 WARN  [DefaultConnectionManager#334] [Rpc-netty-client-worker-6-thread-1] Remove and close a standalone connection.
+2019-01-21 18:22:54,926 WARN  [RemotingServer#56] [main] Initialize the server.
+2019-01-21 18:22:55,020 WARN  [RemotingServer#92] [main] Server started on 0.0.0.0:12200
