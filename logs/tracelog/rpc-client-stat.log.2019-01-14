@@ -1,2 +1,0 @@
-{"time":"2019-01-14 17:15:11.051","stat.key":{"method":"sayHello","local.app":"SOFABoot Demo","service":"com.example.demofacade.HelloService:1.0"},"count":1,"total.cost.milliseconds":11,"success":"N"}
-{"time":"2019-01-14 19:28:08.411","stat.key":{"method":"sayHello","local.app":"SOFABoot Demo","service":"com.example.demo.DemoService:1.0"},"count":1,"total.cost.milliseconds":9,"success":"N"}

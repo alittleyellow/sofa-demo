@@ -1,5 +1,0 @@
-2019-01-16 18:09:19,769 INFO  [ConnectionEventHandler#290] [Rpc-netty-client-worker-6-thread-1] Connection closed: 192.168.0.106:12200
-2019-01-16 18:09:19,799 INFO  [ConnectionEventHandler#290] [Rpc-netty-server-worker-1-thread-1] Connection channel inactive: 192.168.0.106:59182
-2019-01-16 18:09:19,801 INFO  [ConnectionEventHandler#290] [Rpc-netty-client-worker-6-thread-1] Connection channel inactive: 192.168.0.106:12200
-2019-01-16 18:09:19,801 INFO  [ConnectionEventHandler#290] [Rpc-netty-server-worker-1-thread-1] Connection channel unregistered: 192.168.0.106:59182
-2019-01-16 18:09:19,801 INFO  [ConnectionEventHandler#290] [Rpc-netty-client-worker-6-thread-1] Connection channel unregistered: 192.168.0.106:12200

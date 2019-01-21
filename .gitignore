@@ -15,7 +15,7 @@
 *.iws
 *.iml
 *.ip
-./logs
+/logs/
 pom.xml
 ### NetBeans ###
 /nbproject/private/
